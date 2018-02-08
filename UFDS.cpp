@@ -18,3 +18,5 @@ void connect(int x, int y){
 		}
 	}
 }
+//QUERY: root(node)
+//QUERY: connect(node_x, node_y)
