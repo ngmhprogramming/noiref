@@ -1,6 +1,3 @@
-#include <bits/stdc++.h>
-using namespace std;
-
 struct node {
 	int start, end, middle, value = 0, lazy = 0;
 	node *left, *right;
@@ -40,9 +37,3 @@ struct node {
 		}
 	}
 } *root;
-
-int main(){
-	root = new node(0, 10-1); //initialise new segment tree with size n
-	root->range_update(0,2,10);
-	cout<<root->range_query(0,0)<<root->range_query(1,1)<<root->range_query(2,2);
-}
