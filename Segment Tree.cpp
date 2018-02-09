@@ -2,7 +2,7 @@ struct node {
 	int start, end, middle, value = 0, lazy = 0;
 	node *left, *right;
 	node(int _start, int _end){
-    start = _start, end = _end; middle = (start+end)/2;
+		start = _start, end = _end; middle = (start+end)/2;
 		if(start != end){
 			left = new node(start, middle);
 			right = new node(middle+1, end);
