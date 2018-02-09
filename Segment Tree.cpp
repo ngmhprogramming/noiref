@@ -37,3 +37,6 @@ struct node {
 		return min(left->range_query(A, middle), right->range_query(middle+1, B)); //return overall minimum
 	}
 } *root;
+
+//int main()
+root = new node(0, n-1) //this means it will have n nodes
