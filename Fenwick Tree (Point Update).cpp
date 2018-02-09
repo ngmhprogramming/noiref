@@ -1,3 +1,5 @@
+//note that this is my implementation, the point and range query may not be very good
+
 int ls(int x){ return (x)&(-x);}
 
 long long fenwick[n+1]; //remember that this is a 1-indexed tree, +1 for all the queries
