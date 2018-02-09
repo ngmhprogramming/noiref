@@ -1,6 +1,7 @@
 vector<pi> adjlist[nodes]; //edge, distance
 priority_queue<pi, vector<pi>, greater<pi> > pq; //decreasing order, distance, node
 memset(distance, -1, sizeof(distance)); //not computed
+distance[nodes]; //distances to each node
   pq.push(pi(0, source)); //start from source
   distance[source] = 0;
   while(!pq.empty()){ //unprocessed edges
