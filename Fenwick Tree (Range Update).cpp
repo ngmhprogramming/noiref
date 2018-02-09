@@ -1,12 +1,9 @@
-#include <bits/stdc++.h>
-using namespace std;
-
 int ls(int x){ return (x)&(-x);}
 
-long long fenwick1[100001], fenwick2[100001];
+long long fenwick1[n+1], fenwick2[n+1]; //remember that this is a 1-indexed tree, +1 for all the queries
 
 void update(long long *tree, int index, long long value){
-	for(; index <= 100001; index += ls(index)) tree[index] += value;
+	for(; index <= n; index += ls(index)) tree[index] += value;
 }
 
 void range_update(int a, int b, long long value){
@@ -28,24 +25,4 @@ long long prefix_sum(int index){
 
 long long range_query(int start, int end){
   return prefix_sum(end)-prefix_sum(start-1);
-}
-
-int n, t, q, a, b, c;
-int main(){
-	scanf("%d", &n);
-	for(int i = 0; i < n; i++){
-		cin >> t;
-		range_update(i+1, i+1, t);
-	}
-	scanf("%d", &q);
-	for(int i = 0; i < q; i++){
-		scanf("%d", &t);
-		if(t == 0){
-			scanf("%d %d", &a, &b);
-			cout << range_query(a+1, b+1) << endl;
-		} else {
-			scanf("%d %d %d", &a, &b, &c);
-			range_update(a+1, b+1, c);
-		}
-	}
 }
