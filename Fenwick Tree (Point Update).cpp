@@ -1,6 +1,6 @@
 int ls(int x){ return (x)&(-x);}
 
-long long fenwick[n+1];
+long long fenwick[n+1]; //remember that this is a 1-indexed tree, +1 for all the queries
 
 void point_update(int index, long long value){
 	for(; index <= n; index += ls(index)) fenwick[index] += value;
