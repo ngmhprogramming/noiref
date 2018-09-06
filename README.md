@@ -1,4 +1,4 @@
-# noiref (2018)
+# noiref
 
 Competitions
 - 2018
