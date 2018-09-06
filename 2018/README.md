@@ -1,4 +1,9 @@
-# noiref
+# noiref (2018)
+
+Competitions
+- NOI Selection Test (55/550)
+- Australian Informatics Olympiad (Intermediate) (400/400)
+
 My own noiref.
 
 All code tested and 100% functional.
