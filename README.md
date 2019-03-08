@@ -7,12 +7,13 @@ Competitions
   - Australian Informatics Olympiad (Intermediate) (400/400)
 - 2019
   - NOI Preliminary Round (264/400)
+  - NOI Selection Test (307/500)
 
 My own noiref
 
 You are free to use this, but I hope you can credit me
 
-Code tested by me (hopefully)
+Code tested by me, I think
 
 You are advised to understand what's going on before using the code
 
