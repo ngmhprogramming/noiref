@@ -12,11 +12,9 @@ Competitions
 
 My own noiref
 
-You are free to use this, but I hope you can credit me
+Use at your own risk, if you become successful thank me
 
-Code tested by me, I think
-
-Not guaranteed to mantain as RoboCup has become my priority
+Since RoboCup (International) > NOI (Silver), this noiref will not be mantained
 
 You are advised to understand what's going on before using the code
 
