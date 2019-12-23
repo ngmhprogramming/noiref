@@ -2,11 +2,24 @@
 \usepackage[utf8]{inputenc}
 \usepackage[a4paper, left=1in, right=1in, top=1in, bottom=1in]{geometry}
 \usepackage{listings}
-\lstset{basicstyle=\ttfamily}
+\usepackage{xcolor}
+\usepackage{float}
+
+\lstset{
+    frame=tb,
+    tabsize=4,
+    showstringspaces=false,
+    numbers=left,
+    commentstyle=\color{purple},
+    keywordstyle=\color{orange},
+    numberstyle=\color{green},
+    stringstyle=\color{green},
+    basicstyle=\ttfamily
+}
 
 \title{noiref}
 \author{ngmh}
-\date{February 2019}
+\date{December 2019}
 
 \begin{document}
 
@@ -15,15 +28,49 @@
 \newpage
 
 \section{Data Structures}
+
+\begin{table}[H]
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+Data Structure & Update   & Query    & Memory     & Notes                                \\ \hline
+Prefix Sum     & X        & O(1)     & O(N)       & Associative Functions (+, XOR)       \\ \hline
+Fenwick Tree   & O(log N) & O(log N) & O(N)       & Low Memory                           \\ \hline
+Segment Tree   & O(log N) & O(log N) & O(4N)      & Can store more information           \\ \hline
+Sparse Table   & X        & O(1)     & O(N log N) & Non-Associative Functions (max, gcd) \\ \hline
+\end{tabular}
+\caption{Quick Summary of Data Structures}
+\label{tab:ds}
+\end{table}
+
 \subsection{Fenwick Trees}
+
+\begin{flushleft}
+Fenwick Trees are a very useful data structure for prefix sums.
+They are able to perform point or range queries and updates.
+One cool use case is for range maximum, but only when updates are strictly
+non-decreasing.
+
+Query: O(log N)
+Update: O(log N)
+\end{flushleft}
+
 \subsubsection{Point Update, Range Query}
 \lstinputlisting[language=C++]{ds_fw_purq.cpp}
-\subsubsection{Rang Update, Point Query}
+\subsubsection{Range Update, Point Query}
 \lstinputlisting[language=C++]{ds_fw_rupq.cpp}
 \subsubsection{Range Update, Range Query}
 \lstinputlisting[language=C++]{ds_fw_rurq.cpp}
 
 \subsection{Segment Trees}
+
+\begin{flushleft}
+Segment Trees are a very useful data structure for range queries.
+These queries can be on anything really, one use case is for finding the Kth largest element.
+
+Query: O(log N)
+Update: O(log N)
+\end{flushleft}
+
 \subsubsection{1D}
 \lstinputlisting[language=C++]{ds_st_1d.cpp}
 \subsubsection{Lazy Propagation}
@@ -32,10 +79,43 @@
 \lstinputlisting[language=C++]{ds_st_2d.cpp}
 
 \subsection{Sparse Table}
+
+\begin{flushleft}
+Sparse Tables may not seem so useful at first, but they are just similar
+to Prefix Sums. The exception is that they can be used on non-Associative
+functions like max and gcd, which does not work with prefix sums.
+
+Query: O(1)
+Update: X
+\end{flushleft}
+
 \lstinputlisting[language=C++]{ds_sp.cpp}
 
 
 \section{Graph Theory}
+
+
+\begin{table}[H]
+\begin{tabular}{|c|c|c|}
+\hline
+Graph Algorithm     & Complexity              & Notes                       \\ \hline
+DFS                 & O(N)                    & Connectedness               \\ \hline
+BFS                 & O(N)                    & Unweighted Shortest Path    \\ \hline
+Floyd-Warshall      & O(N\textasciicircum{}3) & All Pairs Shortest Path     \\ \hline
+Dijkstra            & O(E log E)              & Single Source Shortest Path \\ \hline
+TSP                 & O(2\textasciicircum{}N) & Visiting All Nodes          \\ \hline
+UFDS                & O(1)                    & Amortized                   \\ \hline
+MST - Kruskal       & O(E)                    & Greedy                      \\ \hline
+MST - Prim's        & O(E log E)              & Dijkstra                    \\ \hline
+Bipartite Matching  & ?                       & 2 Sets of Nodes             \\ \hline
+Articulation Points & ?                       & Node Splits Graph           \\ \hline
+Bridges             & ?                       & Edge Splits Graph           \\ \hline
+SCC                 & ?                       & Cycles                      \\ \hline
+\end{tabular}
+\caption{Quick Summary of General Graph Algorithms}
+\label{tab:gt}
+\end{table}
+
 \subsection{Depth First Search}
 \lstinputlisting[language=C++]{graph_dfs.cpp}
 \subsection{Breadth First Search}
@@ -89,6 +169,27 @@
 \lstinputlisting[language=C++]{graph_tree_cd.cpp}
 
 \section{Dynamic Programming}
+
+\begin{table}[H]
+\begin{tabular}{|c|c|c|}
+\hline
+DP Algorithm        & Complexity              & Notes     \\ \hline
+Coin Change         & O(NV)                   &           \\ \hline
+Coin Combinations   & O(NV)                   &           \\ \hline
+Knapsack - 0-1      & O(NS)                   &           \\ \hline
+Knapsack - 0-K      & O(log2(K)+NS)           &           \\ \hline
+LIS - Naive         & O(N\textasciicircum{}2) &           \\ \hline
+LIS - DS / Optimal  & O(N log N)              &           \\ \hline
+LCS                 & O(N\textasciicircum{}2) &           \\ \hline
+LCS - LIS           & O(N log N)              &           \\ \hline
+Digits              & O(10|N|)                &           \\ \hline
+Convex Hull Speedup & O(N)                    & Amortized \\ \hline
+Divide and Conquer  & O(N log N)              &           \\ \hline
+\end{tabular}
+\caption{Quick Summary of General Dynamic Programming Algorithms}
+\label{tab:dp}
+\end{table}
+
 \subsection{Coin Change}
 \lstinputlisting[language=C++]{dp_coin_change.cpp}
 \subsection{Coin Combinations}
@@ -118,6 +219,18 @@
 \lstinputlisting[language=C++]{dp_digits.cpp}
 
 \subsection{Convex Hull Speedup}
+
+\begin{flushleft}
+This speeds up any DP which is a quadratic function.
+A similar idea can also be done for linear functions but just using a set.
+
+The important part is knowing how to rearrange the transition to get coefficients.
+
+Query: O(1)
+Update: O(1)
+\end{flushleft}
+
+
 \lstinputlisting[language=C++]{dp_ch.cpp}
 \subsection{Divide and Conquer}
 \lstinputlisting[language=C++]{dp_dnc.cpp}
