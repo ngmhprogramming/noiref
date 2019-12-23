@@ -1,0 +1,188 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper, left=1in, right=1in, top=1in, bottom=1in]{geometry}
+\usepackage{listings}
+\lstset{basicstyle=\ttfamily}
+
+\title{noiref}
+\author{ngmh}
+\date{February 2019}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+\section{Data Structures}
+\subsection{Fenwick Trees}
+\subsubsection{Point Update, Range Query}
+\lstinputlisting[language=C++]{ds_fw_purq.cpp}
+\subsubsection{Rang Update, Point Query}
+\lstinputlisting[language=C++]{ds_fw_rupq.cpp}
+\subsubsection{Range Update, Range Query}
+\lstinputlisting[language=C++]{ds_fw_rurq.cpp}
+
+\subsection{Segment Trees}
+\subsubsection{1D}
+\lstinputlisting[language=C++]{ds_st_1d.cpp}
+\subsubsection{Lazy Propagation}
+\lstinputlisting[language=C++]{ds_st_lazy.cpp}
+\subsubsection{2D}
+\lstinputlisting[language=C++]{ds_st_2d.cpp}
+
+\subsection{Sparse Table}
+\lstinputlisting[language=C++]{ds_sp.cpp}
+
+
+\section{Graph Theory}
+\subsection{Depth First Search}
+\lstinputlisting[language=C++]{graph_dfs.cpp}
+\subsection{Breadth First Search}
+\lstinputlisting[language=C++]{graph_bfs.cpp}
+\subsection{Floyd-Warshall}
+\lstinputlisting[language=C++]{graph_floyd.cpp}
+\subsection{Dijkstra}
+\lstinputlisting[language=C++]{graph_dijkstra.cpp}
+\subsection{Travelling Salesman Problem}
+\lstinputlisting[language=C++]{graph_tsp.cpp}
+\subsection{Union Find Disjoint Subset}
+\lstinputlisting[language=C++]{graph_ufds.cpp}
+
+\subsection{Minimum Spanning Tree}
+\subsubsection{Kruskal}
+\lstinputlisting[language=C++]{graph_mst_kruskal.cpp}
+\subsubsection{Prim's}
+\lstinputlisting[language=C++]{graph_mst_prims.cpp}
+
+\subsection{Bipartite Matching}
+\lstinputlisting[language=C++]{graph_bm.cpp}
+\subsection{Articulation Points}
+\lstinputlisting[language=C++]{graph_atp.cpp}
+\subsection{Bridges}
+\lstinputlisting[language=C++]{graph_bridges.cpp}
+\subsection{Strongly Connected Components}
+\lstinputlisting[language=C++]{graph_scc.cpp}
+
+\subsection{Trees}
+\subsubsection{Diameter}
+\lstinputlisting[language=C++]{graph_tree_diam.cpp}
+\subsubsection{$2^{K}$ Decomposition}
+\lstinputlisting[language=C++]{graph_tree_2k.cpp}
+\subsubsection{Lowest Common Ancestor}
+\lstinputlisting[language=C++]{graph_tree_lca.cpp}
+\subsubsection{All Pairs Shortest Path}
+\lstinputlisting[language=C++]{graph_tree_apsp.cpp}
+\subsubsection{Preorder}
+\lstinputlisting[language=C++]{graph_tree_pre.cpp}
+\subsubsection{Postorder}
+\lstinputlisting[language=C++]{graph_tree_post.cpp}
+\subsubsection{Subtree to Range}
+\lstinputlisting[language=C++]{graph_tree_range.cpp}
+\subsubsection{Leaf Pruning}
+\lstinputlisting[language=C++]{graph_tree_leaf.cpp}
+\subsubsection{Weighted Maximum Independent Set}
+\lstinputlisting[language=C++]{graph_tree_wmis.cpp}
+\subsubsection{Heavy-Light Decomposition}
+\lstinputlisting[language=C++]{graph_tree_hld.cpp}
+\subsubsection{Centroid Decomoposition}
+\lstinputlisting[language=C++]{graph_tree_cd.cpp}
+
+\section{Dynamic Programming}
+\subsection{Coin Change}
+\lstinputlisting[language=C++]{dp_coin_change.cpp}
+\subsection{Coin Combinations}
+\lstinputlisting[language=C++]{dp_coin_combs.cpp}
+
+\subsection{Knapsack}
+\subsubsection{0-1}
+\lstinputlisting[language=C++]{dp_knap_01.cpp}
+\subsubsection{0-K}
+\lstinputlisting[language=C++]{dp_knap_0k.cpp}
+
+\subsection{Longest Increasing Subsequence}
+\subsubsection{$N^{2}$}
+\lstinputlisting[language=C++]{dp_lis_2.cpp}
+\subsubsection{$N log N$}
+\lstinputlisting[language=C++]{dp_lis_log_fw.cpp}
+\subsubsection{Optimal}
+\lstinputlisting[language=C++]{dp_lis_log.cpp}
+
+\subsection{Longest Common Subsequence}
+\subsubsection{$N^{2}$}
+\lstinputlisting[language=C++]{dp_lcs_2.cpp}
+\subsubsection{Longest Increasing Subsequence}
+\lstinputlisting[language=C++]{dp_lcs_lis.cpp}
+
+\subsection{Digits}
+\lstinputlisting[language=C++]{dp_digits.cpp}
+
+\subsection{Convex Hull Speedup}
+\lstinputlisting[language=C++]{dp_ch.cpp}
+\subsection{Divide and Conquer}
+\lstinputlisting[language=C++]{dp_dnc.cpp}
+
+\subsection{Prefix Sums}
+\subsubsection{1D}
+\lstinputlisting[language=C++]{dp_ps_1d.cpp}
+\subsubsection{2D}
+\lstinputlisting[language=C++]{dp_ps_2d.cpp}
+
+\section{Math}
+\subsection{Greatest Common Divisor}
+\lstinputlisting[language=C++]{math_gcd.cpp}
+\subsection{Lowest Common Multiple}
+\lstinputlisting[language=C++]{math_lcm.cpp}
+
+\subsection{Modular Functions}
+\subsubsection{Multiplication}
+\lstinputlisting[language=C++]{math_mulmod.cpp}
+\subsubsection{Exponentiation}
+\lstinputlisting[language=C++]{math_powmod.cpp}
+
+\subsection{Primes}
+\subsubsection{Sieve of Eratosthenes}
+\lstinputlisting[language=C++]{math_prime_sieve.cpp}
+\subsubsection{Prime Factorisation}
+\lstinputlisting[language=C++]{math_prime_fac.cpp}
+
+\subsection{Fibonacci}
+\lstinputlisting[language=C++]{math_fibo.cpp}
+\subsection{$^{n}C_{k}$}
+\lstinputlisting[language=C++]{math_nck.cpp}
+
+\section{Algorithms}
+\subsection{Discretisation}
+\lstinputlisting[language=C++]{algo_ds.cpp}
+\subsection{Binary Search}
+\lstinputlisting[language=C++]{algo_bs.cpp}
+\subsection{Mo's Algorithm}
+\lstinputlisting[language=C++]{algo_mos.cpp}
+
+\section{Miscellaneous}
+\subsection{Macros + Functions + Variables}
+\lstinputlisting[language=C++]{misc_mfv.cpp}
+
+\subsection{Compile Commands}
+\subsubsection{Compile}
+\lstinputlisting[language=C++]{misc_cmp_compile.cpp}
+\subsubsection{Build}
+\lstinputlisting[language=C++]{misc_cmp_build.cpp}
+\subsubsection{Command Line}
+\lstinputlisting[language=C++]{misc_cmp_cmd.cpp}
+\subsubsection{Simple Script}
+\lstinputlisting[language=C++]{misc_cmp_script.cpp}
+
+\subsection{Input/Output}
+\subsubsection{Fast}
+\lstinputlisting[language=C++]{misc_io_fast.cpp}
+\subsubsection{Faster}
+\lstinputlisting[language=C++]{misc_io_faster.cpp}
+
+\subsection{Pruning}
+\lstinputlisting[language=C++]{misc_prune.cpp}
+
+\subsection{Optimise}
+\lstinputlisting[language=C++]{misc_optimise.cpp}
+
+\end{document}
