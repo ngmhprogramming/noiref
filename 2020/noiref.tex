@@ -4,6 +4,12 @@
 \usepackage{listings}
 \usepackage{xcolor}
 \usepackage{float}
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=false,
+    linktoc=all
+}
 
 \lstset{
     frame=tb,
@@ -28,7 +34,6 @@
 \newpage
 
 \section{Data Structures}
-
 \begin{table}[H]
 \begin{tabular}{|c|c|c|c|c|}
 \hline
@@ -38,12 +43,11 @@ Sparse Table   & O(N log N) / X          & O(1)     & O(N log N) & Non-Associati
 Fenwick Tree   & X / O(log N)            & O(log N) & O(N)       & Prefix Sum with Updates              \\ \hline
 Segment Tree   & X / O(log N)            & O(log N) & O(4N)      & Allows more Information              \\ \hline
 \end{tabular}
-\caption{}
-\label{tab:my-table}
+\caption{Quick Summary of Data Structures}
+\label{tab:ds}
 \end{table}
 
 \subsection{Prefix Sums}
-
 \begin{flushleft}
 Prefix Sums rely on the Principle of Inclusion and Exclusion.
 By adding and subtracting the correct prefixes, we can determine
@@ -63,7 +67,6 @@ Update: X
 \lstinputlisting[language=C++]{ds_ps_2d.cpp}
 
 \subsection{Sparse Table}
-
 \begin{flushleft}
 Sparse Tables to me, are Prefix Sums on steroids.
 Instead of using prefixes, we use subarrays with sizes which are powers of 2.
@@ -80,7 +83,6 @@ Update: X
 \lstinputlisting[language=C++]{ds_sp_2d.cpp}
 
 \subsection{Fenwick Trees}
-
 \begin{flushleft}
 Fenwick Trees essentially act the same as prefix sums,
 except that they can perform updates. However, the complexity of code
@@ -101,11 +103,10 @@ Update: O(log N)
 \lstinputlisting[language=C++]{ds_fw_rurq.cpp}
 
 \subsection{Segment Trees}
-
 \begin{flushleft}
 Segment Trees need more memory and code to implement, but are much more powerful,
 since more information can be stored in each node. 
-They can be used for anything really, e.g. finding the Kth largest element, and Maxsum.
+They can be used for anything really, e.g. finding how many elements are larger than K, Maxsum.
 \newline
 Query: O(log N)
 \newline
@@ -128,55 +129,148 @@ Update: O(log N)
 \lstinputlisting[language=C++]{ds_st_2d.cpp}
 
 \section{Graph Theory}
-
-
 \begin{table}[H]
 \begin{tabular}{|c|c|c|}
 \hline
-Graph Algorithm     & Complexity              & Notes                       \\ \hline
-DFS                 & O(N)                    & Connectedness               \\ \hline
-BFS                 & O(N)                    & Unweighted Shortest Path    \\ \hline
-Floyd-Warshall      & O(N\textasciicircum{}3) & All Pairs Shortest Path     \\ \hline
-Dijkstra            & O(E log E)              & Single Source Shortest Path \\ \hline
-TSP                 & O(2\textasciicircum{}N) & Visiting All Nodes          \\ \hline
-UFDS                & O(1)                    & Amortized                   \\ \hline
-MST - Kruskal       & O(E)                    & Greedy                      \\ \hline
-MST - Prim's        & O(E log E)              & Dijkstra                    \\ \hline
-Bipartite Matching  & ?                       & 2 Sets of Nodes             \\ \hline
-Articulation Points & ?                       & Node Splits Graph           \\ \hline
-Bridges             & ?                       & Edge Splits Graph           \\ \hline
-SCC                 & ?                       & Cycles                      \\ \hline
+Graph Algorithm     & Complexity   & Notes                       \\ \hline
+DFS                 & O(N)         & Flood Fill, Trees           \\ \hline
+BFS                 & O(N)         & Unweighted Shortest Path    \\ \hline
+Floyd-Warshall      & O($N^{3}$)   & All Pairs Shortest Path     \\ \hline
+Dijkstra            & O(E log E)   & Single Source Shortest Path \\ \hline
+TSP                 & O($2^{N}$)   & Tour All Nodes              \\ \hline
+UFDS                & O(1)         & Checking Connectedness      \\ \hline
+MST - Kruskal       & O(E log E)   & Greedy                      \\ \hline
+MST - Prim's        & O(E log E)   & Dijkstra                    \\ \hline
+Bipartite Matching  & O($N^{5/2}$) & 2 Sets of Nodes             \\ \hline
+Articulation Points & O(N+E)       & Find Splitting Nodes        \\ \hline
+Bridges             & O(N+E)       & Find Splitting Edges        \\ \hline
+SCC                 & O(N+E)       & Nodes Can Reach Everyone    \\ \hline
 \end{tabular}
 \caption{Quick Summary of General Graph Algorithms}
 \label{tab:gt}
 \end{table}
 
 \subsection{Depth First Search}
+\begin{flushleft}
+Depth First Search goes as far in as possible, before coming all the way back out.
+It can be problematic on general graphs, but works fine and is easier to use for trees.
+\newline
+Time Complexity: O(N)
+\end{flushleft}
 \lstinputlisting[language=C++]{graph_dfs.cpp}
+
 \subsection{Breadth First Search}
+\begin{flushleft}
+Breadth First Search slowly spreads out from the source before going deeper in.
+It works well on general graphs but is slightly more tedious to code.
+\newline
+It can also find shortest paths on 0-1 weighted graphs.
+This is done using a deque and pushing 0s to the front and 1s to the back.
+\newline
+Time Complexity: O(N)
+\end{flushleft}
 \lstinputlisting[language=C++]{graph_bfs.cpp}
+
 \subsection{Floyd-Warshall}
+\begin{flushleft}
+Floyd-Warshall is very slow, so it is unlikely to be used.
+However, if there are too many edges, using Dijkstra from each node
+will still end up slower.
+\newline
+Time Complexity: O($N^{3}$)
+\end{flushleft}
 \lstinputlisting[language=C++]{graph_floyd.cpp}
+
 \subsection{Dijkstra}
+\begin{flushleft}
+Dijkstra is much faster at shortest paths, but complexity is dependent
+on the number of edges.
+\newline
+Time Complexity: O(N)
+\end{flushleft}
 \lstinputlisting[language=C++]{graph_dijkstra.cpp}
+
 \subsection{Travelling Salesman Problem}
+\begin{flushleft}
+The Travelling Salesman Problem uses DP on Bitmask to solve it.
+The Bitmask indicates which nodes have already been visited.
+\newline
+Time Complexity: O($2^{N}$)
+\end{flushleft}
 \lstinputlisting[language=C++]{graph_tsp.cpp}
+\subsection{Travelling Salesman Problem - BFS}
+\lstinputlisting[language=C++]{graph_tsp_bfs.cpp}
+
 \subsection{Union Find Disjoint Subset}
+\begin{flushleft}
+Union Find Disjoint Subset connects subsets of nodes together.
+Using techniques like path compression reduce it's time complexity to O(1).
+\newline
+Time Complexity: O(1)
+\end{flushleft}
 \lstinputlisting[language=C++]{graph_ufds.cpp}
 
 \subsection{Minimum Spanning Tree}
+\begin{flushleft}
+By stripping off larger edges, we are left with a tree such that
+the weights of edges between nodes are the minimum possible.
+\newline
+Time Complexity: O(E log E)
+\end{flushleft}
+
 \subsubsection{Kruskal}
+\begin{flushleft}
+Kruskal is a greedy algorithm by processing starting from the smallest edge.
+It runs in O(E), but is O(E log E) because it needs to sort the edges.
+\newline
+Time Complexity: O(E log E)
+\end{flushleft}
 \lstinputlisting[language=C++]{graph_mst_kruskal.cpp}
+
 \subsubsection{Prim's}
+\begin{flushleft}
+Prim's is literally Dijkstra, but using max instead of +.
+It can also be used to find minimum maximum edge from a single source.
+\newline
+Time Complexity: O(E log E)
+\end{flushleft}
 \lstinputlisting[language=C++]{graph_mst_prims.cpp}
 
 \subsection{Bipartite Matching}
+\begin{flushleft}
+A Bipartite Graph has nodes in 2 sets, such that edges only run across both sets.
+A chooses edges such that each node only has a maximum of one edge.
+\newline
+Time Complexity: O($N^{5/2}$)
+\end{flushleft}
 \lstinputlisting[language=C++]{graph_bm.cpp}
+
 \subsection{Articulation Points}
+\begin{flushleft}
+Articulation Points are nodes that split the graph when they are removed.
+They are found using Tarjan's.
+\newline
+Time Complexity: O(N+E)
+\end{flushleft}
 \lstinputlisting[language=C++]{graph_atp.cpp}
+
 \subsection{Bridges}
+\begin{flushleft}
+Bridges are edges that split the graph when they are removed.
+They are found using Tarjan's.
+\newline
+Time Complexity: O(N+E)
+\end{flushleft}
 \lstinputlisting[language=C++]{graph_bridges.cpp}
+
 \subsection{Strongly Connected Components}
+\begin{flushleft}
+Strongly Connected Components are sets of nodes where all nodes can
+visit each other. After compressing them into single nodes, the new graph
+formed is a DAG (Directed Acyclic Graph).
+\newline
+Time Complexity: O(N+E)
+\end{flushleft}
 \lstinputlisting[language=C++]{graph_scc.cpp}
 
 \subsection{Trees}

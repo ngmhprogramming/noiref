@@ -1,88 +1,89 @@
-\contentsline {section}{\numberline {1}Data Structures}{3}% 
-\contentsline {subsection}{\numberline {1.1}Prefix Sums}{3}% 
-\contentsline {subsubsection}{\numberline {1.1.1}1D}{3}% 
-\contentsline {subsubsection}{\numberline {1.1.2}2D}{3}% 
-\contentsline {subsection}{\numberline {1.2}Sparse Table}{3}% 
-\contentsline {subsubsection}{\numberline {1.2.1}1D}{3}% 
-\contentsline {subsubsection}{\numberline {1.2.2}2D}{4}% 
-\contentsline {subsection}{\numberline {1.3}Fenwick Trees}{4}% 
-\contentsline {subsubsection}{\numberline {1.3.1}Point Update, Range Query}{4}% 
-\contentsline {subsubsection}{\numberline {1.3.2}Range Update, Point Query}{4}% 
-\contentsline {subsubsection}{\numberline {1.3.3}Range Update, Range Query}{4}% 
-\contentsline {subsection}{\numberline {1.4}Segment Trees}{5}% 
-\contentsline {subsubsection}{\numberline {1.4.1}1D}{5}% 
-\contentsline {subsubsection}{\numberline {1.4.2}Lazy Propagation - Range Add}{5}% 
-\contentsline {subsubsection}{\numberline {1.4.3}Lazy Propagation - Range Add + Set}{6}% 
-\contentsline {subsubsection}{\numberline {1.4.4}Maxsum Tree}{6}% 
-\contentsline {subsubsection}{\numberline {1.4.5}Order Statistic Tree - More than K}{7}% 
-\contentsline {subsubsection}{\numberline {1.4.6}Order Statistic Tree - More than K + Updates}{7}% 
-\contentsline {subsubsection}{\numberline {1.4.7}2D}{7}% 
-\contentsline {section}{\numberline {2}Graph Theory}{8}% 
-\contentsline {subsection}{\numberline {2.1}Depth First Search}{8}% 
-\contentsline {subsection}{\numberline {2.2}Breadth First Search}{8}% 
-\contentsline {subsection}{\numberline {2.3}Floyd-Warshall}{8}% 
-\contentsline {subsection}{\numberline {2.4}Dijkstra}{9}% 
-\contentsline {subsection}{\numberline {2.5}Travelling Salesman Problem}{9}% 
-\contentsline {subsection}{\numberline {2.6}Union Find Disjoint Subset}{9}% 
-\contentsline {subsection}{\numberline {2.7}Minimum Spanning Tree}{10}% 
-\contentsline {subsubsection}{\numberline {2.7.1}Kruskal}{10}% 
-\contentsline {subsubsection}{\numberline {2.7.2}Prim's}{10}% 
-\contentsline {subsection}{\numberline {2.8}Bipartite Matching}{10}% 
-\contentsline {subsection}{\numberline {2.9}Articulation Points}{11}% 
-\contentsline {subsection}{\numberline {2.10}Bridges}{11}% 
-\contentsline {subsection}{\numberline {2.11}Strongly Connected Components}{11}% 
-\contentsline {subsection}{\numberline {2.12}Trees}{12}% 
-\contentsline {subsubsection}{\numberline {2.12.1}Diameter}{12}% 
-\contentsline {subsubsection}{\numberline {2.12.2}$2^{K}$ Decomposition}{13}% 
-\contentsline {subsubsection}{\numberline {2.12.3}Lowest Common Ancestor}{13}% 
-\contentsline {subsubsection}{\numberline {2.12.4}All Pairs Shortest Path}{13}% 
-\contentsline {subsubsection}{\numberline {2.12.5}Preorder}{13}% 
-\contentsline {subsubsection}{\numberline {2.12.6}Postorder}{14}% 
-\contentsline {subsubsection}{\numberline {2.12.7}Subtree to Range}{14}% 
-\contentsline {subsubsection}{\numberline {2.12.8}Leaf Pruning}{14}% 
-\contentsline {subsubsection}{\numberline {2.12.9}Weighted Maximum Independent Set}{14}% 
-\contentsline {subsubsection}{\numberline {2.12.10}Heavy-Light Decomposition}{15}% 
-\contentsline {subsubsection}{\numberline {2.12.11}Centroid Decomoposition}{15}% 
-\contentsline {section}{\numberline {3}Dynamic Programming}{16}% 
-\contentsline {subsection}{\numberline {3.1}Coin Change}{16}% 
-\contentsline {subsection}{\numberline {3.2}Coin Combinations}{16}% 
-\contentsline {subsection}{\numberline {3.3}Knapsack}{16}% 
-\contentsline {subsubsection}{\numberline {3.3.1}0-1}{16}% 
-\contentsline {subsubsection}{\numberline {3.3.2}0-K}{16}% 
-\contentsline {subsection}{\numberline {3.4}Longest Increasing Subsequence}{17}% 
-\contentsline {subsubsection}{\numberline {3.4.1}$N^{2}$}{17}% 
-\contentsline {subsubsection}{\numberline {3.4.2}$N log N$}{17}% 
-\contentsline {subsubsection}{\numberline {3.4.3}Optimal}{17}% 
-\contentsline {subsection}{\numberline {3.5}Longest Common Subsequence}{17}% 
-\contentsline {subsubsection}{\numberline {3.5.1}$N^{2}$}{17}% 
-\contentsline {subsubsection}{\numberline {3.5.2}Longest Increasing Subsequence}{18}% 
-\contentsline {subsection}{\numberline {3.6}Digits}{18}% 
-\contentsline {subsection}{\numberline {3.7}Convex Hull Speedup}{18}% 
-\contentsline {subsection}{\numberline {3.8}Divide and Conquer}{19}% 
-\contentsline {section}{\numberline {4}Math}{20}% 
-\contentsline {subsection}{\numberline {4.1}Greatest Common Divisor}{20}% 
-\contentsline {subsection}{\numberline {4.2}Lowest Common Multiple}{20}% 
-\contentsline {subsection}{\numberline {4.3}Modular Functions}{20}% 
-\contentsline {subsubsection}{\numberline {4.3.1}Multiplication}{20}% 
-\contentsline {subsubsection}{\numberline {4.3.2}Exponentiation}{20}% 
-\contentsline {subsection}{\numberline {4.4}Primes}{20}% 
-\contentsline {subsubsection}{\numberline {4.4.1}Sieve of Eratosthenes}{20}% 
-\contentsline {subsubsection}{\numberline {4.4.2}Prime Factorisation}{21}% 
-\contentsline {subsection}{\numberline {4.5}Fibonacci}{21}% 
-\contentsline {subsection}{\numberline {4.6}$^{n}C_{k}$}{21}% 
-\contentsline {section}{\numberline {5}Algorithms}{21}% 
-\contentsline {subsection}{\numberline {5.1}Discretisation}{21}% 
-\contentsline {subsection}{\numberline {5.2}Binary Search}{22}% 
-\contentsline {subsection}{\numberline {5.3}Mo's Algorithm}{22}% 
-\contentsline {section}{\numberline {6}Miscellaneous}{23}% 
-\contentsline {subsection}{\numberline {6.1}Macros + Functions + Variables}{23}% 
-\contentsline {subsection}{\numberline {6.2}Compile Commands}{23}% 
-\contentsline {subsubsection}{\numberline {6.2.1}Compile}{23}% 
-\contentsline {subsubsection}{\numberline {6.2.2}Build}{23}% 
-\contentsline {subsubsection}{\numberline {6.2.3}Command Line}{23}% 
-\contentsline {subsubsection}{\numberline {6.2.4}Simple Script}{23}% 
-\contentsline {subsection}{\numberline {6.3}Input/Output}{23}% 
-\contentsline {subsubsection}{\numberline {6.3.1}Fast}{23}% 
-\contentsline {subsubsection}{\numberline {6.3.2}Faster}{24}% 
-\contentsline {subsection}{\numberline {6.4}Pruning}{24}% 
-\contentsline {subsection}{\numberline {6.5}Optimise}{24}% 
+\contentsline {section}{\numberline {1}Data Structures}{2}{section.1}% 
+\contentsline {subsection}{\numberline {1.1}Prefix Sums}{2}{subsection.1.1}% 
+\contentsline {subsubsection}{\numberline {1.1.1}1D}{2}{subsubsection.1.1.1}% 
+\contentsline {subsubsection}{\numberline {1.1.2}2D}{2}{subsubsection.1.1.2}% 
+\contentsline {subsection}{\numberline {1.2}Sparse Table}{2}{subsection.1.2}% 
+\contentsline {subsubsection}{\numberline {1.2.1}1D}{2}{subsubsection.1.2.1}% 
+\contentsline {subsubsection}{\numberline {1.2.2}2D}{3}{subsubsection.1.2.2}% 
+\contentsline {subsection}{\numberline {1.3}Fenwick Trees}{3}{subsection.1.3}% 
+\contentsline {subsubsection}{\numberline {1.3.1}Point Update, Range Query}{3}{subsubsection.1.3.1}% 
+\contentsline {subsubsection}{\numberline {1.3.2}Range Update, Point Query}{3}{subsubsection.1.3.2}% 
+\contentsline {subsubsection}{\numberline {1.3.3}Range Update, Range Query}{3}{subsubsection.1.3.3}% 
+\contentsline {subsection}{\numberline {1.4}Segment Trees}{4}{subsection.1.4}% 
+\contentsline {subsubsection}{\numberline {1.4.1}1D}{4}{subsubsection.1.4.1}% 
+\contentsline {subsubsection}{\numberline {1.4.2}Lazy Propagation - Range Add}{4}{subsubsection.1.4.2}% 
+\contentsline {subsubsection}{\numberline {1.4.3}Lazy Propagation - Range Add + Set}{5}{subsubsection.1.4.3}% 
+\contentsline {subsubsection}{\numberline {1.4.4}Maxsum Tree}{5}{subsubsection.1.4.4}% 
+\contentsline {subsubsection}{\numberline {1.4.5}Order Statistic Tree - More than K}{6}{subsubsection.1.4.5}% 
+\contentsline {subsubsection}{\numberline {1.4.6}Order Statistic Tree - More than K + Updates}{6}{subsubsection.1.4.6}% 
+\contentsline {subsubsection}{\numberline {1.4.7}2D}{6}{subsubsection.1.4.7}% 
+\contentsline {section}{\numberline {2}Graph Theory}{7}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Depth First Search}{7}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.2}Breadth First Search}{7}{subsection.2.2}% 
+\contentsline {subsection}{\numberline {2.3}Floyd-Warshall}{8}{subsection.2.3}% 
+\contentsline {subsection}{\numberline {2.4}Dijkstra}{8}{subsection.2.4}% 
+\contentsline {subsection}{\numberline {2.5}Travelling Salesman Problem}{8}{subsection.2.5}% 
+\contentsline {subsection}{\numberline {2.6}Travelling Salesman Problem - BFS}{9}{subsection.2.6}% 
+\contentsline {subsection}{\numberline {2.7}Union Find Disjoint Subset}{9}{subsection.2.7}% 
+\contentsline {subsection}{\numberline {2.8}Minimum Spanning Tree}{9}{subsection.2.8}% 
+\contentsline {subsubsection}{\numberline {2.8.1}Kruskal}{9}{subsubsection.2.8.1}% 
+\contentsline {subsubsection}{\numberline {2.8.2}Prim's}{9}{subsubsection.2.8.2}% 
+\contentsline {subsection}{\numberline {2.9}Bipartite Matching}{10}{subsection.2.9}% 
+\contentsline {subsection}{\numberline {2.10}Articulation Points}{10}{subsection.2.10}% 
+\contentsline {subsection}{\numberline {2.11}Bridges}{11}{subsection.2.11}% 
+\contentsline {subsection}{\numberline {2.12}Strongly Connected Components}{11}{subsection.2.12}% 
+\contentsline {subsection}{\numberline {2.13}Trees}{12}{subsection.2.13}% 
+\contentsline {subsubsection}{\numberline {2.13.1}Diameter}{12}{subsubsection.2.13.1}% 
+\contentsline {subsubsection}{\numberline {2.13.2}$2^{K}$ Decomposition}{12}{subsubsection.2.13.2}% 
+\contentsline {subsubsection}{\numberline {2.13.3}Lowest Common Ancestor}{13}{subsubsection.2.13.3}% 
+\contentsline {subsubsection}{\numberline {2.13.4}All Pairs Shortest Path}{13}{subsubsection.2.13.4}% 
+\contentsline {subsubsection}{\numberline {2.13.5}Preorder}{13}{subsubsection.2.13.5}% 
+\contentsline {subsubsection}{\numberline {2.13.6}Postorder}{14}{subsubsection.2.13.6}% 
+\contentsline {subsubsection}{\numberline {2.13.7}Subtree to Range}{14}{subsubsection.2.13.7}% 
+\contentsline {subsubsection}{\numberline {2.13.8}Leaf Pruning}{14}{subsubsection.2.13.8}% 
+\contentsline {subsubsection}{\numberline {2.13.9}Weighted Maximum Independent Set}{14}{subsubsection.2.13.9}% 
+\contentsline {subsubsection}{\numberline {2.13.10}Heavy-Light Decomposition}{15}{subsubsection.2.13.10}% 
+\contentsline {subsubsection}{\numberline {2.13.11}Centroid Decomoposition}{15}{subsubsection.2.13.11}% 
+\contentsline {section}{\numberline {3}Dynamic Programming}{17}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Coin Change}{17}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}Coin Combinations}{17}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}Knapsack}{17}{subsection.3.3}% 
+\contentsline {subsubsection}{\numberline {3.3.1}0-1}{17}{subsubsection.3.3.1}% 
+\contentsline {subsubsection}{\numberline {3.3.2}0-K}{17}{subsubsection.3.3.2}% 
+\contentsline {subsection}{\numberline {3.4}Longest Increasing Subsequence}{18}{subsection.3.4}% 
+\contentsline {subsubsection}{\numberline {3.4.1}$N^{2}$}{18}{subsubsection.3.4.1}% 
+\contentsline {subsubsection}{\numberline {3.4.2}$N log N$}{18}{subsubsection.3.4.2}% 
+\contentsline {subsubsection}{\numberline {3.4.3}Optimal}{18}{subsubsection.3.4.3}% 
+\contentsline {subsection}{\numberline {3.5}Longest Common Subsequence}{19}{subsection.3.5}% 
+\contentsline {subsubsection}{\numberline {3.5.1}$N^{2}$}{19}{subsubsection.3.5.1}% 
+\contentsline {subsubsection}{\numberline {3.5.2}Longest Increasing Subsequence}{19}{subsubsection.3.5.2}% 
+\contentsline {subsection}{\numberline {3.6}Digits}{19}{subsection.3.6}% 
+\contentsline {subsection}{\numberline {3.7}Convex Hull Speedup}{20}{subsection.3.7}% 
+\contentsline {subsection}{\numberline {3.8}Divide and Conquer}{20}{subsection.3.8}% 
+\contentsline {section}{\numberline {4}Math}{21}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Greatest Common Divisor}{21}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.2}Lowest Common Multiple}{21}{subsection.4.2}% 
+\contentsline {subsection}{\numberline {4.3}Modular Functions}{21}{subsection.4.3}% 
+\contentsline {subsubsection}{\numberline {4.3.1}Multiplication}{21}{subsubsection.4.3.1}% 
+\contentsline {subsubsection}{\numberline {4.3.2}Exponentiation}{21}{subsubsection.4.3.2}% 
+\contentsline {subsection}{\numberline {4.4}Primes}{22}{subsection.4.4}% 
+\contentsline {subsubsection}{\numberline {4.4.1}Sieve of Eratosthenes}{22}{subsubsection.4.4.1}% 
+\contentsline {subsubsection}{\numberline {4.4.2}Prime Factorisation}{22}{subsubsection.4.4.2}% 
+\contentsline {subsection}{\numberline {4.5}Fibonacci}{22}{subsection.4.5}% 
+\contentsline {subsection}{\numberline {4.6}$^{n}C_{k}$}{22}{subsection.4.6}% 
+\contentsline {section}{\numberline {5}Algorithms}{23}{section.5}% 
+\contentsline {subsection}{\numberline {5.1}Discretisation}{23}{subsection.5.1}% 
+\contentsline {subsection}{\numberline {5.2}Binary Search}{23}{subsection.5.2}% 
+\contentsline {subsection}{\numberline {5.3}Mo's Algorithm}{23}{subsection.5.3}% 
+\contentsline {section}{\numberline {6}Miscellaneous}{24}{section.6}% 
+\contentsline {subsection}{\numberline {6.1}Macros + Functions + Variables}{24}{subsection.6.1}% 
+\contentsline {subsection}{\numberline {6.2}Compile Commands}{24}{subsection.6.2}% 
+\contentsline {subsubsection}{\numberline {6.2.1}Compile}{24}{subsubsection.6.2.1}% 
+\contentsline {subsubsection}{\numberline {6.2.2}Build}{24}{subsubsection.6.2.2}% 
+\contentsline {subsubsection}{\numberline {6.2.3}Command Line}{24}{subsubsection.6.2.3}% 
+\contentsline {subsubsection}{\numberline {6.2.4}Simple Script}{24}{subsubsection.6.2.4}% 
+\contentsline {subsection}{\numberline {6.3}Input/Output}{25}{subsection.6.3}% 
+\contentsline {subsubsection}{\numberline {6.3.1}Fast}{25}{subsubsection.6.3.1}% 
+\contentsline {subsubsection}{\numberline {6.3.2}Faster}{25}{subsubsection.6.3.2}% 
+\contentsline {subsection}{\numberline {6.4}Pruning}{25}{subsection.6.4}% 
+\contentsline {subsection}{\numberline {6.5}Optimise}{25}{subsection.6.5}% 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.24)  26 DEC 2019 02:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.24)  26 DEC 2019 02:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -110,21 +110,132 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box29
 \@float@everytoks=\toks20
 \@floatcapt=\box30
-) (./noiref.aux)
+)
+(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2019/09/28 v7.00a Hypertext links for LaTeX
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen115
+\Hy@linkcounter=\count100
+\Hy@pagecounter=\count101
+
+(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2019/09/28 v7.00a Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count102
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4540.
+Package hyperref Info: Link nesting OFF on input line 4545.
+Package hyperref Info: Hyper index ON on input line 4548.
+Package hyperref Info: Plain pages OFF on input line 4555.
+Package hyperref Info: Backreferencing OFF on input line 4560.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4793.
+\c@Hy@tempcnt=\count103
+
+(/usr/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5152.
+\XeTeXLinkMargin=\dimen116
+\Fld@menulength=\count104
+\Field@Width=\dimen117
+\Fld@charsize=\dimen118
+Package hyperref Info: Hyper figures OFF on input line 6423.
+Package hyperref Info: Link nesting OFF on input line 6428.
+Package hyperref Info: Hyper index ON on input line 6431.
+Package hyperref Info: backreferencing OFF on input line 6438.
+Package hyperref Info: Link coloring OFF on input line 6443.
+Package hyperref Info: Link coloring with OCG OFF on input line 6448.
+Package hyperref Info: PDF/A mode OFF on input line 6453.
+LaTeX Info: Redefining \ref on input line 6493.
+LaTeX Info: Redefining \pageref on input line 6497.
+\Hy@abspage=\count105
+\c@Item=\count106
+\c@Hfootnote=\count107
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2019/09/28 v7.00a Hyperref driver for pdfTeX
+\Fld@listcount=\count108
+\c@bookmark@seq@number=\count109
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip43
+)
+Package hyperref Info: Option `colorlinks' set `false' on input line 12.
+ (./noiref.aux)
 \openout1 = `noiref.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -160,41 +271,59 @@ LaTeX Font Info:    ... okay on input line 24.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count100
+\c@lstlisting=\count110
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count101
-\scratchdimen=\dimen115
+\scratchcounter=\count111
+\scratchdimen=\dimen119
 \scratchbox=\box31
-\nofMPsegments=\count102
-\nofMParguments=\count103
+\nofMPsegments=\count112
+\nofMParguments=\count113
 \everyMPshowfont=\toks21
-\MPscratchCnt=\count104
-\MPscratchDim=\dimen116
-\MPnumerator=\count105
-\makeMPintoPDFobject=\count106
+\MPscratchCnt=\count114
+\MPscratchDim=\dimen120
+\MPnumerator=\count115
+\makeMPintoPDFobject=\count116
 \everyMPtoPDFconversion=\toks22
 )
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 26.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 26.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 26.
- (./noiref.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 2.
- [1
+\AtBeginShipoutBox=\box32
+Package hyperref Info: Link coloring OFF on input line 30.
+ (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
-\tf@toc=\write3
-\openout3 = `noiref.toc'.
+(/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count117
+)
+LaTeX Info: Redefining \ref on input line 30.
+LaTeX Info: Redefining \pageref on input line 30.
+LaTeX Info: Redefining \nameref on input line 30.
+\@outlinefile=\write3
+\openout3 = `noiref.out'.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 33.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 33.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 33.
 
 
-[2]
-Overfull \hbox (43.25534pt too wide) in paragraph at lines 33--41
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
+\tf@toc=\write4
+\openout4 = `noiref.toc'.
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 38.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 38.
+
+Overfull \hbox (43.25534pt too wide) in paragraph at lines 38--46
 [][] 
  []
 
@@ -207,81 +336,164 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
 ) (./ds_ps_1d.cpp)
-(./ds_ps_2d.cpp) (./ds_sp_1d.cpp [3]) (./ds_sp_2d.cpp) (./ds_fw_purq.cpp)
-(./ds_fw_rupq.cpp) (./ds_fw_rurq.cpp [4]) (./ds_st_1d.cpp) (./ds_st_lazy.cpp
-[5]) (./ds_st_lazy_rs.cpp) (./ds_st_ms.cpp [6]) (./ds_st_os.cpp)
-(./ds_st_osu.cpp) (./ds_st_2d.cpp) [7] (./graph_dfs.cpp) (./graph_bfs.cpp)
-(./graph_floyd.cpp [8]) (./graph_dijkstra.cpp) (./graph_tsp.cpp)
-(./graph_ufds.cpp [9]) (./graph_mst_kruskal.cpp) (./graph_mst_prims.cpp
+(./ds_ps_2d.cpp) (./ds_sp_1d.cpp [2]) (./ds_sp_2d.cpp) (./ds_fw_purq.cpp)
+(./ds_fw_rupq.cpp) (./ds_fw_rurq.cpp [3]) (./ds_st_1d.cpp) (./ds_st_lazy.cpp
+[4]) (./ds_st_lazy_rs.cpp) (./ds_st_ms.cpp [5]) (./ds_st_os.cpp)
+(./ds_st_osu.cpp) (./ds_st_2d.cpp) [6] (./graph_dfs.cpp) (./graph_bfs.cpp)
+[7] (./graph_floyd.cpp) (./graph_dijkstra.cpp) (./graph_tsp.cpp [8])
+(./graph_tsp_bfs.cpp) (./graph_ufds.cpp) (./graph_mst_kruskal.cpp)
+(./graph_mst_prims.cpp [9]
 Overfull \hbox (25.83118pt too wide) in paragraph at lines 7--8
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][] 
+][][] 
  []
 
-) (./graph_bm.cpp [10]) (./graph_atp.cpp) (./graph_bridges.cpp)
-(./graph_scc.cpp [11]) (./graph_tree_diam.cpp) [12] (./graph_tree_2k.cpp)
-(./graph_tree_lca.cpp) (./graph_tree_apsp.cpp) (./graph_tree_pre.cpp) [13]
-(./graph_tree_post.cpp) (./graph_tree_range.cpp) (./graph_tree_leaf.cpp)
-(./graph_tree_wmis.cpp [14]) (./graph_tree_hld.cpp) (./graph_tree_cd.cpp)
-[15] (./dp_coin_change.cpp) (./dp_coin_combs.cpp) (./dp_knap_01.cpp)
-(./dp_knap_0k.cpp [16]) (./dp_lis_2.cpp) (./dp_lis_log_fw.cpp)
-(./dp_lis_log.cpp) (./dp_lcs_2.cpp
+) (./graph_bm.cpp) (./graph_atp.cpp [10]) (./graph_bridges.cpp)
+(./graph_scc.cpp [11]) (./graph_tree_diam.cpp)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 279.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 279.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 279.
+
+(./graph_tree_2k.cpp [12]) (./graph_tree_lca.cpp) (./graph_tree_apsp.cpp)
+(./graph_tree_pre.cpp) (./graph_tree_post.cpp [13]) (./graph_tree_range.cpp)
+(./graph_tree_leaf.cpp) (./graph_tree_wmis.cpp [14]) (./graph_tree_hld.cpp)
+(./graph_tree_cd.cpp [15]) [16] (./dp_coin_change.cpp) (./dp_coin_combs.cpp)
+(./dp_knap_01.cpp) (./dp_knap_0k.cpp [17])
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 334.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 334.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 334.
+
+(./dp_lis_2.cpp)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 336.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 336.
+
+(./dp_lis_log_fw.cpp) (./dp_lis_log.cpp)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 342.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 342.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 342.
+
+(./dp_lcs_2.cpp [18]
 Overfull \hbox (19.53119pt too wide) in paragraph at lines 5--6
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][] 
+][][][][][][][] 
  []
 
-) [17] (./dp_lcs_lis.cpp) (./dp_digits.cpp
+) (./dp_lcs_lis.cpp) (./dp_digits.cpp
 Overfull \hbox (6.93121pt too wide) in paragraph at lines 2--3
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+
  []
 
 
 Overfull \hbox (44.73114pt too wide) in paragraph at lines 3--4
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+
  []
 
-) (./dp_ch.cpp [18]
+) [19] (./dp_ch.cpp
 Overfull \hbox (57.33112pt too wide) in paragraph at lines 12--13
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][] 
+][][][][][][][][][][][][][][][][][][] 
  []
 
-) (./dp_dnc.cpp [19]) (./math_gcd.cpp) (./math_lcm.cpp) (./math_mulmod.cpp)
-(./math_powmod.cpp) (./math_prime_sieve.cpp [20]) (./math_prime_fac.cpp)
-(./math_fibo.cpp) (./math_nck.cpp) (./algo_ds.cpp [21]) (./algo_bs.cpp)
-(./algo_mos.cpp) [22] (./misc_mfv.cpp) (./misc_cmp_compile.cpp)
-(./misc_cmp_build.cpp) (./misc_cmp_cmd.cpp) (./misc_cmp_script.cpp)
-(./misc_io_fast.cpp) (./misc_io_faster.cpp [23]) (./misc_prune.cpp)
-(./misc_optimise.cpp)
-Overfull \hbox (0.63123pt too wide) in paragraph at lines 1--328
+) (./dp_dnc.cpp [20]) (./math_gcd.cpp) (./math_lcm.cpp) (./math_mulmod.cpp)
+(./math_powmod.cpp [21]) (./math_prime_sieve.cpp) (./math_prime_fac.cpp)
+(./math_fibo.cpp)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 387.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 387.
+
+(./math_nck.cpp [22]) (./algo_ds.cpp) (./algo_bs.cpp) (./algo_mos.cpp [23])
+(./misc_mfv.cpp) (./misc_cmp_compile.cpp) (./misc_cmp_build.cpp)
+(./misc_cmp_cmd.cpp) (./misc_cmp_script.cpp) [24] (./misc_io_fast.cpp)
+(./misc_io_faster.cpp) (./misc_prune.cpp) (./misc_optimise.cpp)
+Overfull \hbox (0.63123pt too wide) in paragraph at lines 1--422
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][] 
+][][][][][] 
  []
 
-[24] (./noiref.aux) ) 
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 424.
+[25]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 424.
+ (./noiref.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 424.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 424.
+
+
+Package rerunfilecheck Warning: File `noiref.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `noiref.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  892E71F503B80640C4A12C1DE4E27DBA;6135.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 424.
+ ) 
 Here is how much of TeX's memory you used:
- 4337 strings out of 492167
- 54412 string characters out of 6131557
- 350900 words of memory out of 5000000
- 8500 multiletter control sequences out of 15000+600000
+ 9304 strings out of 492167
+ 130071 string characters out of 6131557
+ 435373 words of memory out of 5000000
+ 12332 multiletter control sequences out of 15000+600000
  8063 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,9n,62p,190b,1667s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
-10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/s
-hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmtt10.pfb>
-Output written on noiref.pdf (24 pages, 187859 bytes).
+ 34i,10n,62p,199b,1872s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on noiref.pdf (25 pages, 216150 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 87 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
+ 1462 PDF objects out of 1728 (max. 8388607)
+ 1409 compressed objects within 15 object streams
+ 1096 named destinations out of 1200 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
