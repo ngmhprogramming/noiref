@@ -25,8 +25,8 @@ using namespace std;
 #define all(a) begin(a), end(a)
 #define FOR(i, a, b) for(int i = a; i <= b; i++)
 #define ROF(i, a, b) for(int i = a; i >= b; i--)
-#define FR(i, a) FOR(i, 0, a)
-#define RF(i, a) ROF(i, 0, a)
+#define F0R(i, a) FOR(i, 0, a)
+#define R0F(i, a) ROF(i, a, 0)
 #define ITER(i, a) for(auto i : a)
 #define FAST ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(0);
 
