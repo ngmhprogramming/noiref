@@ -12,7 +12,7 @@
     numbers=left,
     commentstyle=\color{purple},
     keywordstyle=\color{orange},
-    numberstyle=\color{green},
+    numberstyle=\color{gray},
     stringstyle=\color{green},
     basicstyle=\ttfamily
 }
@@ -32,25 +32,64 @@
 \begin{table}[H]
 \begin{tabular}{|c|c|c|c|c|}
 \hline
-Data Structure & Update   & Query    & Memory     & Notes                                \\ \hline
-Prefix Sum     & X        & O(1)     & O(N)       & Associative Functions (+, XOR)       \\ \hline
-Fenwick Tree   & O(log N) & O(log N) & O(N)       & Low Memory                           \\ \hline
-Segment Tree   & O(log N) & O(log N) & O(4N)      & Can store more information           \\ \hline
-Sparse Table   & X        & O(1)     & O(N log N) & Non-Associative Functions (max, gcd) \\ \hline
+Data Structure & Precomputation / Update & Query    & Memory     & Notes                                \\ \hline
+Prefix Sum     & O(N) / X                & O(1)     & O(N)       & Associative Functions (+, XOR)       \\ \hline
+Sparse Table   & O(N log N) / X          & O(1)     & O(N log N) & Non-Associative Functions (max, gcd) \\ \hline
+Fenwick Tree   & X / O(log N)            & O(log N) & O(N)       & Prefix Sum with Updates              \\ \hline
+Segment Tree   & X / O(log N)            & O(log N) & O(4N)      & Allows more Information              \\ \hline
 \end{tabular}
-\caption{Quick Summary of Data Structures}
-\label{tab:ds}
+\caption{}
+\label{tab:my-table}
 \end{table}
+
+\subsection{Prefix Sums}
+
+\begin{flushleft}
+Prefix Sums rely on the Principle of Inclusion and Exclusion.
+By adding and subtracting the correct prefixes, we can determine
+the answer for any subarray.
+\newline
+This idea can be extended to multiple dimensions as well, but beyond 2
+it gets slightly cancerous.
+\newline
+Query: O(1)
+\newline
+Update: X
+\end{flushleft}
+
+\subsubsection{1D}
+\lstinputlisting[language=C++]{ds_ps_1d.cpp}
+\subsubsection{2D}
+\lstinputlisting[language=C++]{ds_ps_2d.cpp}
+
+\subsection{Sparse Table}
+
+\begin{flushleft}
+Sparse Tables to me, are Prefix Sums on steroids.
+Instead of using prefixes, we use subarrays with sizes which are powers of 2.
+Then, any query will need at most 2 of the calculated subarrays.
+\newline
+Query: O(1)
+\newline
+Update: X
+\end{flushleft}
+
+\subsubsection{1D}
+\lstinputlisting[language=C++]{ds_sp_1d.cpp}
+\subsubsection{2D}
+\lstinputlisting[language=C++]{ds_sp_2d.cpp}
 
 \subsection{Fenwick Trees}
 
 \begin{flushleft}
-Fenwick Trees are a very useful data structure for prefix sums.
-They are able to perform point or range queries and updates.
-One cool use case is for range maximum, but only when updates are strictly
+Fenwick Trees essentially act the same as prefix sums,
+except that they can perform updates. However, the complexity of code
+varies depending on what kind of queries and updates are needed.
+One cool use case is for range maximum, but only works when updates are strictly
 non-decreasing.
-
+\newline
 Query: O(log N)
+\newline
 Update: O(log N)
 \end{flushleft}
 
@@ -77,20 +116,6 @@ Update: O(log N)
 \lstinputlisting[language=C++]{ds_st_lazy.cpp}
 \subsubsection{2D}
 \lstinputlisting[language=C++]{ds_st_2d.cpp}
-
-\subsection{Sparse Table}
-
-\begin{flushleft}
-Sparse Tables may not seem so useful at first, but they are just similar
-to Prefix Sums. The exception is that they can be used on non-Associative
-functions like max and gcd, which does not work with prefix sums.
-
-Query: O(1)
-Update: X
-\end{flushleft}
-
-\lstinputlisting[language=C++]{ds_sp.cpp}
-
 
 \section{Graph Theory}
 
@@ -234,12 +259,6 @@ Update: O(1)
 \lstinputlisting[language=C++]{dp_ch.cpp}
 \subsection{Divide and Conquer}
 \lstinputlisting[language=C++]{dp_dnc.cpp}
-
-\subsection{Prefix Sums}
-\subsubsection{1D}
-\lstinputlisting[language=C++]{dp_ps_1d.cpp}
-\subsubsection{2D}
-\lstinputlisting[language=C++]{dp_ps_2d.cpp}
 
 \section{Math}
 \subsection{Greatest Common Divisor}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.24)  24 DEC 2019 05:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.24)  26 DEC 2019 01:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -193,7 +193,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout3 = `noiref.toc'.
 
 
-[2] (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+[2]
+Overfull \hbox (43.25534pt too wide) in paragraph at lines 33--41
+[][] 
+ []
+
+(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
 (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -201,29 +206,30 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
 (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
-) (./ds_fw_purq.cpp)
-(./ds_fw_rupq.cpp) (./ds_fw_rurq.cpp) [3] (./ds_st_1d.cpp) (./ds_st_lazy.cpp)
-[4] (./ds_st_2d.cpp) (./ds_sp.cpp) [5] (./graph_dfs.cpp) (./graph_bfs.cpp)
-(./graph_floyd.cpp [6]) (./graph_dijkstra.cpp) (./graph_tsp.cpp)
-(./graph_ufds.cpp [7]) (./graph_mst_kruskal.cpp) (./graph_mst_prims.cpp
+) (./ds_ps_1d.cpp)
+(./ds_ps_2d.cpp) (./ds_sp_1d.cpp [3]) (./ds_sp_2d.cpp) (./ds_fw_purq.cpp)
+(./ds_fw_rupq.cpp) (./ds_fw_rurq.cpp [4]) (./ds_st_1d.cpp) (./ds_st_lazy.cpp
+[5]) (./ds_st_2d.cpp) [6] (./graph_dfs.cpp) (./graph_bfs.cpp)
+(./graph_floyd.cpp [7]) (./graph_dijkstra.cpp) (./graph_tsp.cpp)
+(./graph_ufds.cpp [8]) (./graph_mst_kruskal.cpp) (./graph_mst_prims.cpp
 Overfull \hbox (25.83118pt too wide) in paragraph at lines 7--8
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][] 
  []
 
-) (./graph_bm.cpp [8]) (./graph_atp.cpp) (./graph_bridges.cpp) (./graph_scc.cpp
-[9]) (./graph_tree_diam.cpp) [10] (./graph_tree_2k.cpp) (./graph_tree_lca.cpp)
-(./graph_tree_apsp.cpp) (./graph_tree_pre.cpp) [11] (./graph_tree_post.cpp)
+) (./graph_bm.cpp [9]) (./graph_atp.cpp) (./graph_bridges.cpp) (./graph_scc.cpp
+[10]) (./graph_tree_diam.cpp) [11] (./graph_tree_2k.cpp) (./graph_tree_lca.cpp)
+(./graph_tree_apsp.cpp) (./graph_tree_pre.cpp) [12] (./graph_tree_post.cpp)
 (./graph_tree_range.cpp) (./graph_tree_leaf.cpp) (./graph_tree_wmis.cpp
-[12]) (./graph_tree_hld.cpp) (./graph_tree_cd.cpp) [13] (./dp_coin_change.cpp)
-(./dp_coin_combs.cpp) (./dp_knap_01.cpp) (./dp_knap_0k.cpp [14])
+[13]) (./graph_tree_hld.cpp) (./graph_tree_cd.cpp) [14] (./dp_coin_change.cpp)
+(./dp_coin_combs.cpp) (./dp_knap_01.cpp) (./dp_knap_0k.cpp [15])
 (./dp_lis_2.cpp) (./dp_lis_log_fw.cpp) (./dp_lis_log.cpp) (./dp_lcs_2.cpp
 Overfull \hbox (19.53119pt too wide) in paragraph at lines 5--6
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][] 
  []
 
-) [15] (./dp_lcs_lis.cpp) (./dp_digits.cpp
+) [16] (./dp_lcs_lis.cpp) (./dp_digits.cpp
 Overfull \hbox (6.93121pt too wide) in paragraph at lines 2--3
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -233,47 +239,50 @@ Overfull \hbox (44.73114pt too wide) in paragraph at lines 3--4
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-) (./dp_ch.cpp [16]
+) (./dp_ch.cpp [17]
 Overfull \hbox (57.33112pt too wide) in paragraph at lines 12--13
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][] 
  []
 
-) (./dp_dnc.cpp [17]) (./dp_ps_1d.cpp) (./dp_ps_2d.cpp) (./math_gcd.cpp)
-(./math_lcm.cpp) (./math_mulmod.cpp [18]) (./math_powmod.cpp)
-(./math_prime_sieve.cpp) (./math_prime_fac.cpp) (./math_fibo.cpp [19])
-(./math_nck.cpp) (./algo_ds.cpp) (./algo_bs.cpp) (./algo_mos.cpp [20])
-(./misc_mfv.cpp) (./misc_cmp_compile.cpp) (./misc_cmp_build.cpp) [21]
-(./misc_cmp_cmd.cpp) (./misc_cmp_script.cpp) (./misc_io_fast.cpp)
-(./misc_io_faster.cpp) (./misc_prune.cpp) (./misc_optimise.cpp)
-Overfull \hbox (0.63123pt too wide) in paragraph at lines 1--299
+) (./dp_dnc.cpp [18]) (./math_gcd.cpp) (./math_lcm.cpp) (./math_mulmod.cpp)
+(./math_powmod.cpp) (./math_prime_sieve.cpp [19]) (./math_prime_fac.cpp)
+(./math_fibo.cpp) (./math_nck.cpp) (./algo_ds.cpp [20]) (./algo_bs.cpp)
+(./algo_mos.cpp) [21] (./misc_mfv.cpp) (./misc_cmp_compile.cpp)
+(./misc_cmp_build.cpp) (./misc_cmp_cmd.cpp) (./misc_cmp_script.cpp)
+(./misc_io_fast.cpp) (./misc_io_faster.cpp [22]) (./misc_prune.cpp)
+(./misc_optimise.cpp)
+Overfull \hbox (0.63123pt too wide) in paragraph at lines 1--318
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][] 
  []
 
-[22] (./noiref.aux) ) 
+[23] (./noiref.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4303 strings out of 492167
- 54020 string characters out of 6131557
- 350937 words of memory out of 5000000
- 8481 multiletter control sequences out of 15000+600000
+ 4313 strings out of 492167
+ 54148 string characters out of 6131557
+ 350900 words of memory out of 5000000
+ 8488 multiletter control sequences out of 15000+600000
  8063 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,9n,62p,190b,1667s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
-10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/s
-hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmtt10.pfb>
-Output written on noiref.pdf (22 pages, 183926 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on noiref.pdf (23 pages, 185699 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+ 122 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

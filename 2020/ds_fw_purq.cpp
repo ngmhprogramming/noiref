@@ -1,3 +1,5 @@
+int ls(int x){ return (x)&(-x); }
+
 void pu(int i, int v){
     for(; i <= n; i += ls(i)) fw[i] += v;
 }

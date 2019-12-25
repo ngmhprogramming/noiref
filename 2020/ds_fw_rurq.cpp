@@ -1,3 +1,9 @@
+int ls(int x){ return (x)&(-x); }
+
+//PURQ Code (PU, PQ)
+//Modify functions:
+//int pu(*tree...
+
 void ru(int s, int e, int v){
     pu(fw1, s, v);
     pu(fw1, e+1, -v);
