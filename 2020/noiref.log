@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.24)  26 DEC 2019 03:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.24)  26 DEC 2019 03:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -381,13 +381,6 @@ Overfull \hbox (57.33112pt too wide) in paragraph at lines 12--13
 (./math_powmod.cpp [22]) (./math_prime_sieve.cpp) (./math_prime_fac.cpp)
 (./math_fibo.cpp) (./math_nck.cpp [23]) (./algo_ds.cpp) (./algo_bs.cpp)
 (./algo_mos.cpp [24]) (./misc_mfv.cpp
-Overfull \hbox (32.13116pt too wide) in paragraph at lines 2--3
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][] 
- []
-
-
 Overfull \hbox (6.93121pt too wide) in paragraph at lines 37--39
 [][][][][][][][][][][][][][] 
  []
@@ -410,10 +403,10 @@ Package rerunfilecheck Info: File `noiref.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 442.
  ) 
 Here is how much of TeX's memory you used:
- 9501 strings out of 492167
- 132923 string characters out of 6131557
+ 9505 strings out of 492167
+ 132951 string characters out of 6131557
  435618 words of memory out of 5000000
- 12496 multiletter control sequences out of 15000+600000
+ 12500 multiletter control sequences out of 15000+600000
  8063 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,11n,62p,199b,1872s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -427,7 +420,7 @@ st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
 sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on noiref.pdf (27 pages, 241885 bytes).
+Output written on noiref.pdf (27 pages, 241859 bytes).
 PDF statistics:
  1952 PDF objects out of 2073 (max. 8388607)
  1892 compressed objects within 19 object streams

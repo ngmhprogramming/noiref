@@ -1,5 +1,5 @@
 #pragma GCC optimize("O3")
-#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,tune=native")
+#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx")
 #pragma GCC optimize("unroll-loops")
 
 #include <bits/stdc++.h>
@@ -25,8 +25,8 @@ using namespace std;
 #define all(a) begin(a), end(a)
 #define FOR(i, a, b) for(int i = a; i <= b; i++)
 #define ROF(i, a, b) for(int i = a; i >= b; i--)
-#define FOR(i, a) FOR(i, 0, a)
-#define ROF(i, a) ROF(i, 0, a)
+#define FR(i, a) FOR(i, 0, a)
+#define RF(i, a) ROF(i, 0, a)
 #define ITER(i, a) for(auto i : a)
 #define FAST ios_base::sync_with_stdio(false); cin.tie(0); cout.tie(0);
 
@@ -39,7 +39,7 @@ typedef tree<pi, null_type, less<pi>,
 int ls(int x){ return (x)&(-x); }
 mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 inline ll rngr(ll x, ll y) { return (rng()%(y-x+1))+x; }
-inline int ri() {
+inline ll ri() {
     ll x = 0;
     char ch = getchar_unlocked();
     while (ch < '0' || ch > '9') ch = getchar_unlocked();
