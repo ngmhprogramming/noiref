@@ -411,16 +411,32 @@ Update: O(1)
 \subsubsection{Simple Script}
 \lstinputlisting[language=C++]{misc_cmp_script.cpp}
 
-\subsection{Input/Output}
-\subsubsection{Fast}
-\lstinputlisting[language=C++]{misc_io_fast.cpp}
-\subsubsection{Faster}
-\lstinputlisting[language=C++]{misc_io_faster.cpp}
-
 \subsection{Pruning}
 \lstinputlisting[language=C++]{misc_prune.cpp}
 
 \subsection{Optimise}
 \lstinputlisting[language=C++]{misc_optimise.cpp}
 
+\section{Information}
+\begin{table}[H]
+\begin{tabular}{|c|c|}
+\hline
+Complexity     & Maximum in 1s \\ \hline
+O(1)           & Infinite      \\ \hline
+O(log N)       & $2^{10^{6}}$  \\ \hline
+O(sqrt N)      & $10^{14}$     \\ \hline
+O(N)           & $10^{7}$      \\ \hline
+O(N log N)     & $10^{6}$      \\ \hline
+O(N sqrt N)    & $10^{5}$      \\ \hline
+O($N^{2}$)     & $10^{4}$      \\ \hline
+O($N^{3}$)     & 500           \\ \hline
+O($N^{4}$)     & 100           \\ \hline
+O($2^{N}$)     & 22            \\ \hline
+O(N x $2^{N}$) & 20            \\ \hline
+O(N!)          & 12            \\ \hline
+O(N x N!)      & 11            \\ \hline
+\end{tabular}
+\caption{Quick Summary of Complexities and Maximum Input}
+\label{tab:complexity}
+\end{table}
 \end{document}
