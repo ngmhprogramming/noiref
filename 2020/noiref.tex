@@ -103,17 +103,27 @@ Update: O(log N)
 \subsection{Segment Trees}
 
 \begin{flushleft}
-Segment Trees are a very useful data structure for range queries.
-These queries can be on anything really, one use case is for finding the Kth largest element.
-
+Segment Trees need more memory and code to implement, but are much more powerful,
+since more information can be stored in each node. 
+They can be used for anything really, e.g. finding the Kth largest element, and Maxsum.
+\newline
 Query: O(log N)
+\newline
 Update: O(log N)
 \end{flushleft}
 
 \subsubsection{1D}
 \lstinputlisting[language=C++]{ds_st_1d.cpp}
-\subsubsection{Lazy Propagation}
+\subsubsection{Lazy Propagation - Range Add}
 \lstinputlisting[language=C++]{ds_st_lazy.cpp}
+\subsubsection{Lazy Propagation - Range Add + Set}
+\lstinputlisting[language=C++]{ds_st_lazy_rs.cpp}
+\subsubsection{Maxsum Tree}
+\lstinputlisting[language=C++]{ds_st_ms.cpp}
+\subsubsection{Order Statistic Tree - More than K}
+\lstinputlisting[language=C++]{ds_st_os.cpp}
+\subsubsection{Order Statistic Tree - More than K + Updates}
+\lstinputlisting[language=C++]{ds_st_osu.cpp}
 \subsubsection{2D}
 \lstinputlisting[language=C++]{ds_st_2d.cpp}
 
