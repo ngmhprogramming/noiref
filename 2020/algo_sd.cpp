@@ -1,4 +1,4 @@
-//Supermarket
+//Example - Supermarket
 for(int i = 1; i <= n; i++){
     curw += w[i];
     //Remove the back until it is lower
@@ -15,7 +15,7 @@ for(int i = 1; i <= n; i++){
     ans = max(ans, pd[i]-dq.front());
 }
 
-//Rubies
+//Example - Rubies
 for(int i = 1; i <= n; i++)
     ps[i] = ps[i-1]+c[i]-x*w[i];
     //Remove invalid items from the front

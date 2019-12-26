@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.24)  27 DEC 2019 03:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.24)  27 DEC 2019 03:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -380,7 +380,8 @@ Overfull \hbox (57.33112pt too wide) in paragraph at lines 12--13
 ) (./dp_dnc.cpp [21]) (./math_gcd.cpp) (./math_lcm.cpp) (./math_mulmod.cpp)
 (./math_powmod.cpp [22]) (./math_modinv.cpp) (./math_prime_sieve.cpp)
 (./math_prime_fac.cpp) (./math_fibo.cpp) [23] (./math_nck.cpp) (./algo_ds.cpp)
-(./algo_bs.cpp) (./algo_mos.cpp [24]) (./algo_ss.cpp) (./algo_sd.cpp [25]
+(./algo_bs.cpp) (./algo_mitm.cpp [24]) (./algo_mos.cpp) (./algo_ss.cpp [25])
+(./algo_sd.cpp
 Overfull \hbox (25.83116pt too wide) in paragraph at lines 25--26
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][] 
@@ -397,28 +398,28 @@ Overfull \hbox (6.93121pt too wide) in paragraph at lines 36--38
 [][][][][][][][][][][][][][] 
  []
 
-) (./misc_cmp_cmd.cpp) (./misc_cmp_script.cpp) (./misc_prune.cpp) [27]
+) [27] (./misc_cmp_cmd.cpp) (./misc_cmp_script.cpp) (./misc_prune.cpp)
 (./misc_optimise.cpp)
-Overfull \hbox (0.63123pt too wide) in paragraph at lines 1--440
+Overfull \hbox (0.63123pt too wide) in paragraph at lines 1--445
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 464.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 469.
 [28]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 464.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 469.
  (./noiref.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 464.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 464.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 469.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 469.
 Package rerunfilecheck Info: File `noiref.out' has not changed.
-(rerunfilecheck)             Checksum: AEC9D5B5BE4FB9EFCEC37666D19E08D2;5960.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 464.
+(rerunfilecheck)             Checksum: DCF675034AEBF5CACDB363EDF3C76F8A;6029.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 469.
  ) 
 Here is how much of TeX's memory you used:
- 9583 strings out of 492167
- 133926 string characters out of 6131557
+ 9613 strings out of 492167
+ 134355 string characters out of 6131557
  435618 words of memory out of 5000000
- 12521 multiletter control sequences out of 15000+600000
+ 12527 multiletter control sequences out of 15000+600000
  8063 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,11n,62p,199b,1872s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -432,10 +433,10 @@ st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
 sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on noiref.pdf (28 pages, 246777 bytes).
+Output written on noiref.pdf (28 pages, 248439 bytes).
 PDF statistics:
- 2020 PDF objects out of 2073 (max. 8388607)
- 1958 compressed objects within 20 object streams
- 1183 named destinations out of 1200 (max. 500000)
- 697 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2050 PDF objects out of 2073 (max. 8388607)
+ 1988 compressed objects within 20 object streams
+ 1204 named destinations out of 1440 (max. 500000)
+ 705 words of extra memory for PDF output out of 10000 (max. 10000000)
 
