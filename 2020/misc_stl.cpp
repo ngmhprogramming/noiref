@@ -1,3 +1,45 @@
+//File I/O
+freopen("test.in", "r", stdin);
+freopen("test.out", "w", stdout);
+
+//Variable / Array Functions
+min(a, b);
+max(a, b);
+__gcd(a, b);
+swap(a, b);
+
+lower_bound(a, a+n, b); //Value >= b
+upper_bound(a, a+n, b); //Value > b
+
+fiil(a, a+n, 0);
+memset(a, 0, sizeof(a));
+copy(a, a+n, b);
+
+sort(a, a+n);
+stable_sort(a, a+n); //If a = b, indexes will remain same
+reverse(a, a+n);
+random_shuffle(a, a+n, rng);
+max_element(a, a+n);
+
+//Math Functions (Low Accuracy)
+pow(1, 2);
+sqrt(1);
+cbrt(1);
+floor(1);
+ceil(1);
+abs(1);
+log(1);
+log10(1);
+
+//Limits
+INT_MAX
+LLONG_MAX
+LDBL_MAX
+
+//Others
+to_string(0);
+stoll("0");
+
 vector<int> v;
 v.push_back(0);
 v.front(); //0
@@ -39,7 +81,15 @@ map<int, int> m;
 m[0] = 1;
 m[1] = 2;
 
-typedef tree<pi, null_type, less<pi>, //User a pair to simulate multisets
+stack<int> st;
+st.push(0);
+st.top(); //0
+st.pop();
+
+typedef tree<int, null_type, less<int>,
+		     rb_tree_tag, tree_order_statistics_node_update> ordered_set;
+
+typedef tree<pi, null_type, less<pi>, //Use a pair to simulate multisets
 		     rb_tree_tag, tree_order_statistics_node_update> ordered_set;
 
 ordered_set os;
@@ -52,7 +102,7 @@ os.insert(16);
 os.find_by_order(1)<<endl; // 2
 os.find_by_order(2)<<endl; // 4
 os.find_by_order(4)<<endl; // 16
-//Order of key - How many are < K
+//Order of key - How many elements are < K
 os.order_of_key(-5)<<endl;  // 0
 os.order_of_key(1)<<endl;   // 0
 os.order_of_key(3)<<endl;   // 2

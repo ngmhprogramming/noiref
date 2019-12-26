@@ -238,6 +238,15 @@ Time Complexity: O(E log E)
 \end{flushleft}
 \lstinputlisting[language=C++]{graph_mst_prims.cpp}
 
+\subsection{Topological Sort}
+\begin{flushleft}
+A Topological Ordering is an ordering such that all nodes cannot be reached from any nodes after them.
+This can only be done on Directed Acyclic Graphs (DAGs).
+\newline
+Time Complexity: O(N log N)
+\end{flushleft}
+\lstinputlisting[language=C++]{graph_topo.cpp}
+
 \subsection{Bipartite Matching}
 \begin{flushleft}
 A Bipartite Graph has nodes in 2 sets, such that edges only run across both sets.
@@ -276,27 +285,106 @@ Time Complexity: O(N+E)
 \lstinputlisting[language=C++]{graph_scc.cpp}
 
 \subsection{Trees}
-\subsubsection{Diameter}
+\subsubsection{Diameter}\begin{flushleft}
+The diameter of a tree is the longest possible distance between 2 nodes.
+The method of finding it is finding the farthest node from a source,
+then finding the farthest node from this new source.
+\newline
+The centroid of a tree (node that minimises sum of distances) is the node
+on the diameter where the distance is closest to the length of the diameter/2.
+\newline
+Time Complexity: O(N)
+\end{flushleft}
 \lstinputlisting[language=C++]{graph_tree_diam.cpp}
-\subsubsection{\texorpdfstring{$2^{K}$}{} Decomposition}
+
+\subsubsection{\texorpdfstring{$2^{K}$}{} Decomposition}\begin{flushleft}
+By using Precomputation, we can find the Kth parent of any node quickly.
+\newline
+Time Complexity: O(N log N)
+\end{flushleft}
 \lstinputlisting[language=C++]{graph_tree_2k.cpp}
+
 \subsubsection{Lowest Common Ancestor}
+\begin{flushleft}
+When performing calculations on trees, a path between 2 nodes must
+run between them and a lowest common ancestor. This is also needed
+as Precomputation using a DFS downwards only gives distance from the root.
+\newline
+Time Complexity: O(N log N)???
+\end{flushleft}
 \lstinputlisting[language=C++]{graph_tree_lca.cpp}
+
 \subsubsection{All Pairs Shortest Path}
+\begin{flushleft}
+Finding the distance between any pair of nodes in a tree can be done very quickly.
+A DFS from the root can be performed giving us distances from it to our 2 nodes.
+This leads to unecessary distance between the root and LCA being overcounted twice.
+\newline
+Time Complexity: O(1)
+\end{flushleft}
 \lstinputlisting[language=C++]{graph_tree_apsp.cpp}
+
+\begin{flushleft}
+We sometimes want to relabel a tree's nodes to give them a new order,
+maybe to make subtrees easier to label. This is where Preorder and
+Postorder come in.
+\newline
+Time Complexity: O(N)
+\end{flushleft}
 \subsubsection{Preorder}
 \lstinputlisting[language=C++]{graph_tree_pre.cpp}
 \subsubsection{Postorder}
 \lstinputlisting[language=C++]{graph_tree_post.cpp}
+
 \subsubsection{Subtree to Range}
+\begin{flushleft}
+Sometimes we may need to perform range updates on a subtree, such
+as when updating distances. This allows a subtree to be represented as
+a continuous subarray in a Data Structure.
+\newline
+Time Complexity: O(N)
+\end{flushleft}
 \lstinputlisting[language=C++]{graph_tree_range.cpp}
+
 \subsubsection{Leaf Pruning}
 \lstinputlisting[language=C++]{graph_tree_leaf.cpp}
-\subsubsection{Weighted Maximum Independent Set}
+\begin{flushleft}
+In some cases, we only need to consider certain important nodes.
+To make calculations easier we can first remove extra leaf nodes.
+\newline
+Time Complexity: O(N log N)
+\end{flushleft}
+
+\subsubsection{Weighted Maximum Independent Set}\begin{flushleft}
+This may sound similar to MIS on a Bipartite graph, where no 2 nodes can be adjacent.
+A naive DFS with alternation doesn't work as it may be optimal
+to have longer stretches where we do not take nodes.
+\newline
+Time Complexity: O(N)
+\end{flushleft}
 \lstinputlisting[language=C++]{graph_tree_wmis.cpp}
+
 \subsubsection{Heavy-Light Decomposition}
+\begin{flushleft}
+This is similar to the principle of converting Subtrees to Ranges, but
+we cannot always update a whole subtree. We decompose the whole tree into chains,
+which can be rearranged to form a chain of chains in a Data Structure.
+\newline
+Time Complexity: O(N)
+Query: O(N log N) (Accounting for log N DS)
+\end{flushleft}
 \lstinputlisting[language=C++]{graph_tree_hld.cpp}
+
 \subsubsection{Centroid Decomoposition}
+\begin{flushleft}
+We use this to calculate the minimum distance from a node to a set of nodes.
+We decompose the tree into centroids where have at most N/2 children in each of it's 
+subtrees. This reduces the overall height of the tree and generates a new centroid tree.
+\newline
+Time Complexity: O(N)
+Update: O(log N)???
+Query: O(log N)???
+\end{flushleft}
 \lstinputlisting[language=C++]{graph_tree_cd.cpp}
 
 \section{Dynamic Programming}
@@ -389,6 +477,15 @@ Update: O(1)
 \subsection{\texorpdfstring{$^{n}C_{k}$}{}}
 \lstinputlisting[language=C++]{math_nck.cpp}
 
+\subsection{Expected Value}
+\begin{flushleft}
+Expected Value is the expected result when an event happens once. e.g.
+\newline
+Expected Value = Sum of Possible Values / Number of Possible Values
+\newline
+Expected Distance = Sum of All Possible Distances / Number of Paths
+\end{flushleft}
+
 \section{Algorithms}
 \subsection{Discretisation}
 \lstinputlisting[language=C++]{algo_ds.cpp}
@@ -445,6 +542,7 @@ Total Updates: O(N)
 \lstinputlisting[language=C++]{misc_optimise.cpp}
 
 \section{Information}
+\subsection{Time complexity v/s N}
 \begin{table}[H]
 \begin{tabular}{|c|c|}
 \hline
@@ -466,7 +564,8 @@ O(N x N!)      & 11            \\ \hline
 \caption{Quick Summary of Complexities and Maximum Input}
 \label{tab:complexity}
 \end{table}
-\end{document}
 
 \subsection{STL Data Structures / Functions}
 \lstinputlisting[language=C++]{misc_stl.cpp}
+
+\end{document}
