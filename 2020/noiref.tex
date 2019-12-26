@@ -350,7 +350,6 @@ Divide and Conquer  & O(N log N)              &           \\ \hline
 \lstinputlisting[language=C++]{dp_digits.cpp}
 
 \subsection{Convex Hull Speedup}
-
 \begin{flushleft}
 This speeds up any DP which is a quadratic function.
 A similar idea can also be done for linear functions but just using a set.
@@ -360,7 +359,6 @@ The important part is knowing how to rearrange the transition to get coefficient
 Query: O(1)
 Update: O(1)
 \end{flushleft}
-
 
 \lstinputlisting[language=C++]{dp_ch.cpp}
 \subsection{Divide and Conquer}
@@ -377,6 +375,8 @@ Update: O(1)
 \lstinputlisting[language=C++]{math_mulmod.cpp}
 \subsubsection{Exponentiation}
 \lstinputlisting[language=C++]{math_powmod.cpp}
+\subsubsection{Inverse}
+\lstinputlisting[language=C++]{math_modinv.cpp}
 
 \subsection{Primes}
 \subsubsection{Sieve of Eratosthenes}
@@ -397,16 +397,38 @@ Update: O(1)
 \subsection{Mo's Algorithm}
 \lstinputlisting[language=C++]{algo_mos.cpp}
 
+\subsection{Sliding Set}
+\begin{flushleft}
+Sometimes our DP state involves taking the minimum from some previously
+calculated numbers. Instead of using a for loop, using a data structure like a
+set will speed this up.
+
+Query: O(1)
+Update: O(log N)
+Total Updates: O(N log N)
+\end{flushleft}
+\lstinputlisting[language=C++]{algo_ss.cpp}
+
+
+\subsection{Sliding Deque}
+\begin{flushleft}
+The sliding set isn't the fastest we can speed it up using data structures.
+In this case, maintain a deque of strictly increasing elements.
+\newline
+Adding a number: Pop the back until it is less than the number to add. Push that number to the back.
+Removing a number: Check if the front number is the number to remove. If it is, remove it.
+Querying: Since the front is the minimum possible and the maximum is our current element, the answer is the difference between these.
+
+Query: O(1)
+Total Updates: O(N)
+\end{flushleft}
+\lstinputlisting[language=C++]{algo_sd.cpp}
+
 \section{Miscellaneous}
 \subsection{Macros + Functions + Variables}
 \lstinputlisting[language=C++]{misc_mfv.cpp}
 
 \subsection{Compile Commands}
-\subsubsection{Compile}
-\lstinputlisting[language=C++]{misc_cmp_compile.cpp}
-\subsubsection{Build}
-\lstinputlisting[language=C++]{misc_cmp_build.cpp}
-\subsubsection{Command Line}
 \lstinputlisting[language=C++]{misc_cmp_cmd.cpp}
 \subsubsection{Simple Script}
 \lstinputlisting[language=C++]{misc_cmp_script.cpp}
