@@ -347,13 +347,13 @@ Time Complexity: O(N)
 \lstinputlisting[language=C++]{graph_tree_range.cpp}
 
 \subsubsection{Leaf Pruning}
-\lstinputlisting[language=C++]{graph_tree_leaf.cpp}
 \begin{flushleft}
 In some cases, we only need to consider certain important nodes.
 To make calculations easier we can first remove extra leaf nodes.
 \newline
 Time Complexity: O(N log N)
 \end{flushleft}
+\lstinputlisting[language=C++]{graph_tree_leaf.cpp}
 
 \subsubsection{Weighted Maximum Independent Set}\begin{flushleft}
 This may sound similar to MIS on a Bipartite graph, where no 2 nodes can be adjacent.
@@ -371,6 +371,7 @@ we cannot always update a whole subtree. We decompose the whole tree into chains
 which can be rearranged to form a chain of chains in a Data Structure.
 \newline
 Time Complexity: O(N)
+\newline
 Query: O(N log N) (Accounting for log N DS)
 \end{flushleft}
 \lstinputlisting[language=C++]{graph_tree_hld.cpp}
@@ -382,7 +383,9 @@ We decompose the tree into centroids where have at most N/2 children in each of 
 subtrees. This reduces the overall height of the tree and generates a new centroid tree.
 \newline
 Time Complexity: O(N)
+\newline
 Update: O(log N)???
+\newline
 Query: O(log N)???
 \end{flushleft}
 \lstinputlisting[language=C++]{graph_tree_cd.cpp}

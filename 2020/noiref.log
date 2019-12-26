@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.24)  27 DEC 2019 04:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Arch Linux) (preloaded format=pdflatex 2019.12.24)  27 DEC 2019 04:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -352,19 +352,19 @@ Overfull \hbox (25.83118pt too wide) in paragraph at lines 7--8
  []
 
 ) (./graph_topo.cpp) (./graph_bm.cpp [12]) (./graph_atp.cpp)
-(./graph_bridges.cpp) [13] (./graph_scc.cpp) (./graph_tree_diam.cpp [14])
-(./graph_tree_2k.cpp) (./graph_tree_lca.cpp) (./graph_tree_apsp.cpp)
-(./graph_tree_pre.cpp [15]) (./graph_tree_post.cpp) (./graph_tree_range.cpp)
-(./graph_tree_leaf.cpp) (./graph_tree_wmis.cpp [16]) (./graph_tree_hld.cpp)
-[17] (./graph_tree_cd.cpp [18]) (./dp_coin_change.cpp) (./dp_coin_combs.cpp)
-(./dp_knap_01.cpp [19]) (./dp_knap_0k.cpp) (./dp_lis_2.cpp)
-(./dp_lis_log_fw.cpp) (./dp_lis_log.cpp [20]) (./dp_lcs_2.cpp
+(./graph_bridges.cpp) [13] (./graph_scc.cpp) [14] (./graph_tree_diam.cpp)
+(./graph_tree_2k.cpp) (./graph_tree_lca.cpp [15]) (./graph_tree_apsp.cpp)
+(./graph_tree_pre.cpp) (./graph_tree_post.cpp) (./graph_tree_range.cpp)
+[16] (./graph_tree_leaf.cpp) (./graph_tree_wmis.cpp) [17] (./graph_tree_hld.cpp
+) (./graph_tree_cd.cpp [18]) [19] (./dp_coin_change.cpp) (./dp_coin_combs.cpp)
+(./dp_knap_01.cpp) (./dp_knap_0k.cpp [20]) (./dp_lis_2.cpp)
+(./dp_lis_log_fw.cpp) (./dp_lis_log.cpp) (./dp_lcs_2.cpp
 Overfull \hbox (19.53119pt too wide) in paragraph at lines 5--6
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][] 
  []
 
-) (./dp_lcs_lis.cpp) (./dp_digits.cpp
+) [21] (./dp_lcs_lis.cpp) (./dp_digits.cpp
 Overfull \hbox (6.93121pt too wide) in paragraph at lines 2--3
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
 
@@ -376,17 +376,17 @@ Overfull \hbox (44.73114pt too wide) in paragraph at lines 3--4
 
  []
 
-[21]) (./dp_ch.cpp
+) (./dp_ch.cpp [22]
 Overfull \hbox (57.33112pt too wide) in paragraph at lines 12--13
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][] 
  []
 
-) [22] (./dp_dnc.cpp) (./math_gcd.cpp) (./math_lcm.cpp) (./math_mulmod.cpp)
-[23] (./math_powmod.cpp) (./math_modinv.cpp) (./math_prime_sieve.cpp)
-(./math_prime_fac.cpp) (./math_fibo.cpp [24]) (./math_nck.cpp) (./algo_ds.cpp)
-(./algo_bs.cpp) [25] (./algo_mitm.cpp) (./algo_mos.cpp [26]) (./algo_ss.cpp)
-(./algo_sd.cpp
+) (./dp_dnc.cpp [23]) (./math_gcd.cpp) (./math_lcm.cpp) (./math_mulmod.cpp)
+(./math_powmod.cpp) (./math_modinv.cpp) [24] (./math_prime_sieve.cpp)
+(./math_prime_fac.cpp) (./math_fibo.cpp) (./math_nck.cpp [25]) (./algo_ds.cpp)
+(./algo_bs.cpp) (./algo_mitm.cpp [26]) (./algo_mos.cpp) (./algo_ss.cpp)
+[27] (./algo_sd.cpp
 Overfull \hbox (25.83116pt too wide) in paragraph at lines 25--26
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][] 
@@ -398,19 +398,19 @@ Overfull \hbox (101.43103pt too wide) in paragraph at lines 30--31
 ][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[27]) (./misc_mfv.cpp
+) (./misc_mfv.cpp [28]
 Overfull \hbox (6.93121pt too wide) in paragraph at lines 36--38
 [][][][][][][][][][][][][][] 
  []
 
-[28]) (./misc_cmp_cmd.cpp) (./misc_cmp_script.cpp) (./misc_prune.cpp)
+) (./misc_cmp_cmd.cpp) [29] (./misc_cmp_script.cpp) (./misc_prune.cpp)
 (./misc_optimise.cpp)
-Overfull \hbox (0.63123pt too wide) in paragraph at lines 1--463
+Overfull \hbox (0.63123pt too wide) in paragraph at lines 1--545
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][] 
  []
 
-[29] (./misc_stl.cpp [30]
+(./misc_stl.cpp [30] [31]
 Overfull \hbox (6.93121pt too wide) in paragraph at lines 90--92
 [][][][][][][][][][][][][][] 
  []
@@ -426,25 +426,25 @@ Overfull \hbox (6.93121pt too wide) in paragraph at lines 93--95
 [][][][][][][][][][][][][][] 
  []
 
-[31])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 492.
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 574.
  [32]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 492.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 574.
  (./noiref.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 492.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 492.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 574.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 574.
 Package rerunfilecheck Info: File `noiref.out' has not changed.
 (rerunfilecheck)             Checksum: 57710BD6890FB366CC28D17AC37B2503;6312.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 492.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 574.
  ) 
 Here is how much of TeX's memory you used:
  9881 strings out of 492167
  138243 string characters out of 6131557
- 436621 words of memory out of 5000000
+ 437621 words of memory out of 5000000
  12593 multiletter control sequences out of 15000+600000
  8063 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,11n,62p,199b,1874s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,11n,62p,199b,1872s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -455,7 +455,7 @@ st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
 sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on noiref.pdf (32 pages, 261973 bytes).
+Output written on noiref.pdf (32 pages, 264516 bytes).
 PDF statistics:
  2323 PDF objects out of 2487 (max. 8388607)
  2254 compressed objects within 23 object streams
