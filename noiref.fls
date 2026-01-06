@@ -177,6 +177,9 @@ INPUT src\dp_coinchange.cpp
 INPUT .\src\dp_knapsack_01.cpp
 INPUT .\src\dp_knapsack_01.cpp
 INPUT src\dp_knapsack_01.cpp
+INPUT .\src\dp_digit.cpp
+INPUT .\src\dp_digit.cpp
+INPUT src\dp_digit.cpp
 INPUT .\src\algo_bs.cpp
 INPUT .\src\algo_bs.cpp
 INPUT src\algo_bs.cpp
