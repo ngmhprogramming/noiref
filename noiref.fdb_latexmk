@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1767721501.76978 "c:/Users/ngmh/Desktop/noiref/noiref.tex" "noiref.pdf" "noiref" 1767721502.79621 0
+["pdflatex"] 1767722428.22436 "c:/Users/ngmh/Desktop/noiref/noiref.tex" "noiref.pdf" "noiref" 1767722429.25352 0
   "C:/Users/ngmh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1767711933 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/ngmh/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1766133143 24224575 e9da776e712400959a67a96e531db3fb ""
   "C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -75,16 +75,16 @@
   "C:/Users/ngmh/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/ngmh/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "c:/Users/ngmh/Desktop/noiref/noiref.tex" 1767721500 3459 647f00c02a067a99c9f874f67ded4217 ""
-  "noiref.aux" 1767721502 5311 77200bd2565b92bfad9c68dd454db53e "pdflatex"
-  "noiref.out" 1767721502 2910 8eea3411be49f55a5a1590d931294aa0 "pdflatex"
+  "noiref.aux" 1767722429 5311 f5eb091d9ef4a61bafbb52ceba3df571 "pdflatex"
+  "noiref.out" 1767722429 2910 8eea3411be49f55a5a1590d931294aa0 "pdflatex"
   "noiref.tex" 1767721500 3459 647f00c02a067a99c9f874f67ded4217 ""
-  "noiref.toc" 1767721502 1931 06332558bffaf01ef23c3cf537b475e7 "pdflatex"
+  "noiref.toc" 1767722429 1931 d8a556559ed5c82f8a49f4c870928fb3 "pdflatex"
   "src/algo_bs.cpp" 1767712490 205 d73ed5e84c3e9570cb1476bbb1133b23 ""
   "src/algo_bs_lifting.cpp" 1767712611 190 0ef9e153748609cdab80b5a800fa9712 ""
   "src/algo_slidingset.cpp" 1767719461 318 1d2bdddc3e44eb1ee9b543b1838a0b5d ""
   "src/dp_coinchange.cpp" 1767717123 238 e435ed27a1df39b3a74705fe54d54b3b ""
   "src/dp_coincombinations.cpp" 1767715439 240 7acb4086cf82afb17169c9f2bf2ea3cc ""
-  "src/dp_digit.cpp" 1767721365 1609 4d5a777b5e990db6ee9c4a3db20e4b69 ""
+  "src/dp_digit.cpp" 1767722427 2028 a707cabbd6aa31bc1174ad7d725494e9 ""
   "src/dp_knapsack_01.cpp" 1767717136 131 6bf24ef99e3865b50c43a2ef0945896e ""
   "src/dp_lis_n2.cpp" 1767714965 211 39b764c45b5288265256709f19a05e62 ""
   "src/dp_maxsum_1d.cpp" 1767714635 142 d2e168cb9c1cf94a422c4d0a38a1f377 ""

@@ -48,3 +48,19 @@ ll solve(ll x){
     memset(dp, -1, sizeof(dp));
     return derp(0, 10, 10, true, false);
 }
+
+// To compute the kth string satisfying
+// Either binary search or build character by character:
+int count = 0;
+vector<int> ans;
+for (int i = 0; i < n; i++) {
+    int x = 0;
+    for (int j = 1; j < 10; j++) { // adjust to size of alphabet
+        if (count + dp(i, j) > k) {
+            break;
+        }
+        x = j;
+    }
+    count += dp(i, x); // position i is bounded by x
+    ans.push_back(x);
+}
