@@ -62,8 +62,12 @@ $O(R\cdot C)$ precomputation, $O(1)$ query.
 \section{Graph Theory}
 
 \subsection{Depth First Search}
-Runs in $O(N)$.
+Runs in $O(V)$.
 \lstinputlisting[language=C++]{src/graph_dfs.cpp}
+
+\subsection{Breadth First Search}
+Runs in $O(V)$.
+\lstinputlisting[language=C++]{src/graph_bfs.cpp}
 
 \section{Dynamic Programming}
 
@@ -100,6 +104,10 @@ Find the cuberoot of $n$. Runs in $O(\log{N})$.
 \subsection{Binary Search using Lifting}
 Find the cuberoot of $n$. Runs in $O(\log{N})$.
 \lstinputlisting[language=C++]{src/algo_bs_lifting.cpp}
+
+\subsection{Sliding Set}
+Speeds up DP from $O(N^2)$ to $O(N \log{N})$.
+\lstinputlisting[language=C++]{src/algo_slidingset.cpp}
 
 \section{Miscellaneous}
 

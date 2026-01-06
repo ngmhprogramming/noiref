@@ -159,6 +159,9 @@ INPUT src\ds_ps_2d.cpp
 INPUT .\src\graph_dfs.cpp
 INPUT .\src\graph_dfs.cpp
 INPUT src\graph_dfs.cpp
+INPUT .\src\graph_bfs.cpp
+INPUT .\src\graph_bfs.cpp
+INPUT src\graph_bfs.cpp
 INPUT .\src\dp_maxsum_1d.cpp
 INPUT .\src\dp_maxsum_1d.cpp
 INPUT src\dp_maxsum_1d.cpp
@@ -180,6 +183,9 @@ INPUT src\algo_bs.cpp
 INPUT .\src\algo_bs_lifting.cpp
 INPUT .\src\algo_bs_lifting.cpp
 INPUT src\algo_bs_lifting.cpp
+INPUT .\src\algo_slidingset.cpp
+INPUT .\src\algo_slidingset.cpp
+INPUT src\algo_slidingset.cpp
 INPUT .\src\misc_fast_io.cpp
 INPUT .\src\misc_fast_io.cpp
 INPUT src\misc_fast_io.cpp
