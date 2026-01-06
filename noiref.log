@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.19)  6 JAN 2026 23:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.19)  7 JAN 2026 00:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -319,26 +319,39 @@ File: lstlang1.sty 2023/02/27 1.9 listings language file
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 55.
- (src/ds_ps_1d.cpp) (src/algo_bs.cpp) (src/algo_bs_lifting.cpp) [2] (src/misc_fast_io.cpp) (src/misc_superfast_io.cpp) [3] (noiref.aux)
+ (src/ds_ps_1d.cpp) (src/ds_ps_2d.cpp) (src/dp_maxsum_1d.cpp)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 70.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 70.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 70.
+
+(src/dp_lis_n2.cpp [2]) (src/dp_coincombinations.cpp) (src/dp_coinchange.cpp) (src/algo_bs.cpp [3]) (src/algo_bs_lifting.cpp) (src/misc_fast_io.cpp) (src/misc_superfast_io.cpp) [4] (noiref.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `noiref.out' has not changed.
-(rerunfilecheck)             Checksum: 6A80829B53F81F038098626A63EC8111;1378.
+(rerunfilecheck)             Checksum: 1C4C508E9ED399252C4808DB0E6F8B17;2194.
  ) 
 Here is how much of TeX's memory you used:
- 11067 strings out of 474486
- 169743 string characters out of 5744226
- 1965542 words of memory out of 5000000
- 33171 multiletter control sequences out of 15000+600000
+ 11212 strings out of 474486
+ 171961 string characters out of 5744226
+ 1980542 words of memory out of 5000000
+ 33239 multiletter control sequences out of 15000+600000
  562492 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,458b,1306s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on noiref.pdf (3 pages, 124223 bytes).
+ 75i,8n,79p,458b,2025s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on noiref.pdf (4 pages, 150558 bytes).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
- 59 named destinations out of 1000 (max. 500000)
- 97 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 300 PDF objects out of 1000 (max. 8388607)
+ 121 named destinations out of 1000 (max. 500000)
+ 153 words of extra memory for PDF output out of 10000 (max. 10000000)
 
