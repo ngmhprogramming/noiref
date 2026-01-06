@@ -156,6 +156,9 @@ INPUT src\ds_ps_1d.cpp
 INPUT .\src\ds_ps_2d.cpp
 INPUT .\src\ds_ps_2d.cpp
 INPUT src\ds_ps_2d.cpp
+INPUT .\src\graph_dfs.cpp
+INPUT .\src\graph_dfs.cpp
+INPUT src\graph_dfs.cpp
 INPUT .\src\dp_maxsum_1d.cpp
 INPUT .\src\dp_maxsum_1d.cpp
 INPUT src\dp_maxsum_1d.cpp

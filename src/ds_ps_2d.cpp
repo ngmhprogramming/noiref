@@ -4,8 +4,10 @@ int query(int x1, int y1, int x2, int y2){
 }
 
 //Precomputation
-for(int i = 1; i <= r; i++){
-    for(int j = 1; j <= c; j++){
+for (int i = 0; i <= r; i++) ps[i][0] = 0;
+for (int j = 0; j <= c; j++) ps[0][j] = 0;
+for (int i = 1; i <= r; i++) {
+    for (int j = 1; j <= c; j++) {
         ps[i][j] = ps[i-1][j]+ps[i][j-1]-ps[i-1][j-1]+a[i][j]; 
     }
 }
