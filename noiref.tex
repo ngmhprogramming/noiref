@@ -52,9 +52,11 @@ Segment Tree   & X / O(log N)            & O(log N) & O(4N)      & Allows more I
 
 \subsection{Prefix Sums}
 \subsubsection{1D}
+$O(N)$ precomputation, $O(1)$ query.
 \lstinputlisting[language=C++]{src/ds_ps_1d.cpp}
 
 \subsubsection{2D}
+$O(R\cdot C)$ precomputation, $O(1)$ query.
 \lstinputlisting[language=C++]{src/ds_ps_2d.cpp}
 
 \section{Graph Theory}
@@ -63,7 +65,7 @@ Segment Tree   & X / O(log N)            & O(log N) & O(4N)      & Allows more I
 
 \subsection{Maxsum}
 \subsubsection{1D}
-Kadane's Algorithm.
+Kadane's Algorithm. Runs in $O(N)$.
 \lstinputlisting[language=C++]{src/dp_maxsum_1d.cpp}
 
 \subsection{Longest Increasing Subsequence}
@@ -71,21 +73,28 @@ Kadane's Algorithm.
 \lstinputlisting[language=C++]{src/dp_lis_n2.cpp}
 
 \subsection{Coin Combinations}
+Runs in $O(N \cdot V)$.
 \lstinputlisting[language=C++]{src/dp_coincombinations.cpp}
 
 \subsection{Coin Change}
+Runs in $O(N \cdot V)$.
 \lstinputlisting[language=C++]{src/dp_coinchange.cpp}
+
+\subsection{Knapsack}
+\subsubsection{0-1}
+Runs in $O(N \cdot S)$.
+\lstinputlisting[language=C++]{src/dp_knapsack_01.cpp}
 
 \section{Math}
 
 \section{Algorithms}
 
 \subsection{Binary Search}
-Find the cuberoot of $n$.
+Find the cuberoot of $n$. Runs in $O(\log{N})$.
 \lstinputlisting[language=C++]{src/algo_bs.cpp}
 
 \subsection{Binary Search using Lifting}
-Find the cuberoot of $n$.
+Find the cuberoot of $n$. Runs in $O(\log{N})$.
 \lstinputlisting[language=C++]{src/algo_bs_lifting.cpp}
 
 \section{Miscellaneous}

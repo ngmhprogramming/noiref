@@ -168,6 +168,9 @@ INPUT src\dp_coincombinations.cpp
 INPUT .\src\dp_coinchange.cpp
 INPUT .\src\dp_coinchange.cpp
 INPUT src\dp_coinchange.cpp
+INPUT .\src\dp_knapsack_01.cpp
+INPUT .\src\dp_knapsack_01.cpp
+INPUT src\dp_knapsack_01.cpp
 INPUT .\src\algo_bs.cpp
 INPUT .\src\algo_bs.cpp
 INPUT src\algo_bs.cpp
@@ -197,5 +200,7 @@ INPUT C:\Users\ngmh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm
 INPUT C:\Users\ngmh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
 INPUT C:\Users\ngmh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Users\ngmh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Users\ngmh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\ngmh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\ngmh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
 INPUT C:\Users\ngmh\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
