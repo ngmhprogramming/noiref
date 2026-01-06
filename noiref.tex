@@ -5,6 +5,7 @@
 \usepackage{xcolor}
 \usepackage{float}
 \usepackage{hyperref}
+\usepackage{accsupp}
 
 \hypersetup{
     colorlinks=true,
@@ -17,10 +18,10 @@
     frame=tb,
     tabsize=4,
     showstringspaces=false,
-    numbers=left,
+    numbers=none,
     commentstyle=\color{purple},
     keywordstyle=\color{orange},
-    numberstyle=\color{gray},
+    % numberstyle=\color{gray},
     stringstyle=\color{green},
     basicstyle=\ttfamily
 }
@@ -52,5 +53,31 @@ Segment Tree   & X / O(log N)            & O(log N) & O(4N)      & Allows more I
 \subsection{Prefix Sums}
 \subsubsection{1D}
 \lstinputlisting[language=C++]{src/ds_ps_1d.cpp}
+
+\section{Graph Theory}
+
+\section{Dynamic Programming}
+
+\section{Math}
+
+\section{Algorithms}
+
+\subsection{Binary Search}
+Find the cuberoot of $n$.
+\lstinputlisting[language=C++]{src/algo_bs.cpp}
+
+\subsection{Binary Search using Lifting}
+Find the cuberoot of $n$.
+\lstinputlisting[language=C++]{src/algo_bs_lifting.cpp}
+
+\section{Miscellaneous}
+
+\subsection{Fast I/O}
+Cannot use with \verb|scanf, printf|.
+\lstinputlisting[language=C++]{src/misc_fast_io.cpp}
+
+\subsection{Superfast I/O}
+Only for non-negative integer input!
+\lstinputlisting[language=C++]{src/misc_superfast_io.cpp}
 
 \end{document}
