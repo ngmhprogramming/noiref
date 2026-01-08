@@ -59,6 +59,20 @@ $O(N)$ precomputation, $O(1)$ query.
 $O(R\cdot C)$ precomputation, $O(1)$ query.
 \lstinputlisting[language=C++]{src/ds_ps_2d.cpp}
 
+\subsection{Fenwick Trees}
+\subsubsection{Point Update Range Query}
+$O(\log N)$ update and query.
+\lstinputlisting[language=C++]{src/ds_fw_purq.cpp}
+
+\subsubsection{Range Update Point Query}
+$O(\log N)$ update and query.
+\lstinputlisting[language=C++]{src/ds_fw_rupq.cpp}
+
+\subsubsection{Range Update Range Query}
+$O(\log N)$ update and query.
+\lstinputlisting[language=C++]{src/ds_fw_rurq.cpp}
+
+
 \section{Graph Theory}
 
 \subsection{Depth First Search}
@@ -68,6 +82,10 @@ Runs in $O(V)$.
 \subsection{Breadth First Search}
 Runs in $O(V)$.
 \lstinputlisting[language=C++]{src/graph_bfs.cpp}
+
+\subsection{Union Find Disjoint Subset}
+With both path compression and union by rank, runs in $O(\alpha(n))$ (basically constant time).
+\lstinputlisting[language=C++]{src/graph_ufds.cpp}
 
 \section{Dynamic Programming}
 

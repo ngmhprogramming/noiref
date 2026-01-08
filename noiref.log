@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.19)  7 JAN 2026 02:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.19)  8 JAN 2026 15:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -319,20 +319,20 @@ File: lstlang1.sty 2023/02/27 1.9 listings language file
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 56.
- (src/ds_ps_1d.cpp) (src/ds_ps_2d.cpp) (src/graph_dfs.cpp) [2] (src/graph_bfs.cpp) (src/dp_maxsum_1d.cpp)
+ (src/ds_ps_1d.cpp) (src/ds_ps_2d.cpp) (src/ds_fw_purq.cpp [2]) (src/ds_fw_rupq.cpp) (src/ds_fw_rurq.cpp) (src/graph_dfs.cpp) [3] (src/graph_bfs.cpp) (src/graph_ufds.cpp) (src/dp_maxsum_1d.cpp)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 80.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 80.
+(hyperref)                removing `math shift' on input line 98.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 80.
+(hyperref)                removing `superscript' on input line 98.
 
-(src/dp_lis_n2.cpp) (src/dp_coincombinations.cpp [3]) (src/dp_coinchange.cpp) (src/dp_knapsack_01.cpp) (src/dp_digit.cpp
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 98.
+
+[4] (src/dp_lis_n2.cpp) (src/dp_coincombinations.cpp) (src/dp_coinchange.cpp) (src/dp_knapsack_01.cpp) [5] (src/dp_digit.cpp
 Overfull \hbox (13.2312pt too wide) in paragraph at lines 8--10
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -342,31 +342,31 @@ Overfull \hbox (0.63123pt too wide) in paragraph at lines 16--17
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[4]
+
 Overfull \hbox (0.63123pt too wide) in paragraph at lines 27--28
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-) (src/algo_bs.cpp [5]) (src/algo_bs_lifting.cpp) (src/algo_slidingset.cpp) (src/misc_fast_io.cpp) (src/misc_superfast_io.cpp [6]) [7] (noiref.aux)
+[6]) (src/algo_bs.cpp) (src/algo_bs_lifting.cpp) (src/algo_slidingset.cpp [7]) (src/misc_fast_io.cpp) (src/misc_superfast_io.cpp) [8] (noiref.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `noiref.out' has not changed.
-(rerunfilecheck)             Checksum: 8EEA3411BE49F55A5A1590D931294AA0;2910.
+(rerunfilecheck)             Checksum: 3C697CD8491F1A09C62B6195C41887DD;3824.
  ) 
 Here is how much of TeX's memory you used:
- 11460 strings out of 474486
- 175605 string characters out of 5744226
- 1992542 words of memory out of 5000000
- 33347 multiletter control sequences out of 15000+600000
+ 11588 strings out of 474486
+ 177591 string characters out of 5744226
+ 2001542 words of memory out of 5000000
+ 33394 multiletter control sequences out of 15000+600000
  562492 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,8n,79p,458b,2027s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on noiref.pdf (7 pages, 191051 bytes).
+Output written on noiref.pdf (8 pages, 209344 bytes).
 PDF statistics:
- 496 PDF objects out of 1000 (max. 8388607)
- 246 named destinations out of 1000 (max. 500000)
- 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 607 PDF objects out of 1000 (max. 8388607)
+ 315 named destinations out of 1000 (max. 500000)
+ 241 words of extra memory for PDF output out of 10000 (max. 10000000)
 

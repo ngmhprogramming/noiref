@@ -2,24 +2,29 @@
 \contentsline {subsection}{\numberline {1.1}Prefix Sums}{2}{subsection.1.1}%
 \contentsline {subsubsection}{\numberline {1.1.1}1D}{2}{subsubsection.1.1.1}%
 \contentsline {subsubsection}{\numberline {1.1.2}2D}{2}{subsubsection.1.1.2}%
-\contentsline {section}{\numberline {2}Graph Theory}{2}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Depth First Search}{2}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Breadth First Search}{3}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Dynamic Programming}{3}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Maxsum}{3}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}1D}{3}{subsubsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.2}Longest Increasing Subsequence}{3}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}$N^2$ DP}{3}{subsubsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.3}Coin Combinations}{3}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Coin Change}{4}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Knapsack}{4}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}0-1}{4}{subsubsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.6}Digit DP}{4}{subsection.3.6}%
-\contentsline {section}{\numberline {4}Math}{5}{section.4}%
-\contentsline {section}{\numberline {5}Algorithms}{5}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Binary Search}{5}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Binary Search using Lifting}{6}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Sliding Set}{6}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Miscellaneous}{6}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Fast I/O}{6}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Superfast I/O}{6}{subsection.6.2}%
+\contentsline {subsection}{\numberline {1.2}Fenwick Trees}{2}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Point Update Range Query}{2}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Range Update Point Query}{3}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}Range Update Range Query}{3}{subsubsection.1.2.3}%
+\contentsline {section}{\numberline {2}Graph Theory}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Depth First Search}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Breadth First Search}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Union Find Disjoint Subset}{4}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Dynamic Programming}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Maxsum}{4}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}1D}{4}{subsubsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.2}Longest Increasing Subsequence}{5}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}$N^2$ DP}{5}{subsubsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.3}Coin Combinations}{5}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Coin Change}{5}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Knapsack}{5}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}0-1}{5}{subsubsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.6}Digit DP}{6}{subsection.3.6}%
+\contentsline {section}{\numberline {4}Math}{7}{section.4}%
+\contentsline {section}{\numberline {5}Algorithms}{7}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Binary Search}{7}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Binary Search using Lifting}{7}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Sliding Set}{7}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Miscellaneous}{8}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Fast I/O}{8}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Superfast I/O}{8}{subsection.6.2}%
