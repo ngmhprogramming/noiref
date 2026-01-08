@@ -117,6 +117,35 @@ Runs in $O(D)$.
 
 
 \section{Math}
+\subsection{Fast Exponentiation}
+Runs in $O(\log{b})$.
+\lstinputlisting[language=C++]{src/math_powmod.cpp}
+
+\subsection{Prime Factorisation}
+Runs in $O(\sqrt{x})$.
+\lstinputlisting[language=C++]{src/math_primefac.cpp}
+
+\subsection{Sieve of Eratosthenes}
+Runs in $O(n \log \log n)$ with high constant.
+\lstinputlisting[language=C++]{src/math_sieve.cpp}
+
+\subsection{Greatest Common Divisor}
+Runs in $O(\log \min(a, b))$.
+\lstinputlisting[language=C++]{src/math_gcd.cpp}
+
+\subsection{Lowest Common Multiple}
+\lstinputlisting[language=C++]{src/math_lcm.cpp}
+
+\subsection{Modular Inverse}
+\lstinputlisting[language=C++]{src/math_modinv.cpp}
+
+\subsection{$n \choose k$}
+Precomputation takes $O(MAXN)$ time, queries answered in $O(1)$.
+\lstinputlisting[language=C++]{src/math_nck.cpp}
+
+\subsection{Fibonacci}
+Runs in $O(\log N)$ time.
+\lstinputlisting[language=C++]{src/math_fibo.cpp}
 
 \section{Algorithms}
 
