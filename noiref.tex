@@ -76,12 +76,32 @@ $O(\log N)$ update and query.
 \section{Graph Theory}
 
 \subsection{Depth First Search}
-Runs in $O(V)$.
+Runs in $O(V + E)$.
 \lstinputlisting[language=C++]{src/graph_dfs.cpp}
 
 \subsection{Breadth First Search}
-Runs in $O(V)$.
+Runs in $O(V + E)$.
 \lstinputlisting[language=C++]{src/graph_bfs.cpp}
+
+\subsection{0-1 BFS}
+Runs in $O(V + E)$.
+\lstinputlisting[language=C++]{src/graph_01bfs.cpp}
+
+\subsection{Floyd-Warshall}
+Runs in $O(N^3)$.
+\lstinputlisting[language=C++]{src/graph_floydwarshall.cpp}
+
+\subsection{Bellman-Ford}
+Runs in $O(VE)$.
+\lstinputlisting[language=C++]{src/graph_bellmanford.cpp}
+
+\subsection{Dijkstra}
+Runs in $O(E \log V)$.
+\lstinputlisting[language=C++]{src/graph_dijkstra.cpp}
+
+\subsection{Shortest Path Faster Algorithm}
+Runs in $O(VE)$.
+\lstinputlisting[language=C++]{src/graph_spfa.cpp}
 
 \subsection{Union Find Disjoint Subset}
 With both path compression and union by rank, runs in $O(\alpha(n))$ (basically constant time).
@@ -114,7 +134,6 @@ Runs in $O(N \cdot S)$.
 \subsection{Digit DP}
 Runs in $O(D)$.
 \lstinputlisting[language=C++]{src/dp_digit.cpp}
-
 
 \section{Math}
 \subsection{Fast Exponentiation}
