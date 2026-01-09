@@ -255,6 +255,12 @@ INPUT src\dp_maxsum_1d.cpp
 INPUT .\src\dp_lis_n2.cpp
 INPUT .\src\dp_lis_n2.cpp
 INPUT src\dp_lis_n2.cpp
+INPUT .\src\dp_lis_ds.cpp
+INPUT .\src\dp_lis_ds.cpp
+INPUT src\dp_lis_ds.cpp
+INPUT .\src\dp_lis_optimal.cpp
+INPUT .\src\dp_lis_optimal.cpp
+INPUT src\dp_lis_optimal.cpp
 INPUT .\src\dp_coincombinations.cpp
 INPUT .\src\dp_coincombinations.cpp
 INPUT src\dp_coincombinations.cpp

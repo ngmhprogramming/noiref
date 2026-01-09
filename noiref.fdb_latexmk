@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1767954975.6856 "c:/Users/ngmh/Desktop/noiref/noiref.tex" "noiref.pdf" "noiref" 1767954977.43989 0
+["pdflatex"] 1767955647.13545 "c:/Users/ngmh/Desktop/noiref/noiref.tex" "noiref.pdf" "noiref" 1767955648.94191 0
   "C:/Users/ngmh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1767711933 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/ngmh/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1766133143 24224575 e9da776e712400959a67a96e531db3fb ""
   "C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -77,11 +77,11 @@
   "C:/Users/ngmh/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1751104012 9684 a33a14b82ce60d6e77cb9be689d79ee6 ""
   "C:/Users/ngmh/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/ngmh/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/ngmh/Desktop/noiref/noiref.tex" 1767954971 8494 d6df2ee80b02594cd923a261123f6185 ""
-  "noiref.aux" 1767954977 16171 af8b1ee0e2a39b72716ad2c62054dd9b "pdflatex"
-  "noiref.out" 1767954977 9478 d38c48a519e7512a5c1f0c2aef1fb021 "pdflatex"
-  "noiref.tex" 1767954971 8494 d6df2ee80b02594cd923a261123f6185 ""
-  "noiref.toc" 1767954977 5792 d7b7110a5c2ac4db1c36a32f2667ecfe "pdflatex"
+  "c:/Users/ngmh/Desktop/noiref/noiref.tex" 1767955344 8676 2ccbd6400afc8cf04c8f33f7b988916f ""
+  "noiref.aux" 1767955648 16724 cdd75ccd3bff02964f7ae71d7c6bfd77 "pdflatex"
+  "noiref.out" 1767955648 9781 5fc2517fe2dbd13c8f4f9c3c1d475ea1 "pdflatex"
+  "noiref.tex" 1767955344 8676 2ccbd6400afc8cf04c8f33f7b988916f ""
+  "noiref.toc" 1767955648 5981 0cf1a602d0a671242435010d8b5903bd "pdflatex"
   "src/algo_bs.cpp" 1767712490 205 d73ed5e84c3e9570cb1476bbb1133b23 ""
   "src/algo_bs_lifting.cpp" 1767712611 190 0ef9e153748609cdab80b5a800fa9712 ""
   "src/algo_discretise.cpp" 1767954921 240 9dfda5be269dc95737b533e6a6daf965 ""
@@ -91,7 +91,9 @@
   "src/dp_coincombinations.cpp" 1767715439 240 7acb4086cf82afb17169c9f2bf2ea3cc ""
   "src/dp_digit.cpp" 1767722429 2028 a707cabbd6aa31bc1174ad7d725494e9 ""
   "src/dp_knapsack_01.cpp" 1767717136 131 6bf24ef99e3865b50c43a2ef0945896e ""
+  "src/dp_lis_ds.cpp" 1767955646 210 e35ea3484883dee0bec2fdd8efdd1610 ""
   "src/dp_lis_n2.cpp" 1767714965 211 39b764c45b5288265256709f19a05e62 ""
+  "src/dp_lis_optimal.cpp" 1767955472 170 381b0b52417e950dda2947c5e5904e20 ""
   "src/dp_maxsum_1d.cpp" 1767714635 142 d2e168cb9c1cf94a422c4d0a38a1f377 ""
   "src/ds_fw_2d.cpp" 1767948501 777 22e2f9e038c521f33cde3e0aed8273bc ""
   "src/ds_fw_2drurq.cpp" 1767948629 849 a4255d10117511f2f813e248a8f57886 ""

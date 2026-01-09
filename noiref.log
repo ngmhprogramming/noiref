@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.19)  9 JAN 2026 18:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.19)  9 JAN 2026 18:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -365,7 +365,37 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 201.
 
-(src/dp_lis_n2.cpp) (src/dp_coincombinations.cpp) (src/dp_coinchange.cpp) (src/dp_knapsack_01.cpp [18]) (src/dp_digit.cpp
+(src/dp_lis_n2.cpp) (src/dp_lis_ds.cpp
+Overfull \hbox (0.63123pt too wide) in paragraph at lines 1--2
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 207.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathop' on input line 207.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\mathgroup' on input line 207.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\symoperators' on input line 207.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\nolimits' on input line 207.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 207.
+
+(src/dp_lis_optimal.cpp) (src/dp_coincombinations.cpp) [18] (src/dp_coinchange.cpp) (src/dp_knapsack_01.cpp) (src/dp_digit.cpp
 Overfull \hbox (13.2312pt too wide) in paragraph at lines 8--10
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -380,44 +410,44 @@ Overfull \hbox (0.63123pt too wide) in paragraph at lines 27--28
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[19]) (src/math_powmod.cpp) (src/math_primefac.cpp) [20] (src/math_sieve.cpp) (src/math_gcd.cpp) (src/math_lcm.cpp) (src/math_modinv.cpp)
+[19]) (src/math_powmod.cpp) [20] (src/math_primefac.cpp) (src/math_sieve.cpp) (src/math_gcd.cpp) (src/math_lcm.cpp) (src/math_modinv.cpp) [21]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 244.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\atopwithdelims' on input line 244.
+(hyperref)                removing `math shift' on input line 250.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 244.
+(hyperref)                removing `\atopwithdelims' on input line 250.
 
-(src/math_nck.cpp [21]) (src/math_fibo.cpp) (src/algo_bs.cpp) [22] (src/algo_bs_lifting.cpp) (src/algo_slidingset.cpp) (src/algo_setmerging.cpp) (src/algo_discretise.cpp
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 250.
+
+(src/math_nck.cpp) (src/math_fibo.cpp [22]) (src/algo_bs.cpp) (src/algo_bs_lifting.cpp) (src/algo_slidingset.cpp) (src/algo_setmerging.cpp [23]) (src/algo_discretise.cpp
 Overfull \hbox (0.63123pt too wide) in paragraph at lines 6--7
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-) [23] (src/misc_fast_io.cpp) (src/misc_superfast_io.cpp) [24] (noiref.aux)
+) (src/misc_fast_io.cpp) (src/misc_superfast_io.cpp) [24] (noiref.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `noiref.out' has not changed.
-(rerunfilecheck)             Checksum: D38C48A519E7512A5C1F0C2AEF1FB021;9478.
+(rerunfilecheck)             Checksum: 5FC2517FE2DBD13C8F4F9C3C1D475EA1;9781.
  ) 
 Here is how much of TeX's memory you used:
- 12795 strings out of 474486
- 197958 string characters out of 5744226
+ 12830 strings out of 474486
+ 198633 string characters out of 5744226
  2003542 words of memory out of 5000000
- 33722 multiletter control sequences out of 15000+600000
+ 33732 multiletter control sequences out of 15000+600000
  562492 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,8n,79p,458b,2027s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on noiref.pdf (24 pages, 403906 bytes).
+Output written on noiref.pdf (24 pages, 408446 bytes).
 PDF statistics:
- 1791 PDF objects out of 2073 (max. 8388607)
- 1089 named destinations out of 1200 (max. 500000)
- 545 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1823 PDF objects out of 2073 (max. 8388607)
+ 1108 named destinations out of 1200 (max. 500000)
+ 561 words of extra memory for PDF output out of 10000 (max. 10000000)
 
