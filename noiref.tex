@@ -206,6 +206,14 @@ Runs in $O(\log N)$.
 Runs in $O(\log N)$.
 \lstinputlisting[language=C++]{src/graph_tree_sp.cpp}
 
+\subsubsection{Heavy Light Decomposition}
+$O(N)$ precomputation, $O(\log N)$ query (excluding $O(\log N)$ from data structure).
+\lstinputlisting[language=C++]{src/graph_tree_hld.cpp}
+
+\subsubsection{Centroid Decomposition}
+$O(N \log N)$ precomputation, $O(\log N)$ updates and queries.
+\lstinputlisting[language=C++]{src/graph_tree_cd.cpp}
+
 \section{Dynamic Programming}
 
 \subsection{Maxsum}
@@ -273,6 +281,7 @@ Runs in $O(\log \min(a, b))$.
 \lstinputlisting[language=C++]{src/math_lcm.cpp}
 
 \subsection{Modular Inverse}
+For prime modulo.
 \lstinputlisting[language=C++]{src/math_modinv.cpp}
 
 \subsection{$n \choose k$}
