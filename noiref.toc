@@ -52,21 +52,22 @@
 \contentsline {subsection}{\numberline {3.6}Digit DP}{19}{subsection.3.6}%
 \contentsline {subsection}{\numberline {3.7}Convex Hull Trick}{20}{subsection.3.7}%
 \contentsline {subsection}{\numberline {3.8}Li Chao Tree}{21}{subsection.3.8}%
-\contentsline {section}{\numberline {4}Math}{22}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Fast Exponentiation}{22}{subsection.4.1}%
+\contentsline {subsection}{\numberline {3.9}Divide and Conquer}{22}{subsection.3.9}%
+\contentsline {section}{\numberline {4}Math}{23}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Fast Exponentiation}{23}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Prime Factorisation}{23}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Sieve of Eratosthenes}{23}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Greatest Common Divisor}{23}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Lowest Common Multiple}{23}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Modular Inverse}{23}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.3}Sieve of Eratosthenes}{24}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Greatest Common Divisor}{24}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Lowest Common Multiple}{24}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Modular Inverse}{24}{subsection.4.6}%
 \contentsline {subsection}{\numberline {4.7}$n \atopwithdelims ()k$}{24}{subsection.4.7}%
-\contentsline {subsection}{\numberline {4.8}Fibonacci}{24}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.8}Fibonacci}{25}{subsection.4.8}%
 \contentsline {section}{\numberline {5}Algorithms}{25}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Binary Search}{25}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Binary Search using Lifting}{25}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Sliding Set}{25}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Set Merging}{25}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.2}Binary Search using Lifting}{26}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Sliding Set}{26}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Set Merging}{26}{subsection.5.4}%
 \contentsline {subsection}{\numberline {5.5}Discretisation}{26}{subsection.5.5}%
-\contentsline {section}{\numberline {6}Miscellaneous}{26}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Fast I/O}{26}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Superfast I/O}{26}{subsection.6.2}%
+\contentsline {section}{\numberline {6}Miscellaneous}{27}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Fast I/O}{27}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Superfast I/O}{27}{subsection.6.2}%
