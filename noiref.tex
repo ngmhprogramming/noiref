@@ -72,6 +72,34 @@ $O(\log N)$ update and query.
 $O(\log N)$ update and query.
 \lstinputlisting[language=C++]{src/ds_fw_rurq.cpp}
 
+\subsubsection{2D PURQ / RUPQ}
+$O(\log N \cdot \log M)$ update and query.
+\lstinputlisting[language=C++]{src/ds_fw_2d.cpp}
+
+\subsubsection{2D RURQ}
+$O(\log N \cdot \log M)$ update and query.
+\lstinputlisting[language=C++]{src/ds_fw_2drurq.cpp}
+
+\subsection{Segment Trees}
+\subsubsection{Standard}
+$O(\log N)$ point update and range query.
+\lstinputlisting[language=C++]{src/ds_st_standard.cpp}
+
+\subsubsection{Lazy Propagation}
+$O(\log N)$ range update and range query.
+\lstinputlisting[language=C++]{src/ds_st_lazyprop.cpp}
+
+\subsubsection{Maxsum}
+$O(\log N)$ point update and range query.
+\lstinputlisting[language=C++]{src/ds_st_maxsum.cpp}
+
+\subsubsection{Merge Sort Tree / Order Statistics}
+Insertion: $O(\log N)$, Building: $O(N \log^2 N)$, Counting: $O(\log^2 N)$, Finding: $O(\log V \cdot \log^2 N)$, Range Max: $O(\log N)$.
+\lstinputlisting[language=C++]{src/ds_st_mergesort.cpp}
+
+\subsubsection{2D}
+$O(N \cdot \log N \cdot \log M)$ point update and range query.
+\lstinputlisting[language=C++]{src/ds_st_2d.cpp}
 
 \section{Graph Theory}
 

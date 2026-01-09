@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.19)  9 JAN 2026 16:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.19)  9 JAN 2026 17:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -319,33 +319,48 @@ File: lstlang1.sty 2023/02/27 1.9 listings language file
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 56.
- (src/ds_ps_1d.cpp) (src/ds_ps_2d.cpp) (src/ds_fw_purq.cpp [3]) (src/ds_fw_rupq.cpp) (src/ds_fw_rurq.cpp) (src/graph_dfs.cpp) [4] (src/graph_bfs.cpp) (src/graph_01bfs.cpp) (src/graph_floydwarshall.cpp) [5] (src/graph_bellmanford.cpp) (src/graph_dijkstra.cpp) (src/graph_spfa.cpp [6]) (src/graph_prim.cpp) (src/graph_ufds.cpp) [7] (src/graph_kruskal.cpp) (src/graph_toposort.cpp) (src/graph_cycle.cpp) (src/graph_tree_order.cpp [8]) (src/graph_tree_range.cpp) (src/graph_tree_weightedmis.cpp) (src/graph_tree_diam.cpp [9])
+ (src/ds_ps_1d.cpp) (src/ds_ps_2d.cpp) (src/ds_fw_purq.cpp [3]) (src/ds_fw_rupq.cpp) (src/ds_fw_rurq.cpp) (src/ds_fw_2d.cpp [4]
+Overfull \hbox (32.13116pt too wide) in paragraph at lines 25--26
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) (src/ds_fw_2drurq.cpp
+Overfull \hbox (57.33112pt too wide) in paragraph at lines 26--27
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) [5] (src/ds_st_standard.cpp) (src/ds_st_lazyprop.cpp [6]) (src/ds_st_maxsum.cpp) (src/ds_st_mergesort.cpp [7]
+Overfull \hbox (38.43115pt too wide) in paragraph at lines 37--38
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) (src/ds_st_2d.cpp [8]) (src/graph_dfs.cpp) (src/graph_bfs.cpp) [9] (src/graph_01bfs.cpp) (src/graph_floydwarshall.cpp) (src/graph_bellmanford.cpp) [10] (src/graph_dijkstra.cpp) (src/graph_spfa.cpp) (src/graph_prim.cpp [11]) (src/graph_ufds.cpp) (src/graph_kruskal.cpp) (src/graph_toposort.cpp [12]) (src/graph_cycle.cpp) (src/graph_tree_order.cpp) (src/graph_tree_range.cpp [13]) (src/graph_tree_weightedmis.cpp) (src/graph_tree_diam.cpp)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 144.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 144.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 144.
-
-(src/graph_tree_2kdecomp.cpp) (src/graph_tree_lca.cpp [10]) (src/graph_tree_sp.cpp) (src/dp_maxsum_1d.cpp)
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 164.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 164.
+(hyperref)                removing `math shift' on input line 172.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 164.
+(hyperref)                removing `superscript' on input line 172.
 
-(src/dp_lis_n2.cpp) (src/dp_coincombinations.cpp) [11] (src/dp_coinchange.cpp) (src/dp_knapsack_01.cpp) (src/dp_digit.cpp
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 172.
+
+[14] (src/graph_tree_2kdecomp.cpp) (src/graph_tree_lca.cpp) (src/graph_tree_sp.cpp) [15] (src/dp_maxsum_1d.cpp)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 192.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 192.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 192.
+
+(src/dp_lis_n2.cpp) (src/dp_coincombinations.cpp) (src/dp_coinchange.cpp) [16] (src/dp_knapsack_01.cpp) (src/dp_digit.cpp
 Overfull \hbox (13.2312pt too wide) in paragraph at lines 8--10
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -360,39 +375,39 @@ Overfull \hbox (0.63123pt too wide) in paragraph at lines 27--28
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[12]) (src/math_powmod.cpp) [13] (src/math_primefac.cpp) (src/math_sieve.cpp) (src/math_gcd.cpp) (src/math_lcm.cpp) (src/math_modinv.cpp) [14]
+[17]) (src/math_powmod.cpp) (src/math_primefac.cpp [18]) (src/math_sieve.cpp) (src/math_gcd.cpp) (src/math_lcm.cpp) (src/math_modinv.cpp)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 207.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\atopwithdelims' on input line 207.
+(hyperref)                removing `math shift' on input line 235.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 207.
+(hyperref)                removing `\atopwithdelims' on input line 235.
 
-(src/math_nck.cpp) (src/math_fibo.cpp [15]) (src/algo_bs.cpp) (src/algo_bs_lifting.cpp) (src/algo_slidingset.cpp) (src/algo_setmerging.cpp [16]) (src/misc_fast_io.cpp) (src/misc_superfast_io.cpp) [17] (noiref.aux)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 235.
+
+(src/math_nck.cpp [19]) (src/math_fibo.cpp) (src/algo_bs.cpp [20]) (src/algo_bs_lifting.cpp) (src/algo_slidingset.cpp) (src/algo_setmerging.cpp) (src/misc_fast_io.cpp) [21] (src/misc_superfast_io.cpp) [22] (noiref.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `noiref.out' has not changed.
-(rerunfilecheck)             Checksum: 4E121F01F97106853FD9ED204301A0F2;7742.
+(rerunfilecheck)             Checksum: F642E7288C330AB40AE3A76B5377D644;8809.
  ) 
 Here is how much of TeX's memory you used:
- 12285 strings out of 474486
- 189555 string characters out of 5744226
- 1997542 words of memory out of 5000000
- 33615 multiletter control sequences out of 15000+600000
+ 12631 strings out of 474486
+ 195190 string characters out of 5744226
+ 2003542 words of memory out of 5000000
+ 33683 multiletter control sequences out of 15000+600000
  562492 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,8n,79p,458b,2027s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on noiref.pdf (17 pages, 330970 bytes).
+Output written on noiref.pdf (22 pages, 380294 bytes).
 PDF statistics:
- 1261 PDF objects out of 1440 (max. 8388607)
- 716 named destinations out of 1000 (max. 500000)
- 449 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1626 PDF objects out of 1728 (max. 8388607)
+ 973 named destinations out of 1000 (max. 500000)
+ 513 words of extra memory for PDF output out of 10000 (max. 10000000)
 
