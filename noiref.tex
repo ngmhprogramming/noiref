@@ -306,6 +306,10 @@ Find the cuberoot of $n$. Runs in $O(\log{N})$.
 Speeds up DP from $O(N^2)$ to $O(N \log{N})$.
 \lstinputlisting[language=C++]{src/algo_slidingset.cpp}
 
+\subsection{Sliding Window}
+Runs in $O(N)$.
+\lstinputlisting[language=C++]{src/algo_sw.cpp}
+
 \subsection{Set Merging}
 Reduces complexity from $O(Q \cdot N \log N)$ to $O(N \log^2 N)$.
 \lstinputlisting[language=C++]{src/algo_setmerging.cpp}
@@ -317,6 +321,10 @@ Runs in $O(N \log N)$.
 \subsection{Meet in the Middle}
 Reduces time complexity from $O(2^N)$ to $O(N \cdot 2^{N/2})$.
 \lstinputlisting[language=C++]{src/algo_mitm.cpp}
+
+\subsection{On the Fly}
+Reduces memory usage from $O(N \cdot K)$ to $O(N)$.
+\lstinputlisting[language=C++]{src/algo_otf.cpp}
 
 \section{Miscellaneous}
 
