@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1767884576.13523 "c:/Users/ngmh/Desktop/noiref/noiref.tex" "noiref.pdf" "noiref" 1767884577.39917 0
+["pdflatex"] 1767939764.60922 "c:/Users/ngmh/Desktop/noiref/noiref.tex" "noiref.pdf" "noiref" 1767939765.86125 0
   "C:/Users/ngmh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1767711933 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/ngmh/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1766133143 24224575 e9da776e712400959a67a96e531db3fb ""
   "C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -77,11 +77,11 @@
   "C:/Users/ngmh/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1751104012 9684 a33a14b82ce60d6e77cb9be689d79ee6 ""
   "C:/Users/ngmh/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/ngmh/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/ngmh/Desktop/noiref/noiref.tex" 1767884506 5513 eb8af007ffec5777629c741aaeda8151 ""
-  "noiref.aux" 1767884577 9785 43008c7e1a9034f7fc808cb453240190 "pdflatex"
-  "noiref.out" 1767884577 5646 fbc88fc214bef5bd41c3aff46ce0f7f9 "pdflatex"
-  "noiref.tex" 1767884506 5513 eb8af007ffec5777629c741aaeda8151 ""
-  "noiref.toc" 1767884577 3498 77efbc1fa0db7ef4cba243048fdebfe3 "pdflatex"
+  "c:/Users/ngmh/Desktop/noiref/noiref.tex" 1767939762 5749 5a0f10563833e388c9691768cece24cc ""
+  "noiref.aux" 1767939765 10297 197b942870468a7038300995da52e664 "pdflatex"
+  "noiref.out" 1767939765 6007 e0aaf325b14899561c9527f5e8cbcbfa "pdflatex"
+  "noiref.tex" 1767939762 5749 5a0f10563833e388c9691768cece24cc ""
+  "noiref.toc" 1767939765 3679 9cdfd9062ea17ce56c4b2945a5054186 "pdflatex"
   "src/algo_bs.cpp" 1767712490 205 d73ed5e84c3e9570cb1476bbb1133b23 ""
   "src/algo_bs_lifting.cpp" 1767712611 190 0ef9e153748609cdab80b5a800fa9712 ""
   "src/algo_slidingset.cpp" 1767719461 318 1d2bdddc3e44eb1ee9b543b1838a0b5d ""
@@ -102,6 +102,8 @@
   "src/graph_dfs.cpp" 1767717554 169 12102ed80b0cd59df3656bc6205e55f8 ""
   "src/graph_dijkstra.cpp" 1767883678 418 5a525a40b596374d98f288f0f01dbb3d ""
   "src/graph_floydwarshall.cpp" 1767882751 414 4bda2de9872085286d2b89073260e370 ""
+  "src/graph_kruskal.cpp" 1767939708 134 66deade3a439d1da319c0d1ac4b59c9c ""
+  "src/graph_prim.cpp" 1767939635 458 7e53f8b5b2fd161809e1d6979defebce ""
   "src/graph_spfa.cpp" 1767884009 475 885ac0d5b376603631b95bc389c6242f ""
   "src/graph_ufds.cpp" 1767856799 323 6228bb86bbccfae4ce7a826192d3a8ee ""
   "src/math_fibo.cpp" 1767882215 590 f4e27804a8276c4d2fde7704a52222f8 ""

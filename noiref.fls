@@ -186,9 +186,15 @@ INPUT src\graph_dijkstra.cpp
 INPUT .\src\graph_spfa.cpp
 INPUT .\src\graph_spfa.cpp
 INPUT src\graph_spfa.cpp
+INPUT .\src\graph_prim.cpp
+INPUT .\src\graph_prim.cpp
+INPUT src\graph_prim.cpp
 INPUT .\src\graph_ufds.cpp
 INPUT .\src\graph_ufds.cpp
 INPUT src\graph_ufds.cpp
+INPUT .\src\graph_kruskal.cpp
+INPUT .\src\graph_kruskal.cpp
+INPUT src\graph_kruskal.cpp
 INPUT .\src\dp_maxsum_1d.cpp
 INPUT .\src\dp_maxsum_1d.cpp
 INPUT src\dp_maxsum_1d.cpp
