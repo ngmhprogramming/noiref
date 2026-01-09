@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1767954440.86914 "c:/Users/ngmh/Desktop/noiref/noiref.tex" "noiref.pdf" "noiref" 1767954442.59078 0
+["pdflatex"] 1767954975.6856 "c:/Users/ngmh/Desktop/noiref/noiref.tex" "noiref.pdf" "noiref" 1767954977.43989 0
   "C:/Users/ngmh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1767711933 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/ngmh/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1766133143 24224575 e9da776e712400959a67a96e531db3fb ""
   "C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -77,13 +77,14 @@
   "C:/Users/ngmh/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1751104012 9684 a33a14b82ce60d6e77cb9be689d79ee6 ""
   "C:/Users/ngmh/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/ngmh/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/ngmh/Desktop/noiref/noiref.tex" 1767954440 8382 2dce0fc29b09230ff54f0e1648fe9617 ""
-  "noiref.aux" 1767954442 15920 cc6d337c6fd510f7bde63330c47d7103 "pdflatex"
-  "noiref.out" 1767954442 9350 74cd024f728fdc8a6fb820ebd1aa7781 "pdflatex"
-  "noiref.tex" 1767954440 8382 2dce0fc29b09230ff54f0e1648fe9617 ""
-  "noiref.toc" 1767954442 5711 608ad5455bc9f9f135e299c7792680b4 "pdflatex"
+  "c:/Users/ngmh/Desktop/noiref/noiref.tex" 1767954971 8494 d6df2ee80b02594cd923a261123f6185 ""
+  "noiref.aux" 1767954977 16171 af8b1ee0e2a39b72716ad2c62054dd9b "pdflatex"
+  "noiref.out" 1767954977 9478 d38c48a519e7512a5c1f0c2aef1fb021 "pdflatex"
+  "noiref.tex" 1767954971 8494 d6df2ee80b02594cd923a261123f6185 ""
+  "noiref.toc" 1767954977 5792 d7b7110a5c2ac4db1c36a32f2667ecfe "pdflatex"
   "src/algo_bs.cpp" 1767712490 205 d73ed5e84c3e9570cb1476bbb1133b23 ""
   "src/algo_bs_lifting.cpp" 1767712611 190 0ef9e153748609cdab80b5a800fa9712 ""
+  "src/algo_discretise.cpp" 1767954921 240 9dfda5be269dc95737b533e6a6daf965 ""
   "src/algo_setmerging.cpp" 1767945549 212 73a91d402bfb2b7013296fcda67d5802 ""
   "src/algo_slidingset.cpp" 1767719461 318 1d2bdddc3e44eb1ee9b543b1838a0b5d ""
   "src/dp_coinchange.cpp" 1767717123 238 e435ed27a1df39b3a74705fe54d54b3b ""

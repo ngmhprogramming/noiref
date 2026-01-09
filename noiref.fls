@@ -303,6 +303,9 @@ INPUT src\algo_slidingset.cpp
 INPUT .\src\algo_setmerging.cpp
 INPUT .\src\algo_setmerging.cpp
 INPUT src\algo_setmerging.cpp
+INPUT .\src\algo_discretise.cpp
+INPUT .\src\algo_discretise.cpp
+INPUT src\algo_discretise.cpp
 INPUT .\src\misc_fast_io.cpp
 INPUT .\src\misc_fast_io.cpp
 INPUT src\misc_fast_io.cpp
