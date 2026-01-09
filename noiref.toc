@@ -32,44 +32,47 @@
 \contentsline {subsubsection}{\numberline {2.13.2}Hopcroft-Karp}{14}{subsubsection.2.13.2}%
 \contentsline {subsection}{\numberline {2.14}Articulation Points and Bridges}{15}{subsection.2.14}%
 \contentsline {subsection}{\numberline {2.15}Strongly Connected Components}{16}{subsection.2.15}%
-\contentsline {subsection}{\numberline {2.16}Trees}{16}{subsection.2.16}%
-\contentsline {subsubsection}{\numberline {2.16.1}Pre/Postorder Traversal}{16}{subsubsection.2.16.1}%
-\contentsline {subsubsection}{\numberline {2.16.2}Subtree to Range}{17}{subsubsection.2.16.2}%
-\contentsline {subsubsection}{\numberline {2.16.3}Weighted Maximum Independent Set}{17}{subsubsection.2.16.3}%
-\contentsline {subsubsection}{\numberline {2.16.4}Diameter}{18}{subsubsection.2.16.4}%
-\contentsline {subsubsection}{\numberline {2.16.5}$2^K$ Decomposition}{18}{subsubsection.2.16.5}%
-\contentsline {subsubsection}{\numberline {2.16.6}Lowest Common Ancestor}{18}{subsubsection.2.16.6}%
-\contentsline {subsubsection}{\numberline {2.16.7}Shortest Path}{19}{subsubsection.2.16.7}%
-\contentsline {section}{\numberline {3}Dynamic Programming}{19}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Maxsum}{19}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}1D}{19}{subsubsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.2}Longest Increasing Subsequence}{19}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}$N^2$ DP}{19}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Data Structure Speedup}{19}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}$N \log N$ DP}{20}{subsubsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.3}Coin Combinations}{20}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Coin Change}{20}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Knapsack}{20}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}0-1}{20}{subsubsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.6}Digit DP}{21}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}Convex Hull Trick}{22}{subsection.3.7}%
-\contentsline {subsection}{\numberline {3.8}Li Chao Tree}{23}{subsection.3.8}%
-\contentsline {subsection}{\numberline {3.9}Divide and Conquer}{24}{subsection.3.9}%
-\contentsline {section}{\numberline {4}Math}{24}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Fast Exponentiation}{24}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Prime Factorisation}{25}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Sieve of Eratosthenes}{25}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Greatest Common Divisor}{25}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Lowest Common Multiple}{26}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Modular Inverse}{26}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}$n \atopwithdelims ()k$}{26}{subsection.4.7}%
-\contentsline {subsection}{\numberline {4.8}Fibonacci}{26}{subsection.4.8}%
-\contentsline {section}{\numberline {5}Algorithms}{27}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Binary Search}{27}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Binary Search using Lifting}{27}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Sliding Set}{27}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Set Merging}{28}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}Discretisation}{28}{subsection.5.5}%
-\contentsline {section}{\numberline {6}Miscellaneous}{28}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Fast I/O}{28}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Superfast I/O}{28}{subsection.6.2}%
+\contentsline {subsection}{\numberline {2.16}Travelling Salesman Problem}{16}{subsection.2.16}%
+\contentsline {subsubsection}{\numberline {2.16.1}Bottom Up}{16}{subsubsection.2.16.1}%
+\contentsline {subsubsection}{\numberline {2.16.2}Top Down}{17}{subsubsection.2.16.2}%
+\contentsline {subsection}{\numberline {2.17}Trees}{17}{subsection.2.17}%
+\contentsline {subsubsection}{\numberline {2.17.1}Pre/Postorder Traversal}{17}{subsubsection.2.17.1}%
+\contentsline {subsubsection}{\numberline {2.17.2}Subtree to Range}{18}{subsubsection.2.17.2}%
+\contentsline {subsubsection}{\numberline {2.17.3}Weighted Maximum Independent Set}{18}{subsubsection.2.17.3}%
+\contentsline {subsubsection}{\numberline {2.17.4}Diameter}{19}{subsubsection.2.17.4}%
+\contentsline {subsubsection}{\numberline {2.17.5}$2^K$ Decomposition}{19}{subsubsection.2.17.5}%
+\contentsline {subsubsection}{\numberline {2.17.6}Lowest Common Ancestor}{19}{subsubsection.2.17.6}%
+\contentsline {subsubsection}{\numberline {2.17.7}Shortest Path}{20}{subsubsection.2.17.7}%
+\contentsline {section}{\numberline {3}Dynamic Programming}{20}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Maxsum}{20}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}1D}{20}{subsubsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.2}Longest Increasing Subsequence}{20}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}$N^2$ DP}{20}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Data Structure Speedup}{20}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}$N \log N$ DP}{21}{subsubsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.3}Coin Combinations}{21}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Coin Change}{21}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Knapsack}{21}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}0-1}{21}{subsubsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.6}Digit DP}{22}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Convex Hull Trick}{23}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Li Chao Tree}{24}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.9}Divide and Conquer}{25}{subsection.3.9}%
+\contentsline {section}{\numberline {4}Math}{25}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Fast Exponentiation}{25}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Prime Factorisation}{26}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Sieve of Eratosthenes}{26}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Greatest Common Divisor}{26}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Lowest Common Multiple}{27}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Modular Inverse}{27}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}$n \atopwithdelims ()k$}{27}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Fibonacci}{27}{subsection.4.8}%
+\contentsline {section}{\numberline {5}Algorithms}{28}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Binary Search}{28}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Binary Search using Lifting}{28}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Sliding Set}{28}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Set Merging}{29}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Discretisation}{29}{subsection.5.5}%
+\contentsline {section}{\numberline {6}Miscellaneous}{29}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Fast I/O}{29}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Superfast I/O}{29}{subsection.6.2}%
