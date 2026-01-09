@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.19)  9 JAN 2026 14:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.19)  9 JAN 2026 16:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -319,20 +319,33 @@ File: lstlang1.sty 2023/02/27 1.9 listings language file
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 56.
- (src/ds_ps_1d.cpp) (src/ds_ps_2d.cpp) (src/ds_fw_purq.cpp [3]) (src/ds_fw_rupq.cpp) (src/ds_fw_rurq.cpp) (src/graph_dfs.cpp) [4] (src/graph_bfs.cpp) (src/graph_01bfs.cpp) (src/graph_floydwarshall.cpp) [5] (src/graph_bellmanford.cpp) (src/graph_dijkstra.cpp) (src/graph_spfa.cpp [6]) (src/graph_prim.cpp) (src/graph_ufds.cpp) [7] (src/graph_kruskal.cpp) (src/dp_maxsum_1d.cpp)
+ (src/ds_ps_1d.cpp) (src/ds_ps_2d.cpp) (src/ds_fw_purq.cpp [3]) (src/ds_fw_rupq.cpp) (src/ds_fw_rurq.cpp) (src/graph_dfs.cpp) [4] (src/graph_bfs.cpp) (src/graph_01bfs.cpp) (src/graph_floydwarshall.cpp) [5] (src/graph_bellmanford.cpp) (src/graph_dijkstra.cpp) (src/graph_spfa.cpp [6]) (src/graph_prim.cpp) (src/graph_ufds.cpp) [7] (src/graph_kruskal.cpp) (src/graph_toposort.cpp) (src/graph_cycle.cpp) (src/graph_tree_order.cpp [8]) (src/graph_tree_range.cpp) (src/graph_tree_weightedmis.cpp) (src/graph_tree_diam.cpp [9])
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 126.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 126.
+(hyperref)                removing `math shift' on input line 144.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 126.
+(hyperref)                removing `superscript' on input line 144.
 
-(src/dp_lis_n2.cpp) (src/dp_coincombinations.cpp) [8] (src/dp_coinchange.cpp) (src/dp_knapsack_01.cpp) (src/dp_digit.cpp
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 144.
+
+(src/graph_tree_2kdecomp.cpp) (src/graph_tree_lca.cpp [10]) (src/graph_tree_sp.cpp) (src/dp_maxsum_1d.cpp)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 164.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 164.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 164.
+
+(src/dp_lis_n2.cpp) (src/dp_coincombinations.cpp) [11] (src/dp_coinchange.cpp) (src/dp_knapsack_01.cpp) (src/dp_digit.cpp
 Overfull \hbox (13.2312pt too wide) in paragraph at lines 8--10
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -347,39 +360,39 @@ Overfull \hbox (0.63123pt too wide) in paragraph at lines 27--28
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[9]) (src/math_powmod.cpp) [10] (src/math_primefac.cpp) (src/math_sieve.cpp) (src/math_gcd.cpp) (src/math_lcm.cpp) (src/math_modinv.cpp) [11]
+[12]) (src/math_powmod.cpp) [13] (src/math_primefac.cpp) (src/math_sieve.cpp) (src/math_gcd.cpp) (src/math_lcm.cpp) (src/math_modinv.cpp) [14]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 169.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\atopwithdelims' on input line 169.
+(hyperref)                removing `math shift' on input line 207.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 169.
+(hyperref)                removing `\atopwithdelims' on input line 207.
 
-(src/math_nck.cpp) (src/math_fibo.cpp [12]) (src/algo_bs.cpp) (src/algo_bs_lifting.cpp) (src/algo_slidingset.cpp) (src/misc_fast_io.cpp) [13] (src/misc_superfast_io.cpp) [14] (noiref.aux)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 207.
+
+(src/math_nck.cpp) (src/math_fibo.cpp [15]) (src/algo_bs.cpp) (src/algo_bs_lifting.cpp) (src/algo_slidingset.cpp) (src/algo_setmerging.cpp [16]) (src/misc_fast_io.cpp) (src/misc_superfast_io.cpp) [17] (noiref.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `noiref.out' has not changed.
-(rerunfilecheck)             Checksum: E0AAF325B14899561C9527F5E8CBCBFA;6007.
+(rerunfilecheck)             Checksum: 4E121F01F97106853FD9ED204301A0F2;7742.
  ) 
 Here is how much of TeX's memory you used:
- 12010 strings out of 474486
- 184598 string characters out of 5744226
- 1996542 words of memory out of 5000000
- 33531 multiletter control sequences out of 15000+600000
+ 12285 strings out of 474486
+ 189555 string characters out of 5744226
+ 1997542 words of memory out of 5000000
+ 33615 multiletter control sequences out of 15000+600000
  562492 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,8n,79p,458b,2027s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ngmh/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on noiref.pdf (14 pages, 292045 bytes).
+Output written on noiref.pdf (17 pages, 330970 bytes).
 PDF statistics:
- 1004 PDF objects out of 1200 (max. 8388607)
- 555 named destinations out of 1000 (max. 500000)
- 361 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1261 PDF objects out of 1440 (max. 8388607)
+ 716 named destinations out of 1000 (max. 500000)
+ 449 words of extra memory for PDF output out of 10000 (max. 10000000)
 

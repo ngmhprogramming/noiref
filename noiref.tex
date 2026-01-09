@@ -115,6 +115,44 @@ With both path compression and union by rank, runs in $O(\alpha(n))$ (basically 
 Runs in $O(E \log E)$.
 \lstinputlisting[language=C++]{src/graph_kruskal.cpp}
 
+\subsection{Topological Sort}
+Runs in $O(V + E)$.
+\lstinputlisting[language=C++]{src/graph_toposort.cpp}
+
+\subsection{Floyd's Cycle Finding Algorithm}
+For graphs with outdegree 1, runs in $O(V + E)$.
+\lstinputlisting[language=C++]{src/graph_cycle.cpp}
+
+\subsection{Trees}
+
+\subsubsection{Pre/Postorder Traversal}
+Runs in $O(V)$.
+\lstinputlisting[language=C++]{src/graph_tree_order.cpp}
+
+\subsubsection{Subtree to Range}
+Runs in $O(V)$.
+\lstinputlisting[language=C++]{src/graph_tree_range.cpp}
+
+\subsubsection{Weighted Maximum Independent Set}
+Runs in $O(V)$.
+\lstinputlisting[language=C++]{src/graph_tree_weightedmis.cpp}
+
+\subsubsection{Diameter}
+Runs in $O(V)$.
+\lstinputlisting[language=C++]{src/graph_tree_diam.cpp}
+
+\subsubsection{$2^K$ Decomposition}
+$O(N \log N)$ precomputation and memory, $O(\log N)$ query.
+\lstinputlisting[language=C++]{src/graph_tree_2kdecomp.cpp}
+
+\subsubsection{Lowest Common Ancestor}
+Runs in $O(\log N)$.
+\lstinputlisting[language=C++]{src/graph_tree_lca.cpp}
+
+\subsubsection{Shortest Path}
+Runs in $O(\log N)$.
+\lstinputlisting[language=C++]{src/graph_tree_sp.cpp}
+
 \section{Dynamic Programming}
 
 \subsection{Maxsum}
@@ -187,6 +225,10 @@ Find the cuberoot of $n$. Runs in $O(\log{N})$.
 \subsection{Sliding Set}
 Speeds up DP from $O(N^2)$ to $O(N \log{N})$.
 \lstinputlisting[language=C++]{src/algo_slidingset.cpp}
+
+\subsection{Set Merging}
+Reduces complexity from $O(Q \cdot N \log N)$ to $O(N \log^2 N)$.
+\lstinputlisting[language=C++]{src/algo_setmerging.cpp}
 
 \section{Miscellaneous}
 
