@@ -222,6 +222,12 @@ INPUT src\graph_toposort.cpp
 INPUT .\src\graph_cycle.cpp
 INPUT .\src\graph_cycle.cpp
 INPUT src\graph_cycle.cpp
+INPUT .\src\graph_mcbm_kuhn.cpp
+INPUT .\src\graph_mcbm_kuhn.cpp
+INPUT src\graph_mcbm_kuhn.cpp
+INPUT .\src\graph_mcbm_hopcroftkarp.cpp
+INPUT .\src\graph_mcbm_hopcroftkarp.cpp
+INPUT src\graph_mcbm_hopcroftkarp.cpp
 INPUT .\src\graph_tree_order.cpp
 INPUT .\src\graph_tree_order.cpp
 INPUT src\graph_tree_order.cpp

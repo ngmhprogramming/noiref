@@ -27,38 +27,41 @@
 \contentsline {subsection}{\numberline {2.10}Kruskal's Algorithm}{12}{subsection.2.10}%
 \contentsline {subsection}{\numberline {2.11}Topological Sort}{12}{subsection.2.11}%
 \contentsline {subsection}{\numberline {2.12}Floyd's Cycle Finding Algorithm}{13}{subsection.2.12}%
-\contentsline {subsection}{\numberline {2.13}Trees}{13}{subsection.2.13}%
-\contentsline {subsubsection}{\numberline {2.13.1}Pre/Postorder Traversal}{13}{subsubsection.2.13.1}%
-\contentsline {subsubsection}{\numberline {2.13.2}Subtree to Range}{13}{subsubsection.2.13.2}%
-\contentsline {subsubsection}{\numberline {2.13.3}Weighted Maximum Independent Set}{14}{subsubsection.2.13.3}%
-\contentsline {subsubsection}{\numberline {2.13.4}Diameter}{14}{subsubsection.2.13.4}%
-\contentsline {subsubsection}{\numberline {2.13.5}$2^K$ Decomposition}{15}{subsubsection.2.13.5}%
-\contentsline {subsubsection}{\numberline {2.13.6}Lowest Common Ancestor}{15}{subsubsection.2.13.6}%
-\contentsline {subsubsection}{\numberline {2.13.7}Shortest Path}{15}{subsubsection.2.13.7}%
-\contentsline {section}{\numberline {3}Dynamic Programming}{16}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Maxsum}{16}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}1D}{16}{subsubsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.2}Longest Increasing Subsequence}{16}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}$N^2$ DP}{16}{subsubsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.3}Coin Combinations}{16}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Coin Change}{16}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Knapsack}{17}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}0-1}{17}{subsubsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.6}Digit DP}{17}{subsection.3.6}%
-\contentsline {section}{\numberline {4}Math}{18}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Fast Exponentiation}{18}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Prime Factorisation}{18}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Sieve of Eratosthenes}{19}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Greatest Common Divisor}{19}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Lowest Common Multiple}{19}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Modular Inverse}{19}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}$n \atopwithdelims ()k$}{19}{subsection.4.7}%
-\contentsline {subsection}{\numberline {4.8}Fibonacci}{20}{subsection.4.8}%
-\contentsline {section}{\numberline {5}Algorithms}{20}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Binary Search}{20}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Binary Search using Lifting}{21}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Sliding Set}{21}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Set Merging}{21}{subsection.5.4}%
-\contentsline {section}{\numberline {6}Miscellaneous}{21}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Fast I/O}{21}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Superfast I/O}{22}{subsection.6.2}%
+\contentsline {subsection}{\numberline {2.13}Maximum Cardinality Bipartite Matching}{13}{subsection.2.13}%
+\contentsline {subsubsection}{\numberline {2.13.1}Kun's Algorithm}{13}{subsubsection.2.13.1}%
+\contentsline {subsubsection}{\numberline {2.13.2}Hopcroft-Karp}{14}{subsubsection.2.13.2}%
+\contentsline {subsection}{\numberline {2.14}Trees}{15}{subsection.2.14}%
+\contentsline {subsubsection}{\numberline {2.14.1}Pre/Postorder Traversal}{15}{subsubsection.2.14.1}%
+\contentsline {subsubsection}{\numberline {2.14.2}Subtree to Range}{15}{subsubsection.2.14.2}%
+\contentsline {subsubsection}{\numberline {2.14.3}Weighted Maximum Independent Set}{16}{subsubsection.2.14.3}%
+\contentsline {subsubsection}{\numberline {2.14.4}Diameter}{16}{subsubsection.2.14.4}%
+\contentsline {subsubsection}{\numberline {2.14.5}$2^K$ Decomposition}{16}{subsubsection.2.14.5}%
+\contentsline {subsubsection}{\numberline {2.14.6}Lowest Common Ancestor}{17}{subsubsection.2.14.6}%
+\contentsline {subsubsection}{\numberline {2.14.7}Shortest Path}{17}{subsubsection.2.14.7}%
+\contentsline {section}{\numberline {3}Dynamic Programming}{17}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Maxsum}{17}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}1D}{17}{subsubsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.2}Longest Increasing Subsequence}{18}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}$N^2$ DP}{18}{subsubsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.3}Coin Combinations}{18}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Coin Change}{18}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Knapsack}{18}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}0-1}{18}{subsubsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.6}Digit DP}{19}{subsection.3.6}%
+\contentsline {section}{\numberline {4}Math}{20}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Fast Exponentiation}{20}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Prime Factorisation}{20}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Sieve of Eratosthenes}{21}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Greatest Common Divisor}{21}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Lowest Common Multiple}{21}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Modular Inverse}{21}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}$n \atopwithdelims ()k$}{21}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Fibonacci}{22}{subsection.4.8}%
+\contentsline {section}{\numberline {5}Algorithms}{22}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Binary Search}{22}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Binary Search using Lifting}{23}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Sliding Set}{23}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Set Merging}{23}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Miscellaneous}{23}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Fast I/O}{23}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Superfast I/O}{24}{subsection.6.2}%

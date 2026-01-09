@@ -151,6 +151,15 @@ Runs in $O(V + E)$.
 For graphs with outdegree 1, runs in $O(V + E)$.
 \lstinputlisting[language=C++]{src/graph_cycle.cpp}
 
+\subsection{Maximum Cardinality Bipartite Matching}
+\subsubsection{Kun's Algorithm}
+Runs in $O(V^3)$.
+\lstinputlisting[language=C++]{src/graph_mcbm_kuhn.cpp}
+
+\subsubsection{Hopcroft-Karp}
+Runs in $O(E \cdot \sqrt{V})$.
+\lstinputlisting[language=C++]{src/graph_mcbm_hopcroftkarp.cpp}
+
 \subsection{Trees}
 
 \subsubsection{Pre/Postorder Traversal}
