@@ -29,7 +29,8 @@ bool bfs() {
 
 bool dfs(int u) {
     for (int v : adj[u]) {
-        if (pairV[v] == -1 || (dist[pairV[v]] == dist[u] + 1 && dfs(pairV[v]))) {
+        if (pairV[v] == -1 ||
+           (dist[pairV[v]] == dist[u] + 1 && dfs(pairV[v]))) {
             pairU[u] = v;
             pairV[v] = u;
             return true;

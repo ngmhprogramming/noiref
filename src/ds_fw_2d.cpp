@@ -22,7 +22,7 @@ int pq(int x, int y) {
 
 // Range Query
 int rq(int x1, int y1, int x2, int y2) {
-    return pq(x2, y2) - pq(x1 - 1, y2) - pq(x2, y1 - 1) + pq(x1 - 1, y1 - 1);
+    return pq(x2, y2) - pq(x1-1, y2) - pq(x2, y1-1) + pq(x1-1, y1-1);
 }
 
 // Range Update, Point Query

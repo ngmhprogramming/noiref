@@ -23,9 +23,9 @@ void ru(int x1, int y1, int x2, int y2, long long v) {
 }
 
 long long ps(int x,int y) {
-    return pq(fw1, x, y)*x*y - pq(fw2, x, y)*y - pq(fw3, x, y)*x + pq(fw4, x, y);
+    return pq(fw1, x, y)*x*y-pq(fw2, x, y)*y-pq(fw3, x, y)*x+pq(fw4, x, y);
 }
 
 long long rq(int x1,int y1,int x2,int y2) {
-    return ps(x2, y2) - ps(x1-1, y2) - ps(x2, y1-1) + ps(x1-1, y1-1);
+    return ps(x2, y2)-ps(x1-1, y2)-ps(x2, y1-1)+ps(x1-1, y1-1);
 }
