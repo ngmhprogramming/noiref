@@ -82,6 +82,11 @@
 \contentsline {subsection}{\numberline {5.8}On the Fly}{33}{subsection.5.8}%
 \contentsline {subsection}{\numberline {5.9}Square Root Decomposition}{33}{subsection.5.9}%
 \contentsline {subsection}{\numberline {5.10}Mo's Algorithm}{34}{subsection.5.10}%
-\contentsline {section}{\numberline {6}Miscellaneous}{34}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Fast I/O}{34}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Superfast I/O}{35}{subsection.6.2}%
+\contentsline {subsection}{\numberline {5.11}Strings}{34}{subsection.5.11}%
+\contentsline {subsection}{\numberline {5.12}Manacher's Algorithm}{34}{subsection.5.12}%
+\contentsline {subsection}{\numberline {5.13}Knuth-Morris-Pratt}{35}{subsection.5.13}%
+\contentsline {subsection}{\numberline {5.14}Z-Function}{35}{subsection.5.14}%
+\contentsline {subsection}{\numberline {5.15}Suffix Array}{36}{subsection.5.15}%
+\contentsline {section}{\numberline {6}Miscellaneous}{37}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Fast I/O}{37}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Superfast I/O}{37}{subsection.6.2}%
