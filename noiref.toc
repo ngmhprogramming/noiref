@@ -57,12 +57,13 @@
 \contentsline {subsection}{\numberline {3.4}Coin Change}{24}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}Knapsack}{24}{subsection.3.5}%
 \contentsline {subsubsection}{\numberline {3.5.1}0-1}{24}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}0-1 No Values}{25}{subsubsection.3.5.2}%
 \contentsline {subsection}{\numberline {3.6}Digit DP}{25}{subsection.3.6}%
 \contentsline {subsection}{\numberline {3.7}Convex Hull Trick}{26}{subsection.3.7}%
 \contentsline {subsection}{\numberline {3.8}Li Chao Tree}{27}{subsection.3.8}%
 \contentsline {subsection}{\numberline {3.9}Divide and Conquer}{28}{subsection.3.9}%
-\contentsline {section}{\numberline {4}Math}{28}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Fast Exponentiation}{28}{subsection.4.1}%
+\contentsline {section}{\numberline {4}Math}{29}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Fast Exponentiation}{29}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Prime Factorisation}{29}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Sieve of Eratosthenes}{29}{subsection.4.3}%
 \contentsline {subsection}{\numberline {4.4}Greatest Common Divisor}{29}{subsection.4.4}%
@@ -77,10 +78,10 @@
 \contentsline {subsection}{\numberline {5.4}Sliding Window}{32}{subsection.5.4}%
 \contentsline {subsection}{\numberline {5.5}Set Merging}{32}{subsection.5.5}%
 \contentsline {subsection}{\numberline {5.6}Discretisation}{32}{subsection.5.6}%
-\contentsline {subsection}{\numberline {5.7}Meet in the Middle}{32}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.7}Meet in the Middle}{33}{subsection.5.7}%
 \contentsline {subsection}{\numberline {5.8}On the Fly}{33}{subsection.5.8}%
 \contentsline {subsection}{\numberline {5.9}Square Root Decomposition}{33}{subsection.5.9}%
-\contentsline {subsection}{\numberline {5.10}Mo's Algorithm}{33}{subsection.5.10}%
+\contentsline {subsection}{\numberline {5.10}Mo's Algorithm}{34}{subsection.5.10}%
 \contentsline {section}{\numberline {6}Miscellaneous}{34}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Fast I/O}{34}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Superfast I/O}{34}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.2}Superfast I/O}{35}{subsection.6.2}%
