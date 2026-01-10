@@ -38,16 +38,14 @@
 
 \section{Data Structures}
 \begin{table}[H]
-\begin{tabular}{|c|c|c|c|c|}
+\begin{tabular}{|c|c|c|c|c|c|}
 \hline
-Data Structure & Precomputation / Update & Query    & Memory     & Notes                                \\ \hline
-Prefix Sum     & O(N) / X                & O(1)     & O(N)       & Associative Functions (+, XOR)       \\ \hline
-Sparse Table   & O(N log N) / X          & O(1)     & O(N log N) & Non-Associative Functions (max, gcd) \\ \hline
-Fenwick Tree   & X / O(log N)            & O(log N) & O(N)       & Prefix Sum with Updates              \\ \hline
-Segment Tree   & X / O(log N)            & O(log N) & O(4N)      & Allows more Information              \\ \hline
+Data Structure & Precomputation & Update   & Query    & Memory     & Notes                                \\ \hline
+Prefix Sum     & O(N)           & X        & O(1)     & O(N)       & Associative Functions (+, XOR)       \\ \hline
+Sparse Table   & O(N log N)     & X        & O(1)     & O(N log N) & Non-Associative Functions (max, gcd) \\ \hline
+Fenwick Tree   & X              & O(log N) & O(log N) & O(N)       & Prefix Operations                    \\ \hline
+Segment Tree   & X              & O(log N) & O(log N) & O(4N)      & Very flexible and extendable         \\ \hline
 \end{tabular}
-\caption{Quick Summary of Data Structures}
-\label{tab:ds}
 \end{table}
 
 \subsection{Prefix Sums}
@@ -105,6 +103,38 @@ $O(N \cdot \log N \cdot \log M)$ point update and range query.
 \lstinputlisting[language=C++]{src/ds_st_2d.cpp}
 
 \section{Graph Theory}
+\begin{table}[H]
+\begin{tabular}{|c|c|c|}
+\hline
+Graph Algorithm           & Complexity                                  & Notes                                \\ \hline
+DFS                       & O(V+E)                                      & Flood Fill, Trees                    \\ \hline
+BFS                       & O(V+E)                                      & Unweighted Shortest Path             \\ \hline
+0-1 BFS                   & O(V+E)                                      & Unweighted Shortest Path             \\ \hline
+Floyd-Warshall            & O($N^{3}$)                                  & All Pairs Shortest Path              \\ \hline
+Bellman-Ford              & O(VE)                                       & Negative Single Source Shortest Path \\ \hline
+Dijkstra'                 & O(E log V)                                  & Single Source Shortest Path          \\ \hline
+SPFA                      & O(VE)                                       & Negative Single Source Shortest Path \\ \hline
+Prim's                    & O(E log V)                                  & Dijkstra's                           \\ \hline
+UFDS                      & O($\alpha(n)$)                              & Connectedness                        \\ \hline
+Kruskal's                 & O(E log E)                                  & Greedy                               \\ \hline
+Toposort                  & O(V+E)                                      & Postorder                            \\ \hline
+Floyd's Cycle Finding     & O(V+E)                                      & Outdegree 1                          \\ \hline
+Kuhn's                    & O($V^{3}$)                                  & Bipartite Matching                   \\ \hline
+Hopcroft-Karp             & O($E\sqrt{V}$)                              & Bipartite Matching                   \\ \hline
+Articulation Points       & O(V+E)                                      & Find Splitting Nodes                 \\ \hline
+Bridges                   & O(V+E)                                      & Find Splitting Edges                 \\ \hline
+SCC                       & O(V+E)                                      & Compress Cycles                      \\ \hline
+TSP                       & O($N^22^{N}$)                               & Tour All Nodes                       \\ \hline
+Pre/Postorder             & O(V)                                        & Ordering of Nodes                    \\ \hline
+Subtree To Range          & O(V)                                        & Ordering Nodes                       \\ \hline
+Weighted MIS              & O(V)                                        & Tree DP                              \\ \hline
+Diameter                  & O(V)                                        & DFS                                  \\ \hline
+$2^K$ Decomposition       & O($N\log N$) precompute, O($\log N$) query  & Find Parent                          \\ \hline
+Lowest Common Ancestor    & O($\log N$) query                           & Find Common Parent                   \\ \hline
+Heavy Light Decomposition & O(N) precompute, O($\log N$) query          & Decomposition                        \\ \hline
+Centroid Decomposition    & O($N \log N$) precompute, $O(\log N)$ query & Decomposition                        \\ \hline
+\end{tabular}
+\end{table}
 
 \subsection{Depth First Search}
 Runs in $O(V + E)$.
@@ -155,7 +185,7 @@ For graphs with outdegree 1, runs in $O(V + E)$.
 \lstinputlisting[language=C++]{src/graph_cycle.cpp}
 
 \subsection{Maximum Cardinality Bipartite Matching}
-\subsubsection{Kun's Algorithm}
+\subsubsection{Kuhn's Algorithm}
 Runs in $O(V^3)$.
 \lstinputlisting[language=C++]{src/graph_mcbm_kuhn.cpp}
 
@@ -218,6 +248,26 @@ $O(N \log N)$ precomputation, $O(\log N)$ updates and queries.
 \lstinputlisting[language=C++]{src/graph_tree_cd.cpp}
 
 \section{Dynamic Programming}
+\begin{table}[H]
+\begin{tabular}{|c|c|c|}
+\hline
+DP Algorithm             & Complexity                      & Notes         \\ \hline
+Maxsum                   & O(N)                            &               \\ \hline
+LIS - Naive              & O($N^2$)                        &               \\ \hline
+LIS - DS / Fast DP       & O($N \log N$)                    &               \\ \hline
+Coin Combinations        & O(NV)                           &               \\ \hline
+Coin Change              & O(NV)                           &               \\ \hline
+Knapsack - 0-1           & O(NS)                           &               \\ \hline
+Knapsack - 0-1 No Values & O(NX/64)                        &               \\ \hline
+Knapsack - 0-K           & O($\log K+NS$)                   &               \\ \hline
+Digit DP                 & O(D)                            &               \\ \hline
+Convex Hull Trick        & O(1) insertion and query        & Amortized     \\ \hline
+Li Chao Tree             & O($\log X$) insertion and query &               \\ \hline
+Divide and Conquer       & O($N \log N$)                    & From O($N^2$) \\ \hline
+LCS                      & O($N^2$)                        &               \\ \hline
+LCS - LIS                & O($N \log N$)                      &               \\ \hline
+\end{tabular}
+\end{table}
 
 \subsection{Maxsum}
 \subsubsection{1D}
@@ -360,6 +410,27 @@ Runs in $O(N \log N)$.
 
 \section{Miscellaneous}
 
+\subsection{Maximum Time complexity v/s N}
+\begin{table}[H]
+\begin{tabular}{|c|c|}
+\hline
+Complexity     & Maximum in 1s \\ \hline
+O(1)           & Infinite      \\ \hline
+O(log N)       & $2^{10^{6}}$  \\ \hline
+O(sqrt N)      & $10^{14}$     \\ \hline
+O(N)           & $10^{7}$      \\ \hline
+O(N log N)     & $10^{6}$      \\ \hline
+O(N sqrt N)    & $10^{5}$      \\ \hline
+O($N^{2}$)     & $10^{4}$      \\ \hline
+O($N^{3}$)     & 500           \\ \hline
+O($N^{4}$)     & 100           \\ \hline
+O($2^{N}$)     & 22            \\ \hline
+O(N x $2^{N}$) & 20            \\ \hline
+O(N!)          & 12            \\ \hline
+O(N x N!)      & 11            \\ \hline
+\end{tabular}
+\end{table}
+
 \subsection{Fast I/O}
 Cannot use with \verb|scanf, printf|.
 \lstinputlisting[language=C++]{src/misc_fast_io.cpp}
@@ -367,5 +438,19 @@ Cannot use with \verb|scanf, printf|.
 \subsection{Superfast I/O}
 Only for non-negative integer input.
 \lstinputlisting[language=C++]{src/misc_superfast_io.cpp}
+
+\subsection{Header}
+Macros, functions, and variables.
+\lstinputlisting[language=C++]{src/misc_header.cpp}
+
+\subsection{Compile Commands}
+\lstinputlisting[language=C++]{src/misc_compile.cpp}
+
+\subsection{Pruning}
+Kill execution after a specific time duration.
+\lstinputlisting[language=C++]{src/misc_prune.cpp}
+
+\subsection{STL Data Structures and Functions}
+\lstinputlisting[language=C++]{src/misc_stl.cpp}
 
 \end{document}
