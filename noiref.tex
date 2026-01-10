@@ -28,7 +28,7 @@
 
 \title{Competitive Programming Reference}
 \author{ngmh}
-\date{Last Updated: 07/01/2026}
+\date{Last Updated: 10/01/2026}
 
 \begin{document}
 
@@ -40,11 +40,11 @@
 \begin{table}[H]
 \begin{tabular}{|c|c|c|c|c|c|}
 \hline
-Data Structure & Precomputation & Update   & Query    & Memory     & Notes                                \\ \hline
-Prefix Sum     & O(N)           & X        & O(1)     & O(N)       & Associative Functions (+, XOR)       \\ \hline
-Sparse Table   & O(N log N)     & X        & O(1)     & O(N log N) & Non-Associative Functions (max, gcd) \\ \hline
-Fenwick Tree   & X              & O(log N) & O(log N) & O(N)       & Prefix Operations                    \\ \hline
-Segment Tree   & X              & O(log N) & O(log N) & O(4N)      & Very flexible and extendable         \\ \hline
+Data Structure & Precomputation & Update   & Query    & Memory     & Notes                           \\ \hline
+Prefix Sum     & O(N)           & X        & O(1)     & O(N)       & Associative Functions (+, XOR)  \\ \hline
+Sparse Table   & O(N log N)     & X        & O(1)     & O(N log N) & Idempotent Functions (max, gcd) \\ \hline
+Fenwick Tree   & X              & O(log N) & O(log N) & O(N)       & Prefix Operations               \\ \hline
+Segment Tree   & X              & O(log N) & O(log N) & O(4N)      & Very flexible and extendable    \\ \hline
 \end{tabular}
 \end{table}
 
@@ -56,6 +56,15 @@ $O(N)$ precomputation, $O(1)$ query.
 \subsubsection{2D}
 $O(R\cdot C)$ precomputation, $O(1)$ query.
 \lstinputlisting[language=C++]{src/ds_ps_2d.cpp}
+
+\subsection{Sparse Table}
+\subsubsection{1D}
+$O(N \log N)$ precomputation, $O(1)$ query.
+\lstinputlisting[language=C++]{src/ds_sp_1d.cpp}
+
+\subsubsection{2D}
+$O(NM \log N \log M)$ precomputation, $O(1)$ query.
+\lstinputlisting[language=C++]{src/ds_sp_2d.cpp}
 
 \subsection{Fenwick Trees}
 \subsubsection{Point Update Range Query}
