@@ -326,6 +326,14 @@ Supports insertion and queries in $O(\log X)$ time where $X$ is the domain.
 Reduces complexity from $O(N^2 \cdot K)$ to $O(N \log N \cdot K)$.
 \lstinputlisting[language=C++]{src/dp_dnc.cpp}
 
+\subsection{Longest Common Subsequence}
+\subsubsection{$N^2$ DP}
+\lstinputlisting[language=C++]{src/dp_lcs_n2.cpp}
+
+\subsubsection{LIS Reduction}
+Array $a$ cannot have duplicates.
+\lstinputlisting[language=C++]{src/dp_lcs_lis.cpp}
+
 \section{Math}
 \subsection{Fast Exponentiation}
 Runs in $O(\log{b})$.
