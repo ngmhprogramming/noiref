@@ -62,46 +62,48 @@
 \contentsline {subsection}{\numberline {3.5}Knapsack}{29}{subsection.3.5}%
 \contentsline {subsubsection}{\numberline {3.5.1}0-1}{29}{subsubsection.3.5.1}%
 \contentsline {subsubsection}{\numberline {3.5.2}0-1 No Values}{29}{subsubsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.6}Digit DP}{29}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}Convex Hull Trick}{30}{subsection.3.7}%
-\contentsline {subsection}{\numberline {3.8}Li Chao Tree}{31}{subsection.3.8}%
-\contentsline {subsection}{\numberline {3.9}Divide and Conquer}{32}{subsection.3.9}%
-\contentsline {subsection}{\numberline {3.10}Longest Common Subsequence}{33}{subsection.3.10}%
-\contentsline {subsubsection}{\numberline {3.10.1}$N^2$ DP}{33}{subsubsection.3.10.1}%
-\contentsline {subsubsection}{\numberline {3.10.2}LIS Reduction}{33}{subsubsection.3.10.2}%
-\contentsline {section}{\numberline {4}Math}{34}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Fast Exponentiation}{34}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Prime Factorisation}{34}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Sieve of Eratosthenes}{34}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Greatest Common Divisor}{35}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Lowest Common Multiple}{35}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Modular Inverse}{35}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}$n \atopwithdelims ()k$}{35}{subsection.4.7}%
-\contentsline {subsection}{\numberline {4.8}Fibonacci}{35}{subsection.4.8}%
-\contentsline {subsection}{\numberline {4.9}Convex Hull}{36}{subsection.4.9}%
-\contentsline {subsection}{\numberline {4.10}Furthest Pair of Points}{37}{subsection.4.10}%
-\contentsline {subsection}{\numberline {4.11}Nearest Pair of Points}{38}{subsection.4.11}%
-\contentsline {section}{\numberline {5}Algorithms}{40}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Binary Search}{40}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Binary Search using Lifting}{40}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Sliding Set}{40}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Sliding Window}{40}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}Set Merging}{41}{subsection.5.5}%
-\contentsline {subsection}{\numberline {5.6}Discretisation}{41}{subsection.5.6}%
-\contentsline {subsection}{\numberline {5.7}Meet in the Middle}{41}{subsection.5.7}%
-\contentsline {subsection}{\numberline {5.8}On the Fly}{42}{subsection.5.8}%
-\contentsline {subsection}{\numberline {5.9}Square Root Decomposition}{42}{subsection.5.9}%
-\contentsline {subsection}{\numberline {5.10}Mo's Algorithm}{42}{subsection.5.10}%
-\contentsline {subsection}{\numberline {5.11}Strings}{43}{subsection.5.11}%
-\contentsline {subsection}{\numberline {5.12}Manacher's Algorithm}{43}{subsection.5.12}%
-\contentsline {subsection}{\numberline {5.13}Knuth-Morris-Pratt}{44}{subsection.5.13}%
-\contentsline {subsection}{\numberline {5.14}Z-Function}{44}{subsection.5.14}%
-\contentsline {subsection}{\numberline {5.15}Suffix Array}{45}{subsection.5.15}%
-\contentsline {section}{\numberline {6}Miscellaneous}{46}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Maximum Time complexity v/s N}{46}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Fast I/O}{46}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Superfast I/O}{46}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Header}{46}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Compile Commands}{48}{subsection.6.5}%
-\contentsline {subsection}{\numberline {6.6}Pruning}{48}{subsection.6.6}%
-\contentsline {subsection}{\numberline {6.7}STL Data Structures and Functions}{48}{subsection.6.7}%
+\contentsline {subsubsection}{\numberline {3.5.3}0-K Binary Grouping}{29}{subsubsection.3.5.3}%
+\contentsline {subsubsection}{\numberline {3.5.4}0-K Monotonic Queue}{30}{subsubsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.6}Digit DP}{30}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Convex Hull Trick}{31}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Li Chao Tree}{32}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.9}Divide and Conquer}{33}{subsection.3.9}%
+\contentsline {subsection}{\numberline {3.10}Longest Common Subsequence}{34}{subsection.3.10}%
+\contentsline {subsubsection}{\numberline {3.10.1}$N^2$ DP}{34}{subsubsection.3.10.1}%
+\contentsline {subsubsection}{\numberline {3.10.2}LIS Reduction}{34}{subsubsection.3.10.2}%
+\contentsline {section}{\numberline {4}Math}{35}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Fast Exponentiation}{35}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Prime Factorisation}{35}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Sieve of Eratosthenes}{35}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Greatest Common Divisor}{36}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Lowest Common Multiple}{36}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Modular Inverse}{36}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}$n \atopwithdelims ()k$}{36}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Fibonacci}{36}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.9}Convex Hull}{37}{subsection.4.9}%
+\contentsline {subsection}{\numberline {4.10}Furthest Pair of Points}{38}{subsection.4.10}%
+\contentsline {subsection}{\numberline {4.11}Nearest Pair of Points}{39}{subsection.4.11}%
+\contentsline {section}{\numberline {5}Algorithms}{41}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Binary Search}{41}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Binary Search using Lifting}{41}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Sliding Set}{41}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Sliding Window}{41}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Set Merging}{42}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Discretisation}{42}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Meet in the Middle}{42}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.8}On the Fly}{43}{subsection.5.8}%
+\contentsline {subsection}{\numberline {5.9}Square Root Decomposition}{43}{subsection.5.9}%
+\contentsline {subsection}{\numberline {5.10}Mo's Algorithm}{43}{subsection.5.10}%
+\contentsline {subsection}{\numberline {5.11}Strings}{44}{subsection.5.11}%
+\contentsline {subsection}{\numberline {5.12}Manacher's Algorithm}{44}{subsection.5.12}%
+\contentsline {subsection}{\numberline {5.13}Knuth-Morris-Pratt}{45}{subsection.5.13}%
+\contentsline {subsection}{\numberline {5.14}Z-Function}{45}{subsection.5.14}%
+\contentsline {subsection}{\numberline {5.15}Suffix Array}{46}{subsection.5.15}%
+\contentsline {section}{\numberline {6}Miscellaneous}{47}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Maximum Time complexity v/s N}{47}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Fast I/O}{47}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Superfast I/O}{47}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Header}{47}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Compile Commands}{49}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Pruning}{49}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}STL Data Structures and Functions}{49}{subsection.6.7}%

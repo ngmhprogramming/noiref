@@ -270,18 +270,19 @@ $O(N \log N)$ precomputation, $O(\log N)$ updates and queries.
 DP Algorithm             & Complexity                      & Notes         \\ \hline
 Maxsum                   & O(N)                            &               \\ \hline
 LIS - Naive              & O($N^2$)                        &               \\ \hline
-LIS - DS / Fast DP       & O($N \log N$)                    &               \\ \hline
+LIS - DS / Fast DP       & O($N \log N$)                   &               \\ \hline
 Coin Combinations        & O(NV)                           &               \\ \hline
 Coin Change              & O(NV)                           &               \\ \hline
 Knapsack - 0-1           & O(NS)                           &               \\ \hline
 Knapsack - 0-1 No Values & O(NX/64)                        &               \\ \hline
-Knapsack - 0-K           & O($\log K+NS$)                   &               \\ \hline
+Knapsack - 0-K Binary    & O($S\sum\log K$)                &               \\ \hline
+Knapsack - 0-K Queue     & O(NS)                           &               \\ \hline
 Digit DP                 & O(D)                            &               \\ \hline
 Convex Hull Trick        & O(1) insertion and query        & Amortized     \\ \hline
 Li Chao Tree             & O($\log X$) insertion and query &               \\ \hline
-Divide and Conquer       & O($N \log N$)                    & From O($N^2$) \\ \hline
+Divide and Conquer       & O($N \log N$)                   & From O($N^2$) \\ \hline
 LCS                      & O($N^2$)                        &               \\ \hline
-LCS - LIS                & O($N \log N$)                      &               \\ \hline
+LCS - LIS                & O($N \log N$)                   &               \\ \hline
 \end{tabular}
 \end{table}
 
@@ -316,6 +317,14 @@ Runs in $O(N \cdot S)$.
 \subsubsection{0-1 No Values}
 Runs in $O(N\cdot X / 64)$.
 \lstinputlisting[language=C++]{src/dp_knapsack_bitset.cpp}
+
+\subsubsection{0-K Binary Grouping}
+Runs in $O(S \cdot \sum \log K)$.
+\lstinputlisting[language=C++]{src/dp_knapsack_0kbinary.cpp}
+
+\subsubsection{0-K Monotonic Queue}
+Runs in $O(N \cdot S)$.
+\lstinputlisting[language=C++]{src/dp_knapsack_0kqueue.cpp}
 
 \subsection{Digit DP}
 Runs in $O(D)$.
