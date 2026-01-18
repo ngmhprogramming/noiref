@@ -134,6 +134,7 @@ Articulation Points       & O(V+E)                                      & Find S
 Bridges                   & O(V+E)                                      & Find Splitting Edges                 \\ \hline
 SCC                       & O(V+E)                                      & Compress Cycles                      \\ \hline
 TSP                       & O($N^22^{N}$)                               & Tour All Nodes                       \\ \hline
+Max Flow / Min Cut        & O($V^2E$)                                   & Maximum Flow / Minimum Cut           \\ \hline
 Pre/Postorder             & O(V)                                        & Ordering of Nodes                    \\ \hline
 Subtree To Range          & O(V)                                        & Ordering Nodes                       \\ \hline
 Weighted MIS              & O(V)                                        & Tree DP                              \\ \hline
@@ -217,6 +218,12 @@ Both of these solutions run in $O(N^2 \cdot 2^N)$ time.
 
 \subsubsection{Top Down}
 \lstinputlisting[language=C++]{src/graph_tsp_td.cpp}
+
+\subsection{Max Flow / Min Cut}
+Using Dinic's Algorithm, runs in $O(V^2 E)$ for the general case.
+For graph with unit capacity, $O(E\sqrt{E})$.
+For unit network (unit capacity and either unique incoming or outgoing edge), $O(E\sqrt{V})$.
+\lstinputlisting[language=C++]{src/graph_maxflow.cpp}
 
 \subsection{Trees}
 
