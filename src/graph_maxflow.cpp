@@ -1,71 +1,166 @@
-struct Edge {
-	int v;
-	int cap, flow;
-	int rid;
-}
+const long long INF = 1e18;
 
-vector<vector<Edge>> adj;
-vector<int> dist, ptr;
+struct Dinic {
+    struct Edge {
+        int u, v;
+        long long cap, flow;
+        int rid;
+        int id; 
+    };
 
-// add a directed edge, manually add both ways for undirected
-void addEdge(int u, int v, int cap) {
-	int id = adj[u].size();
-	int rid = adj[v].size();
-	adj[u].push_back({ v, cap, 0, rid }); // regular edge
-	adj[v].push_back({ u, 0, 0, id }); // residual edge
-}
+    struct EdgeRef {
+        int u, idx;
+    };
 
-// build level graph
-// only use edges with residual capacity left
-bool bfs(int s, int t) {
-	fill(dist.begin(), dist.end(), -1);
-	queue<int> q;
-	dist[s] = 0;
-	q.push(s);
-	while (!q.empty()) {
-		int u = q.front(); q.pop();
-		for (Edge e : adj[u]) {
-			if (e.cap == e.flow) continue; // no residual capacity
-			if (dist[e.v] != -1) continue;
-			dist[e.v] = dist[u] + 1;
-			q.push(e.v);
-		}
-	}
-	return dist[t] != -1;
-}
+    vector<vector<Edge>> adj;
+    vector<long long> dist, ptr;
+    vector<EdgeRef> edge_lookup;
 
-// find blocking flow
-// moves along shortest paths
-int dfs(int u, int t, int flow) {
-	if (u == t) return flow;
-	for (; ptr[u] < adj[u].size(); ptr[u]++) {
-		Edge &e = adj[u][ptr[u]];
-		if (dist[u] + 1 != dist[e.v]) continue;
-		if (e.cap == e.flow) continue;
-		int cflow = min(flow, e.cap - e.flow); // try pushing available
-		cflow = dfs(e.v, t, cflow);
-		if (cflow > 0) {
-			// on success, augment flow forward and subtract on reverse
-			e.flow += cflow;
-			adj[e.v][e.rid].flow -= cflow;
-			return cflow;
-		}
-	}
-	return 0;
-}
+    Dinic(int n) : adj(n), dist(n), ptr(n) {}
 
-// repeatedly BFS to build level graph and DFS to find blocking flow
-int flow(int s, int t) {
-	int res = 0;
-	while (bfs(s, t)) {
-		fill(ptr.begin(), ptr.end(), 0);
-		int cflow = dfs(s, t, INF);
-		while (cflow > 0) {
-			res += cflow;
-			cflow = dfs(s, t, INF);
-		}
-	}
-	return res;
-}
+    inline int in(int u) { return 2 * u; }
+    inline int out(int u) { return 2 * u + 1; }
 
-flow(1, n);
+    int addNodeCap(int u, long long cap) {
+        return addEdge(in(u), out(u), cap);
+    }
+
+    int addEdgeBetweenNodes(int u, int v, long long cap) {
+        return addEdge(out(u), in(v), cap);
+    }
+
+    int addEdge(int u, int v, long long cap) {
+        int u_idx = adj[u].size();
+        int v_idx = adj[v].size();
+        int lookup_id = edge_lookup.size();
+        edge_lookup.push_back({u, u_idx});
+        adj[u].push_back({u, v, cap, 0, v_idx, lookup_id});
+        adj[v].push_back({v, u, 0, 0, u_idx, -1}); 
+        return lookup_id;
+    }
+
+    void updateCap(int id, long long new_cap) {
+        EdgeRef ref = edge_lookup[id];
+        adj[ref.u][ref.idx].cap = new_cap;
+    }
+
+    long long getFlow(int id) {
+        EdgeRef ref = edge_lookup[id];
+        return adj[ref.u][ref.idx].flow;
+    }
+
+    bool bfs(int s, int t) {
+        fill(dist.begin(), dist.end(), -1);
+        queue<int> q;
+        dist[s] = 0;
+        q.push(s);
+        while (!q.empty()) {
+            int u = q.front(); q.pop();
+            for (auto &e : adj[u]) {
+                if (e.cap - e.flow > 0 && dist[e.v] == -1) {
+                    dist[e.v] = dist[u] + 1;
+                    q.push(e.v);
+                }
+            }
+        }
+        return dist[t] != -1;
+    }
+
+    long long dfs(int u, int t, long long f) {
+        if (u == t || f == 0) return f;
+        for (; ptr[u] < adj[u].size(); ptr[u]++) {
+            Edge &e = adj[u][ptr[u]];
+            if (dist[u] + 1 != dist[e.v] || e.cap - e.flow == 0) continue;
+            long long pushed = dfs(e.v, t, min(f, e.cap - e.flow));
+            if (pushed > 0) {
+                e.flow += pushed;
+                adj[e.v][e.rid].flow -= pushed;
+                return pushed;
+            }
+        }
+        return 0;
+    }
+
+    long long flow(int s, int t) {
+        long long res = 0;
+        while (bfs(s, t)) {
+            fill(ptr.begin(), ptr.end(), 0);
+            while (long long cflow = dfs(s, t, INF)) res += cflow;
+        }
+        return res;
+    }
+
+	void resetFlow() {
+        for (int i = 0; i < adj.size(); i++) {
+            for (auto &e : adj[i]) {
+                e.flow = 0;
+            }
+        }
+    }
+
+	vector<int> getSComponent() {
+        vector<int> s_comp;
+        for (int i = 0; i < adj.size(); i++) {
+            if (dist[i] != -1) s_comp.push_back(i);
+        }
+        return s_comp;
+    }
+
+    vector<int> getTComponent() {
+        vector<int> t_comp;
+        for (int i = 0; i < adj.size(); i++) {
+            if (dist[i] == -1) t_comp.push_back(i);
+        }
+        return t_comp;
+    }
+
+	vector<Edge> getCutEdges() {
+        vector<Edge> cut;
+        for (int u = 0; u < adj.size(); u++) {
+            if (dist[u] != -1) { 
+                for (auto &e : adj[u]) {
+                    if (e.id != -1 && dist[e.v] == -1) {
+                        cut.push_back(e);
+                    }
+                }
+            }
+        }
+        return cut;
+    }
+
+    vector<Edge> getUsedEdges() {
+        vector<Edge> used;
+        for (int u = 0; u < adj.size(); u++) {
+            for (auto &e : adj[u]) {
+                if (e.id != -1 && e.flow > 0) {
+                    used.push_back(e);
+                }
+            }
+        }
+        return used;
+    }
+};
+
+Dinic solver(n); // Use n for standard max flow
+Dinic solver(2 * n); // Use 2 * n for max flow with node capacities
+
+// Returns edge id
+solver.addEdge(u, v, c); // Add edge for standard max flow
+// For graph with node capacities
+solver.in(u); // Logical input vertex
+solver.out(u); // Logical output vertex
+solver.addEdgeBetweenNodes(u, v, c); // Add edge between nodes
+solver.addNodeCap(u, c); // Add node capacity
+
+solver.updateCap(edge_id, c); // Set new edge capacity
+
+// Returns flow value
+solver.resetFlow();
+solver.flow(s, t); // Get max flow
+solver.getFlow(edge_id); // Access specific flow value on edge
+
+// Accesssing more information
+vector<int> s_side = solver.getSComponent(); // Get source component
+vector<int> t_side = solver.getTComponent(); // Get sink component
+vector<Dinic::Edge> cut = solver.getCutEdges(); // Get edges on min cut
+vector<Dinic::Edge> es = solver.getUsedEdges(); // Get edges used in max flow
