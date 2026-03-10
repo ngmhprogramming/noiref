@@ -196,12 +196,24 @@ For graphs with outdegree 1, runs in $O(V + E)$.
 
 \subsection{Maximum Cardinality Bipartite Matching}
 \subsubsection{Kuhn's Algorithm}
-Runs in $O(V^3)$.
+Unweighted MCBM, runs in $O(V^3)$.
 \lstinputlisting[language=C++]{src/graph_mcbm_kuhn.cpp}
 
 \subsubsection{Hopcroft-Karp}
-Runs in $O(E \cdot \sqrt{V})$.
+Unweighted MCBM, runs in $O(E \cdot \sqrt{V})$.
 \lstinputlisting[language=C++]{src/graph_mcbm_hopcroftkarp.cpp}
+
+\subsubsection{Hungarian}
+Min-weighted MCBM, runs in $O(V^3)$.
+\lstinputlisting[language=C++]{src/graph_mcbm_hungarian.cpp}
+
+\subsubsection{Edmond's}
+Unweighted MCBM for general graph, runs in $O(V^3)$.
+\lstinputlisting[language=C++]{src/graph_mcbm_edmonds.cpp}
+
+\subsubsection{Weighted Edmond's}
+Weighted MCBM for general graph, runs in $O(V^3)$.
+\lstinputlisting[language=C++]{src/graph_mcbm_edmonds_weighted.cpp}
 
 \subsection{Articulation Points and Bridges}
 Using Tarjan's Algorithm, runs in $O(V + E)$.
