@@ -45,14 +45,14 @@
 \contentsline {subsection}{\numberline {2.17}Max Flow / Min Cut}{30}{subsection.2.17}%
 \contentsline {subsection}{\numberline {2.18}Trees}{33}{subsection.2.18}%
 \contentsline {subsubsection}{\numberline {2.18.1}Pre/Postorder Traversal}{33}{subsubsection.2.18.1}%
-\contentsline {subsubsection}{\numberline {2.18.2}Subtree to Range}{33}{subsubsection.2.18.2}%
+\contentsline {subsubsection}{\numberline {2.18.2}Subtree to Range}{34}{subsubsection.2.18.2}%
 \contentsline {subsubsection}{\numberline {2.18.3}Weighted Maximum Independent Set}{34}{subsubsection.2.18.3}%
 \contentsline {subsubsection}{\numberline {2.18.4}Diameter}{34}{subsubsection.2.18.4}%
 \contentsline {subsubsection}{\numberline {2.18.5}$2^K$ Decomposition}{35}{subsubsection.2.18.5}%
 \contentsline {subsubsection}{\numberline {2.18.6}Lowest Common Ancestor}{35}{subsubsection.2.18.6}%
-\contentsline {subsubsection}{\numberline {2.18.7}Shortest Path}{35}{subsubsection.2.18.7}%
+\contentsline {subsubsection}{\numberline {2.18.7}Shortest Path}{36}{subsubsection.2.18.7}%
 \contentsline {subsubsection}{\numberline {2.18.8}Heavy Light Decomposition}{36}{subsubsection.2.18.8}%
-\contentsline {subsubsection}{\numberline {2.18.9}Centroid Decomposition}{36}{subsubsection.2.18.9}%
+\contentsline {subsubsection}{\numberline {2.18.9}Centroid Decomposition}{37}{subsubsection.2.18.9}%
 \contentsline {section}{\numberline {3}Dynamic Programming}{38}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Maxsum}{38}{subsection.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.1}1D}{38}{subsubsection.3.1.1}%
@@ -61,15 +61,15 @@
 \contentsline {subsubsection}{\numberline {3.2.2}Data Structure Speedup}{39}{subsubsection.3.2.2}%
 \contentsline {subsubsection}{\numberline {3.2.3}$N \log N$ DP}{39}{subsubsection.3.2.3}%
 \contentsline {subsection}{\numberline {3.3}Coin Combinations}{39}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Coin Change}{39}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.4}Coin Change}{40}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}Knapsack}{40}{subsection.3.5}%
 \contentsline {subsubsection}{\numberline {3.5.1}0-1}{40}{subsubsection.3.5.1}%
 \contentsline {subsubsection}{\numberline {3.5.2}0-1 No Values}{40}{subsubsection.3.5.2}%
 \contentsline {subsubsection}{\numberline {3.5.3}0-K Binary Grouping}{40}{subsubsection.3.5.3}%
 \contentsline {subsubsection}{\numberline {3.5.4}0-K Monotonic Queue}{41}{subsubsection.3.5.4}%
 \contentsline {subsection}{\numberline {3.6}Digit DP}{41}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}Convex Hull Trick}{42}{subsection.3.7}%
-\contentsline {subsection}{\numberline {3.8}Li Chao Tree}{43}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.7}Convex Hull Trick}{43}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Li Chao Tree}{44}{subsection.3.8}%
 \contentsline {subsection}{\numberline {3.9}Divide and Conquer}{44}{subsection.3.9}%
 \contentsline {subsection}{\numberline {3.10}Longest Common Subsequence}{45}{subsection.3.10}%
 \contentsline {subsubsection}{\numberline {3.10.1}$N^2$ DP}{45}{subsubsection.3.10.1}%

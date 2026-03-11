@@ -210,8 +210,20 @@ public:
     int getMatched(int u) { return match[u + 1] - 1; }
 };
 
+// can't handle negative weights
+
+// maximum weight matching
 WeightedMatching<N> solver;
 solver.init(N);
 solver.addEdge(u + 1, v + 1, w); // 1-indexed
 auto res = solver.compute(); // (num, weight)
+solver.getMatched(i); // check that it's not -1
+
+// minimum weight matching
+const long long K = 1000000;
+WeightedMatching<N> solver;
+solver.init(N);
+solver.addEdge(u + 1, v + 1, K - w); // 1-indexed
+auto res = solver.compute(); // (num, weight)
+long long minCost = (N / 2) * K - res.second;
 solver.getMatched(i); // check that it's not -1
