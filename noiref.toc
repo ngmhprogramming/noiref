@@ -100,13 +100,15 @@
 \contentsline {section}{\numberline {6}Strings}{55}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Manacher's Algorithm}{55}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Knuth-Morris-Pratt}{56}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Z-Function}{56}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Suffix Array}{57}{subsection.6.4}%
-\contentsline {section}{\numberline {7}Miscellaneous}{60}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Maximum Time complexity v/s N}{60}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Fast I/O}{60}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Superfast I/O}{61}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Header}{61}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}Compile Commands}{62}{subsection.7.5}%
-\contentsline {subsection}{\numberline {7.6}Pruning}{62}{subsection.7.6}%
-\contentsline {subsection}{\numberline {7.7}STL Data Structures and Functions}{63}{subsection.7.7}%
+\contentsline {subsection}{\numberline {6.3}Z-Function}{57}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Rabin-Karp}{58}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Suffix Array}{59}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Suffix Tree}{63}{subsection.6.6}%
+\contentsline {section}{\numberline {7}Miscellaneous}{66}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Maximum Time complexity v/s N}{66}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Fast I/O}{66}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Superfast I/O}{66}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Header}{67}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Compile Commands}{68}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Pruning}{68}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.7}STL Data Structures and Functions}{68}{subsection.7.7}%
